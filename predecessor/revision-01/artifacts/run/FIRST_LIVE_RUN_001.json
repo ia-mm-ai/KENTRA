@@ -1,0 +1,19 @@
+{
+  "schema": "KENTRA_FIRST_LIVE_RUN_ENVELOPE_001",
+  "run_sequence": 1,
+  "status": "RESERVED_NOT_MATERIALIZED",
+  "capacity": {
+    "structural_limit": 1,
+    "admission_limit": 1,
+    "overflow_disposition": "HOLD"
+  },
+  "host_locality_id": null,
+  "locus_id": null,
+  "runtime_chain_id": null,
+  "presentation_endpoint": null,
+  "opened_at_utc": null,
+  "closed_at_utc": null,
+  "observed_surface_revision": 0,
+  "authorized_following_surface_revisions": 1,
+  "effect": "NO_RUN_EXISTS_UNTIL_EXACT_OPENING_IS_RECORDED"
+}

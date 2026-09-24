@@ -1,0 +1,34 @@
+{
+  "schema": "KENTRA_SURFACE_PASSAGE_RECORD_001",
+  "record_id": "KENTRA-SURFACE-PASSAGE-001",
+  "recorded_at_utc": "2026-09-20T07:41:01Z",
+  "predecessor": {
+    "archive_name_as_supplied": "KENTRA_COM_CLOUDFLARE_UPLOAD 2.zip",
+    "archive_sha256": "3152c055b210bb5d2c28f13970a6fd729defd09e44629fc1598d56f4fb07f04a",
+    "supplied_checksum_filename": "KENTRA_COM_CLOUDFLARE_UPLOAD.zip.sha256",
+    "supplied_checksum_value": "892fc1c7cb5e214b63fc434bd8ae3c0ef798c7c1f0e64b00c76a5aff736a2259",
+    "checksum_relation": "SUPPLIED_CHECKSUM_DOES_NOT_IDENTIFY_THE_CLOSED_ARCHIVE_BYTES",
+    "cause_of_difference": "NOT_ASSERTED",
+    "surface_revision": 0,
+    "state_path": "data/CURRENT_FIELD_STATE_001.json",
+    "state_sha256": "97c1e70335fe7b79f5a192b41fb4d6c3074751a175b95e858480a04ff749ec79",
+    "closure_marker_path": "threshold_01[end].txt",
+    "closure_marker_sha256": "79152d4ce9c123c4554523a92cec1752807c16df464da23f24e3f1e5cfc1f373",
+    "closure_statement": "Current instance of kentra.media [2026-09-20T07:07:23Z] is closed. Passage is open."
+  },
+  "successor": {
+    "surface_revision": 1,
+    "turn": 1,
+    "state_path": "data/CURRENT_FIELD_STATE_002.json",
+    "posture": "PUBLIC_SOURCE_EXPOSED_FORM_OCCURRENCE_WITNESSED_GATE_CLOSED",
+    "deployment": "PREPARED_NOT_PERFORMED"
+  },
+  "integrity": {
+    "predecessor_archive_mutated": false,
+    "predecessor_records_rewritten": false,
+    "closure_marker_text_mutated": false,
+    "successor_is_distinct": true,
+    "root_source_boundary_inspected": false,
+    "root_source_boundary_modified": false
+  }
+}

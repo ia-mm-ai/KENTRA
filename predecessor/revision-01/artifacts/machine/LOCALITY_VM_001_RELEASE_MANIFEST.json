@@ -1,0 +1,64 @@
+{
+  "schema": "LOCALITY_VM_RELEASE_MANIFEST_001",
+  "release": {
+    "protocol": "LOCALITY_VM_001",
+    "version": "1.0.0",
+    "binary_name": "locality-vm",
+    "go_module": "locality.vm/runtime",
+    "vm_id_domain": "LOCALITY_VM_001",
+    "vm_id": "4qSsv1gPp2ctpYFTt4Nm9YQqSEggVzauPw3kRGmziwVqLU1PP",
+    "status": "PRODUCTION_INTENT_REQUIRES_EXACT_COMMIT_QUALIFICATION"
+  },
+  "compatibility": {
+    "avalanchego_repository": "https://github.com/ava-labs/avalanchego.git",
+    "avalanchego_tag": "v1.15.0",
+    "avalanchego_peeled_commit": "70bd6d063b7343fd2cd8217200aaf77b57f19f68",
+    "avalanchego_profile": "v1.15.0+LOCALITY_SECURITY_OVERLAY_001",
+    "rpcchainvm_protocol": 46,
+    "go": "1.25.13",
+    "go_linux_amd64_archive_sha256": "39042a078ea9ceebe3ecda4a7188f0f5b96e14a071d27923ba7f40b456e85ae3",
+    "vulnerability_scanner": "golang.org/x/vuln/cmd/govulncheck@v1.7.0",
+    "cgo": true,
+    "canonical_qualification_host": "ubuntu-24.04-amd64"
+  },
+  "bound_artifacts": {
+    "form": {
+      "path": "profile/LOCALITY_FORM_001.json",
+      "sha256": "9fbdd054bd947c8f32308871296374009cac8c27633eb47b7c5ff2b10fcff45d"
+    },
+    "genesis_template": {
+      "path": "genesis/LOCALITY_RUNTIME_GENESIS_TEMPLATE_001.json",
+      "sha256": "3e5916db8856b61e56bf8fe61699542c7a4fda878595499987531bd1ce655d94"
+    },
+    "predecessor": {
+      "path": "lineage/KENTRA_PREDECESSOR.json",
+      "sha256": "2565751c78d42c8d7528b37af7be89edbcb5d10bbff912756bc55a7a54b09749"
+    },
+    "avalanchego_security_overlay": {
+      "path": "compat/AVALANCHEGO_SECURITY_OVERLAY_001.json",
+      "sha256": "e16319faa463d8994cb29425656ed9c8afaff2a67f4751036a3f8ec38e7a3349"
+    }
+  },
+  "deployment_boundary": {
+    "new_chain_formation_required": true,
+    "new_validator_credentials_required": true,
+    "new_locality_authority_required": true,
+    "deployment_descriptor_required": true,
+    "predecessor_authority_transfer": "NONE",
+    "predecessor_shared_currentness": "NONE"
+  },
+  "required_release_gates": [
+    "REPOSITORY_INTEGRITY",
+    "GO_TEST",
+    "GO_RACE",
+    "GO_VET",
+    "NATIVE_BUILD",
+    "EXACT_AVALANCHEGO_TAG_AND_COMMIT",
+    "REPRODUCIBLE_AVALANCHEGO_SECURITY_OVERLAY",
+    "ZERO_REACHABLE_VULNERABILITIES_VM",
+    "ZERO_REACHABLE_VULNERABILITIES_AVALANCHEGO",
+    "THREE_VALIDATOR_LIFECYCLE",
+    "FULL_NETWORK_RESTART_REPLAY",
+    "SINGLE_VALIDATOR_REJOIN"
+  ]
+}

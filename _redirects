@@ -1,0 +1,13 @@
+/constitution  /predecessor/revision-01/constitution/  301
+/constitution/*  /predecessor/revision-01/constitution/:splat  301
+/machine       /predecessor/revision-01/machine/       301
+/machine/      /predecessor/revision-01/machine/       301
+/verify        /predecessor/revision-01/verify/        301
+/verify/*      /predecessor/revision-01/verify/:splat  301
+/lineage       /predecessor/revision-01/lineage/       301
+/lineage/*     /predecessor/revision-01/lineage/:splat 301
+/artifacts/*   /predecessor/revision-01/artifacts/:splat 301
+/data/*        /predecessor/revision-01/data/:splat      301
+/downloads/*   /predecessor/revision-01/downloads/:splat 301
+/EA499BA5-D2CC-42BF-A4A7-4F6BA23A12EC/*  /predecessor/revision-01/EA499BA5-D2CC-42BF-A4A7-4F6BA23A12EC/:splat  301
+/threshold_01[end].txt  /predecessor/revision-01/threshold_01%5Bend%5D.txt  301

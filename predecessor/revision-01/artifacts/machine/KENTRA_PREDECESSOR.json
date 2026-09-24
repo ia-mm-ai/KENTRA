@@ -1,0 +1,22 @@
+{
+  "schema": "LOCALITY_VM_PREDECESSOR_001",
+  "name": "KENTRA",
+  "role": "FORMATION_PREDECESSOR",
+  "disposition": "FORMATION_COMPLETE_REFERENCE_ONLY",
+  "avalanche_mainnet": {
+    "blockchain_id": "LB6wwV4JNxr8fwjUPBHMzf3PiW2d4hsTc4v63uX1MjY6oZ9Wb",
+    "l1_id": "21mJfY4QpDeVykBaeG8nwn7k7w7b5oPpPhaYcJWqumht8SvaK",
+    "vm_id": "pJHx1NU8ghWsiwg1vrqwaqE5uKh1k4EJRBkpB1tKV1QuQFhMi",
+    "validator_node_id": "NodeID-AD66psMnQ257UAF7Jz9FmNAyRdibVnkt",
+    "validation_id": "ttR2sBgWUEq3e6dupCxYcyiGTv49wnYW3wZ6TUsXnDkTeZjh"
+  },
+  "genesis_id": "KENTRA-CUSTOM-VM-GENESIS-001",
+  "body_sha256": "58bf3daa9c74aac496451179f053152ed50943b8e8c4dbdac8f34d7172ab4f72",
+  "validator_credential_custody": "UNAVAILABLE_TO_CURRENT_OPERATOR",
+  "operational_consequence": "THE_REGISTERED_VALIDATOR_CANNOT_BE_OPERATED_WITHOUT_ITS_ORIGINAL_TLS_AND_BLS_KEYS",
+  "relation_to_successor": "DERIVED_FROM",
+  "effect": "ANCESTRY_REFERENCE_ONLY",
+  "authority_transfer": "NONE",
+  "shared_currentness": "NONE",
+  "continuation_basis": "NEW_LOCALITY_REQUIRES_NEW_VALIDATOR_AND_AUTHORITY_CUSTODY"
+}

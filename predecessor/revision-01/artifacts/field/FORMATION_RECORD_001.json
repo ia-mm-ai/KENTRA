@@ -1,0 +1,27 @@
+{
+  "schema": "KENTRA_PUBLIC_SURFACE_FORMATION_RECORD_001",
+  "record_id": "KENTRA-PUBLIC-SURFACE-001",
+  "recorded_at_utc": "2026-09-20T02:28:08Z",
+  "subject": "kentra.com",
+  "formed_object": "PUBLIC_INTERFACE_ARTIFACT_SET",
+  "status": "PREPARED_FOR_FIRST_EXTERNAL_LIVE_RUN",
+  "surface_revision": 0,
+  "capacity_regulation_precedes_admission": true,
+  "source_directory": {
+    "path": "source/",
+    "function": "UNKNOWN",
+    "inspection": "NOT_PERFORMED",
+    "mutation": "NOT_PERFORMED",
+    "deployment_bundle_inclusion": false
+  },
+  "does_not_form": [
+    "BODY",
+    "PARTICIPANT",
+    "PRESENCE",
+    "LIVE_LOCUS_FIELD",
+    "AVALANCHE_L1",
+    "CONSTITUTIONAL_APPLICABILITY",
+    "SOURCE_OR_AUTHORITY_TRANSFER"
+  ],
+  "next_exact_event": "FIRST_LIVE_RUN_REQUIRES_SEPARATE_ATTRIBUTABLE_OPENING"
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "KENTRA_SURFACE_REVISION_RECORD_001",
+  "record_id": "KENTRA-SURFACE-REVISION-01",
+  "recorded_at_utc": "2026-09-20T07:41:01Z",
+  "surface": "https://kentra.com",
+  "revision": 1,
+  "turn": 1,
+  "authorization_basis": "USER_DECLARED_CURRENT_LOCALITY_CLOSED_PASSAGE_OPEN_AND_AUTHORIZED_REVISION_01_PACK_FOR_MANUAL_CLOUDFLARE_DEPLOYMENT",
+  "predecessor": {
+    "archive_sha256": "3152c055b210bb5d2c28f13970a6fd729defd09e44629fc1598d56f4fb07f04a",
+    "surface_revision": 0,
+    "manifest_path": "artifacts/surface/SURFACE_MANIFEST_001.json",
+    "manifest_sha256": "1a403808b83686d01e28b0517096b0e4ce0d7be6f81d2e80a63058cd4d33c2a2",
+    "closure_marker_path": "threshold_01[end].txt",
+    "closure_marker_sha256": "79152d4ce9c123c4554523a92cec1752807c16df464da23f24e3f1e5cfc1f373"
+  },
+  "revision_scope": {
+    "new_public_source_record": "artifacts/constitution/PUBLIC_SOURCE_SURFACE_001.json",
+    "new_field_state": "data/CURRENT_FIELD_STATE_002.json",
+    "new_field_declaration": "artifacts/field/FIELD_DECLARATION_002.md",
+    "new_passage_record": "artifacts/field/SURFACE_PASSAGE_RECORD_001.json",
+    "new_lineage_map": "artifacts/lineage/LINEAGE_MAP_002.json",
+    "presentation_files_revised": [
+      "index.html",
+      "constitution/index.html",
+      "lineage/index.html",
+      "verify/index.html",
+      "machine/index.html",
+      "assets/site.css",
+      "assets/site.js",
+      "site.webmanifest"
+    ]
+  },
+  "preservation": {
+    "revision_00_records": "PRESERVED_UNCHANGED",
+    "machine_release_artifacts": "PRESERVED_UNCHANGED",
+    "root_source_path": "source/",
+    "root_source_function": "UNKNOWN",
+    "root_source_inspected": false,
+    "root_source_modified": false,
+    "root_source_included": false
+  },
+  "deployment": {
+    "target": "CLOUDFLARE",
+    "performed_by_this_record": false,
+    "handoff": "PACK_ONLY"
+  }
+}

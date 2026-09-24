@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-base="..">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a09">
+  <meta name="description" content="Verify KENTRA Revision 01, its public Source references, passage records, and preserved machine artifacts.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/site.css?v=1">
+  <title>Verify — KENTRA</title>
+</head>
+<body data-section="verify">
+  <a class="skip-link" href="#main">Skip to verification</a>
+  <header class="site-header">
+    <a class="wordmark" href="../">KENTRA</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="../" data-nav="field">Field</a>
+      <a href="../constitution/" data-nav="constitution">Constitution</a>
+      <a href="../machine/" data-nav="machine">Machine</a>
+      <a href="./" data-nav="verify">Verify</a>
+      <a href="../lineage/" data-nav="lineage">Lineage</a>
+    </nav>
+  </header>
+  <main id="main">
+    <header class="page-hero shell">
+      <p class="eyebrow">Evidence before trust</p>
+      <h1>Verify the thing you actually received.</h1>
+      <p>Names and interfaces are convenient. Digests identify exact bytes. This surface exposes both—and preserves the boundary between technical verification and constitutional force.</p>
+    </header>
+
+    <section class="page-section">
+      <div class="shell section-grid">
+        <div><p class="eyebrow">Surface integrity</p><h2>Check every declared public artifact.</h2></div>
+        <div>
+          <p class="section-lead">The browser can fetch each path named by the surface manifest, compute its SHA-256 locally, and compare it with the declared digest.</p>
+          <div class="action-row"><button class="action" type="button" data-verify-surface>Verify deployed surface</button><a class="action-secondary" href="../artifacts/surface/SURFACE_MANIFEST_002.json">Open Revision 01 manifest</a><a class="action-secondary" href="../artifacts/surface/SURFACE_MANIFEST_001.json">Revision 00 manifest</a></div>
+          <p class="verify-result" data-surface-result aria-live="polite">No verification has been run in this browser.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="shell section-grid">
+        <div><p class="eyebrow">Local file</p><h2>Compute a digest without uploading the file.</h2></div>
+        <div>
+          <p>Your selected file stays in this browser. The page reads it locally and prints its SHA-256.</p>
+          <div class="verify-box"><input type="file" data-verify-file aria-label="Choose a file to hash"><span class="microcopy">SHA-256</span></div>
+          <p class="verify-result" data-verify-result aria-live="polite">Choose a file to begin.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="shell">
+        <p class="eyebrow">Bound objects</p>
+        <h2>Exact identities carried or referenced by this surface.</h2>
+        <div class="artifact-list">
+          <div class="artifact-row"><strong>Public Source · external</strong><code>ae9b1da787467cc4df151b84220a58afa8281eb816ce8d2c430f004fa240210c</code><a href="https://github.com/ia-mm-ai/CONSTITUTION/blob/835f24d559089b6eb443a3d86398ec2f373c24ee/CONSTITUTION_0()1.md" rel="noreferrer">Open</a></div>
+          <div class="artifact-row"><strong>Form occurrence witness · external</strong><code>e77ae2efcfd413331e6576420d45cbe2022c27cf34ba07add3ac42215bb46b75</code><a href="https://github.com/ia-mm-ai/CONSTITUTION/blob/0c2b6c2b8a112658b38e71f6922b1cf56fc360d0/surface_of_emergence.txt" rel="noreferrer">Open</a></div>
+          <div class="artifact-row"><strong>Closure marker · carried</strong><code>79152d4ce9c123c4554523a92cec1752807c16df464da23f24e3f1e5cfc1f373</code><a href="../threshold_01%5Bend%5D.txt">Open</a></div>
+          <div class="artifact-row"><strong>Constitution · predecessor human</strong><code>4be24cf15d3653abcfd7ae4191246a52c22e61246b8d4d33f46b329c615596dd</code><a href="../artifacts/constitution/original/CONSTITUTION-01.md">Open</a></div>
+          <div class="artifact-row"><strong>Constitution · predecessor machine</strong><code>f9c98d4d9abd6ce373a4336f0c9cefc6c60ffdee4e414f33eb7247cb0d6e4bab</code><a href="../artifacts/constitution/original/CONSTITUTION-01.json">Open</a></div>
+          <div class="artifact-row"><strong>LOCALITY Form</strong><code>9fbdd054bd947c8f32308871296374009cac8c27633eb47b7c5ff2b10fcff45d</code><a href="../artifacts/machine/LOCALITY_FORM_001.json">Open</a></div>
+          <div class="artifact-row"><strong>VM Linux release</strong><code>33c3578a91b3fbc2d8447db0bb0bb3d3355552b900f218b69cacb7e3321ebc2c</code><a href="../downloads/LOCALITY_VM_001-v1.0.0-linux-amd64.tar.gz">Download</a></div>
+          <div class="artifact-row"><strong>Qualification evidence</strong><code>0e3fd8e25e80a123b9c133108499c037d7d79908470dc683275aa9c6fed84a14</code><a href="../downloads/LOCALITY_VM_001-v1.0.0-qualification-evidence.tar.gz">Download</a></div>
+          <div class="artifact-row"><strong>Qualified VM binary</strong><code>d40c7b57142dbad298c83a0ea94001d8bf3d8b0cbfba2e3dae2a5e00b4e71f98</code><a href="../machine/">Context</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="shell section-grid">
+        <div><p class="eyebrow">Terminal</p><h2>Independent verification.</h2></div>
+        <div class="code-panel"><pre><code>sha256sum -c SHA256SUMS
+
+# macOS
+shasum -a 256 -c SHA256SUMS</code></pre></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer shell"><span>KENTRA · VERIFY · REVISION 01</span><a href="../artifacts/surface/MANIFEST.sha256">Plain checksum manifest</a></footer>
+  <script src="../assets/site.js?v=1" defer></script>
+</body>
+</html>

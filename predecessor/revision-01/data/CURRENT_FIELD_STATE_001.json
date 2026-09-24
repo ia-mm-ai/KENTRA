@@ -1,0 +1,61 @@
+{
+  "schema": "KENTRA_CURRENT_FIELD_STATE_001",
+  "recorded_at_utc": "2026-09-20T02:28:08Z",
+  "surface": {
+    "domain": "kentra.com",
+    "revision": 0,
+    "status": "PUBLIC_SURFACE_PRESENT"
+  },
+  "field": {
+    "phase": "FORMING",
+    "status": "PUBLIC_SURFACE_PRESENT_LIVE_ADMISSION_NOT_YET_OPEN",
+    "locus_id": null,
+    "host_locality_id": null
+  },
+  "capacity": {
+    "rule": "DECLARE_BEFORE_INVITATION",
+    "mode": "FIXED_SINGLE_SLOT_INITIAL_RUN",
+    "structural_limit": 1,
+    "active": 0,
+    "available_for_admission": 0,
+    "reserved_for_first_live_run": 1,
+    "overflow_disposition": "HOLD"
+  },
+  "gate": {
+    "disposition": "CLOSED",
+    "reason": "CAPACITY_DECLARED_BUT_LIVE_LOCALITY_AND_PRESENTATION_ENDPOINT_UNBOUND",
+    "permitted_dispositions_when_live": [
+      "ADMIT",
+      "REFUSE",
+      "WITHHOLD",
+      "HOLD"
+    ]
+  },
+  "run": {
+    "sequence": 1,
+    "status": "NOT_YET_OPEN",
+    "authorized_post_run_revisions": 1,
+    "revision_policy": "OBSERVE_FIRST_LIVE_RUN_THEN_MATERIALIZE_AT_MOST_ONE_EVIDENCE_LED_SURFACE_REVISION"
+  },
+  "machine": {
+    "protocol": "LOCALITY_VM_001",
+    "version": "1.0.0",
+    "qualification": "PASS",
+    "chain_binding": "NONE",
+    "live_deployment": "NOT_FORMED"
+  },
+  "interface": {
+    "presentation_endpoint": null,
+    "presentation_endpoint_state": "UNBOUND",
+    "browser_view_effect": "DELIVERY_OR_EXPOSURE_ONLY",
+    "browser_view_is_presence": false
+  },
+  "effect_ceiling": [
+    "NO_PARTICIPANT_BY_PAGE_VIEW",
+    "NO_PRESENCE_BY_DELIVERY",
+    "NO_ADMISSION_WITHOUT_GATE_DISPOSITION",
+    "NO_ENTRY_WITHOUT_ATTRIBUTABLE_ACT",
+    "NO_MATTER_ADMISSION_BY_CROSSING",
+    "NO_LIVE_CHAIN_CLAIM_WITHOUT_EXACT_BINDING"
+  ]
+}

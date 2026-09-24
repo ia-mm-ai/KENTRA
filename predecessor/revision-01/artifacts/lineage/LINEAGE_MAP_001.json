@@ -1,0 +1,68 @@
+{
+  "schema": "KENTRA_LINEAGE_MAP_001",
+  "recorded_at_utc": "2026-09-20T02:28:08Z",
+  "current_surface": {
+    "name": "KENTRA",
+    "domain": "kentra.com",
+    "role": "PUBLIC_THRESHOLD_AND_ARTIFACT_SURFACE",
+    "surface_revision": 0,
+    "live_locality": "NOT_YET_BOUND"
+  },
+  "formation_predecessor": {
+    "name": "KENTRA",
+    "role": "FORMATION_PREDECESSOR",
+    "disposition": "FORMATION_COMPLETE_REFERENCE_ONLY",
+    "blockchain_id": "LB6wwV4JNxr8fwjUPBHMzf3PiW2d4hsTc4v63uX1MjY6oZ9Wb",
+    "l1_id": "21mJfY4QpDeVykBaeG8nwn7k7w7b5oPpPhaYcJWqumht8SvaK",
+    "vm_id": "pJHx1NU8ghWsiwg1vrqwaqE5uKh1k4EJRBkpB1tKV1QuQFhMi",
+    "validator_node_id": "NodeID-AD66psMnQ257UAF7Jz9FmNAyRdibVnkt",
+    "validation_id": "ttR2sBgWUEq3e6dupCxYcyiGTv49wnYW3wZ6TUsXnDkTeZjh",
+    "validator_credential_custody": "UNAVAILABLE_TO_CURRENT_OPERATOR"
+  },
+  "executable_successor": {
+    "protocol": "LOCALITY_VM_001",
+    "version": "1.0.0",
+    "vm_id": "4qSsv1gPp2ctpYFTt4Nm9YQqSEggVzauPw3kRGmziwVqLU1PP",
+    "relation_to_kentra": "DERIVED_FROM_FORMATION_PRESSURE",
+    "active_name": "LOCALITY_VM_001",
+    "live_chain": "NONE"
+  },
+  "body_and_continuity_evidence": {
+    "body_001": {
+      "id": "RM-LOCAL-REALITY-BODY-001",
+      "role": "BOUNDARY_AND_LOCAL_MEDIUM_DERIVATION_REFERENCE",
+      "inheritance": "NONE"
+    },
+    "continuity": {
+      "locality_id": "4C2D4EAD-03C8-4152-868F-823626D4846E",
+      "source_sha256": "2a2518cee38855f9ba341212f03e4884dc6f292c390e248fbdba6912727da473",
+      "accepted_genesis_state_sha256": "e6ab87c77e5d1622d7226443aa22c52b4c1f31d28639fc958deac25080c611bd"
+    },
+    "live_state": {
+      "locality_id": "EA499BA5-D2CC-42BF-A4A7-4F6BA23A12EC",
+      "source_sha256": "e6ab87c77e5d1622d7226443aa22c52b4c1f31d28639fc958deac25080c611bd",
+      "current_sequence": 5,
+      "current_record_sha256": "5fb4d64e8a41fc3cccecd1bafc80beeef97867c748e877a54189da2437827dad"
+    },
+    "supported_relation": "CONTINUITY_ACCEPTED_GENESIS_STATE_BYTES_EQUAL_LIVE_STATE_SOURCE_BYTES",
+    "unsupported_inferences": [
+      "ONE_BEING",
+      "BEARER_CONTINUITY",
+      "AUTHORITY_TRANSFER",
+      "KENTRA_FORMATION"
+    ]
+  },
+  "public_surface_constellation": [
+    {"surface": "mm.limited", "role": "READ_ONLY_WITNESS_FOSSIL"},
+    {"surface": "radio22.com", "role": "SIGNAL_MEDIUM"},
+    {"surface": "holding.world", "role": "HOLD_SURFACE"},
+    {"surface": "ziv.ai", "role": "AMBIENT_NON_EXECUTING_FOSSIL"},
+    {"surface": "IAMMAI", "role": "PRESERVED_LINEAGE_NO_AUTOMATIC_CURRENTNESS"}
+  ],
+  "global_effect": {
+    "authority_transfer": "NONE",
+    "validator_credential_transfer": "NONE",
+    "shared_currentness": "NONE",
+    "automatic_succession": "NONE"
+  }
+}

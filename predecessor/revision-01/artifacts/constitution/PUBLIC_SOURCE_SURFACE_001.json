@@ -1,0 +1,43 @@
+{
+  "schema": "KENTRA_PUBLIC_SOURCE_SURFACE_RECORD_001",
+  "record_id": "KENTRA-PUBLIC-SOURCE-SURFACE-001",
+  "recorded_at_utc": "2026-09-20T07:41:01Z",
+  "source": {
+    "repository": "https://github.com/ia-mm-ai/CONSTITUTION",
+    "path": "CONSTITUTION_0()1.md",
+    "origin_commit": "835f24d559089b6eb443a3d86398ec2f373c24ee",
+    "origin_commit_time_utc": "2026-09-20T04:53:51Z",
+    "observed_repository_commit": "0c2b6c2b8a112658b38e71f6922b1cf56fc360d0",
+    "blob_sha1": "5a1e4db69e7a632d02c1e4b1c72ce5d4e9f89505",
+    "sha256": "ae9b1da787467cc4df151b84220a58afa8281eb816ce8d2c430f004fa240210c",
+    "byte_length": 36897,
+    "line_count": 777,
+    "main_url": "https://github.com/ia-mm-ai/CONSTITUTION/blob/main/CONSTITUTION_0()1.md",
+    "origin_url": "https://github.com/ia-mm-ai/CONSTITUTION/blob/835f24d559089b6eb443a3d86398ec2f373c24ee/CONSTITUTION_0()1.md"
+  },
+  "occurrence_witness": {
+    "repository_path": "surface_of_emergence.txt",
+    "commit": "0c2b6c2b8a112658b38e71f6922b1cf56fc360d0",
+    "blob_sha1": "d980fda4be1d9ee41d7f5305039e65323e886031",
+    "sha256": "e77ae2efcfd413331e6576420d45cbe2022c27cf34ba07add3ac42215bb46b75",
+    "byte_length": 38,
+    "exact_statement": "Occurence of Form: https://kentra.com",
+    "url": "https://github.com/ia-mm-ai/CONSTITUTION/blob/0c2b6c2b8a112658b38e71f6922b1cf56fc360d0/surface_of_emergence.txt"
+  },
+  "surface_relation": {
+    "kentra_role": "PUBLIC_SURFACE_NAMED_BY_THE_OCCURRENCE_WITNESS",
+    "github_role": "PUBLIC_SOURCE_AND_WITNESS_CARRIER",
+    "source_copy_embedded_here": false,
+    "source_reference_is_adoption": false,
+    "source_reference_is_applicability": false,
+    "form_occurrence_is_presence": false,
+    "form_occurrence_is_admission": false
+  },
+  "root_source_boundary": {
+    "path": "source/",
+    "function": "UNKNOWN",
+    "included": false,
+    "inspected": false,
+    "modified": false
+  }
+}

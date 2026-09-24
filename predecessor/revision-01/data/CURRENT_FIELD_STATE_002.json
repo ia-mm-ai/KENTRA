@@ -1,0 +1,91 @@
+{
+  "schema": "KENTRA_CURRENT_FIELD_STATE_002",
+  "recorded_at_utc": "2026-09-20T07:41:01Z",
+  "surface": {
+    "domain": "kentra.com",
+    "revision": 1,
+    "turn": 1,
+    "status": "PUBLIC_SOURCE_SURFACE_EXPOSED_FORM_OCCURRENCE_WITNESSED"
+  },
+  "predecessor_surface": {
+    "revision": 0,
+    "state_path": "data/CURRENT_FIELD_STATE_001.json",
+    "state_sha256": "97c1e70335fe7b79f5a192b41fb4d6c3074751a175b95e858480a04ff749ec79",
+    "closure_marker_path": "threshold_01[end].txt",
+    "closure_marker_sha256": "79152d4ce9c123c4554523a92cec1752807c16df464da23f24e3f1e5cfc1f373",
+    "closed_at_utc": "2026-09-20T07:07:23Z",
+    "disposition": "CLOSED_PASSAGE_OPEN"
+  },
+  "field": {
+    "phase": "PASSAGE",
+    "status": "SOURCE_PUBLIC_FORM_OCCURRENCE_WITNESSED_LIVE_LOCALITY_NOT_BOUND",
+    "locus_id": null,
+    "host_locality_id": null
+  },
+  "capacity": {
+    "rule": "DECLARE_BEFORE_INVITATION",
+    "mode": "FIXED_SINGLE_SLOT_UNBOUND",
+    "structural_limit": 1,
+    "active": 0,
+    "available_for_admission": 0,
+    "overflow_disposition": "HOLD"
+  },
+  "gate": {
+    "disposition": "CLOSED",
+    "reason": "FORM_OCCURRENCE_IS_WITNESSED_BUT_NO_LIVE_LOCALITY_PRESENTATION_ENDPOINT_OR_GATE_ACT_EXISTS",
+    "permitted_dispositions_when_live": [
+      "ADMIT",
+      "REFUSE",
+      "WITHHOLD",
+      "HOLD"
+    ]
+  },
+  "source": {
+    "status": "PUBLIC",
+    "repository": "ia-mm-ai/CONSTITUTION",
+    "path": "CONSTITUTION_0()1.md",
+    "origin_commit": "835f24d559089b6eb443a3d86398ec2f373c24ee",
+    "observed_repository_commit": "0c2b6c2b8a112658b38e71f6922b1cf56fc360d0",
+    "blob_sha1": "5a1e4db69e7a632d02c1e4b1c72ce5d4e9f89505",
+    "sha256": "ae9b1da787467cc4df151b84220a58afa8281eb816ce8d2c430f004fa240210c"
+  },
+  "witness": {
+    "form_occurrence": "WITNESSED",
+    "repository": "ia-mm-ai/CONSTITUTION",
+    "path": "surface_of_emergence.txt",
+    "commit": "0c2b6c2b8a112658b38e71f6922b1cf56fc360d0",
+    "blob_sha1": "d980fda4be1d9ee41d7f5305039e65323e886031",
+    "sha256": "e77ae2efcfd413331e6576420d45cbe2022c27cf34ba07add3ac42215bb46b75",
+    "exact_statement": "Occurence of Form: https://kentra.com"
+  },
+  "run": {
+    "sequence": 1,
+    "status": "NOT_ASSERTED_AS_MATERIALIZED",
+    "predecessor_envelope": "artifacts/run/FIRST_LIVE_RUN_001.json",
+    "revision_authorization_basis": "USER_DECLARED_PREDECESSOR_CLOSED_PASSAGE_OPEN_AND_AUTHORIZED_TURN_01",
+    "surface_revision_allowance_consumed": 1
+  },
+  "machine": {
+    "protocol": "LOCALITY_VM_001",
+    "version": "1.0.0",
+    "qualification": "PASS",
+    "chain_binding": "NONE",
+    "live_deployment": "NOT_FORMED"
+  },
+  "interface": {
+    "presentation_endpoint": null,
+    "presentation_endpoint_state": "UNBOUND",
+    "browser_view_effect": "DELIVERY_OR_EXPOSURE_ONLY",
+    "browser_view_is_presence": false
+  },
+  "effect_ceiling": [
+    "NO_PARTICIPANT_BY_PAGE_VIEW",
+    "NO_PRESENCE_BY_DELIVERY",
+    "NO_ADMISSION_BY_FORM_OCCURRENCE",
+    "NO_ENTRY_WITHOUT_ATTRIBUTABLE_ACT",
+    "NO_MATTER_ADMISSION_BY_CROSSING",
+    "NO_CONSTITUTIONAL_APPLICABILITY_BY_REFERENCE",
+    "NO_LIVE_RUN_INFERRED_BY_SURFACE_REVISION",
+    "NO_LIVE_CHAIN_CLAIM_WITHOUT_EXACT_BINDING"
+  ]
+}

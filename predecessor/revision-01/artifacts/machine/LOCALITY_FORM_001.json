@@ -1,0 +1,49 @@
+{
+  "schema": "LOCALITY_FORM_PROFILE_001",
+  "version": 1,
+  "form_id": "LOCALITY-FORM-001",
+  "purpose": "Minimum public embodiment required for participation in a bounded locality.",
+  "required_medium_capabilities": [
+    "OBSERVE_CROSSING",
+    "PRESENT_FORM",
+    "GATE_DISPOSITION",
+    "ENTER",
+    "MATTER_DISPOSITION",
+    "CORRECT",
+    "EXIT",
+    "CLOSE",
+    "INCORPORATE_ADDRESSED_RESIDUE"
+  ],
+  "gate_postures": [
+    "ADMIT",
+    "REFUSE",
+    "WITHHOLD",
+    "HOLD"
+  ],
+  "effect_ceiling": [
+    "NO_FORMATION_BY_CONFORMANCE",
+    "NO_SOURCE_OR_AUTHORITY_TRANSFER",
+    "NO_SHARED_CURRENTNESS",
+    "NO_CORE_ADDRESSABILITY",
+    "NO_PARTICIPATION_BY_PRESENTATION",
+    "NO_MATTER_ADMISSION_BY_CROSSING",
+    "NO_LOCAL_UPTAKE_BY_FIELD_CLOSURE"
+  ],
+  "non_collapse_rules": [
+    "SOURCE_NOT_LOCALITY",
+    "FORM_NOT_LOCALITY",
+    "HOST_NOT_OWNER",
+    "LOCUS_FIELD_NOT_LOCALITY",
+    "CROSSING_NOT_ADMISSION",
+    "ADMISSION_NOT_ENTRY",
+    "ENTRY_NOT_MATTER_ADMISSION",
+    "MATTER_NOT_TRUTH",
+    "EMERGENCE_NOT_AUTOMATIC_UPTAKE",
+    "CLOSURE_NOT_LOCAL_INCORPORATION",
+    "SHARED_ANCESTRY_NOT_SHARED_CURRENTNESS",
+    "CONFORMANCE_NOT_FORMATION"
+  ],
+  "private_state": "NEVER_REQUIRED_ON_CHAIN",
+  "admission_rule": "PRESENTATION_NECESSARY_NOT_SUFFICIENT",
+  "correction_rule": "APPEND_ONLY_PRESERVE_PREDECESSOR"
+}

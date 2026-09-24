@@ -1,0 +1,37 @@
+{
+  "schema": "KENTRA_SURFACE_MANIFEST_001",
+  "domain": "kentra.com",
+  "surface_revision": 0,
+  "generated_at_utc": "2026-09-20T02:28:08Z",
+  "status": "PUBLIC_SURFACE_PRESENT_LIVE_ADMISSION_NOT_YET_OPEN",
+  "integrity_algorithm": "SHA-256",
+  "source_boundary": {
+    "path": "source/",
+    "function": "UNKNOWN",
+    "included": false,
+    "inspected": false,
+    "modified": false
+  },
+  "files": [
+    {"path": "artifacts/constitution/CONSTITUTION_SURFACE_NOTE_001.json", "sha256": "c698e1005080d0e1a211e36e6a5ab33b526de8dcc0ef8ffeb285150a14c03aef"},
+    {"path": "artifacts/constitution/original/CONSTITUTION-01.json", "sha256": "f9c98d4d9abd6ce373a4336f0c9cefc6c60ffdee4e414f33eb7247cb0d6e4bab"},
+    {"path": "artifacts/constitution/original/CONSTITUTION-01.md", "sha256": "4be24cf15d3653abcfd7ae4191246a52c22e61246b8d4d33f46b329c615596dd"},
+    {"path": "artifacts/field/CONSTITUTION_APPLICABILITY_RECORD_001.json", "sha256": "b1c384f744d0ffcf8e3a7887dc34c36484c9ae3a28eca0570d4d3fc86c34b163"},
+    {"path": "artifacts/field/FIELD_DECLARATION_001.md", "sha256": "127c409a8393501287027f6769a5fa4b9a5aff92abfbd2a2dd5d46ab672ef60f"},
+    {"path": "artifacts/field/FORMATION_RECORD_001.json", "sha256": "cb83de89aa72266972f13fff21de3dfa82e69d1f8d2304b2178851643b8c34d5"},
+    {"path": "artifacts/field/PARTICIPATION_COVENANT_001.md", "sha256": "e26a04af4be24091f0e83211ebaf9d8e4e7cce83621f82df2c9b6bea106fa4c4"},
+    {"path": "artifacts/lineage/LINEAGE_MAP_001.json", "sha256": "84b074da472929d085d18bc37ad3613dacdab7585e44d12040e5085f7b31b645"},
+    {"path": "artifacts/machine/KENTRA_PREDECESSOR.json", "sha256": "2565751c78d42c8d7528b37af7be89edbcb5d10bbff912756bc55a7a54b09749"},
+    {"path": "artifacts/machine/LOCALITY_FORM_001.json", "sha256": "9fbdd054bd947c8f32308871296374009cac8c27633eb47b7c5ff2b10fcff45d"},
+    {"path": "artifacts/machine/LOCALITY_VM_001_MACHINE_PROFILE.json", "sha256": "055d7b1e4e8504e79e91af7b4f1cca4e51f2f22d3fbc61b0a10955699948bdaa"},
+    {"path": "artifacts/machine/LOCALITY_VM_001_RELEASE_MANIFEST.json", "sha256": "8f513c7cdaca91b2d6c0dee017dfa090185095d34232eb66043ab0f5b0094308"},
+    {"path": "artifacts/machine/VM_CONSTITUTION_COVERAGE_001.json", "sha256": "69ae8cccaa451169ee12b11409153d80d3402cda3872cd118835ac41dfc10dd8"},
+    {"path": "artifacts/run/FIRST_LIVE_RUN_001.json", "sha256": "74947eb0f09f6b60381108b84c2a29fca6fc76019eb10e2b30d4969a50c3d0ad"},
+    {"path": "data/CURRENT_FIELD_STATE_001.json", "sha256": "97c1e70335fe7b79f5a192b41fb4d6c3074751a175b95e858480a04ff749ec79"},
+    {"path": "downloads/KENTRA_001_FORMATION_PREDECESSOR.zip", "sha256": "deaab3d22f10367c0c5e5d333a8c6329c259cfce3c3b0473752a841a88cbb9a1"},
+    {"path": "downloads/LOCALITY_VM_001-v1.0.0-linux-amd64.tar.gz", "sha256": "33c3578a91b3fbc2d8447db0bb0bb3d3355552b900f218b69cacb7e3321ebc2c"},
+    {"path": "downloads/LOCALITY_VM_001-v1.0.0-qualification-evidence.tar.gz", "sha256": "0e3fd8e25e80a123b9c133108499c037d7d79908470dc683275aa9c6fed84a14"},
+    {"path": "downloads/LOCALITY_VM_001_GITHUB_REPOSITORY_PACK.zip", "sha256": "8eb1d542de065bcfe97cc0acb69db201c70c336beb4ebecdee10bd79483b0287"},
+    {"path": "downloads/SHA256SUMS", "sha256": "b1feda16053572decf2e7c4dda22459cd7cce432857773de95095a7c6b937040"}
+  ]
+}

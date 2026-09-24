@@ -1,0 +1,53 @@
+{
+  "schema": "LOCALITY_VM_001_MACHINE_PROFILE",
+  "protocol": "LOCALITY_VM_001",
+  "version": "1.0.0",
+  "role": "BOUNDED_IMPLEMENTATION_OF_MINIMUM_EMBODIMENT_GRAMMAR",
+  "execution_model": "AVALANCHE_NON_EVM_RPCCHAINVM",
+  "vm_id": "4qSsv1gPp2ctpYFTt4Nm9YQqSEggVzauPw3kRGmziwVqLU1PP",
+  "form": {
+    "id": "LOCALITY-FORM-001",
+    "sha256": "9fbdd054bd947c8f32308871296374009cac8c27633eb47b7c5ff2b10fcff45d"
+  },
+  "compatibility": {
+    "avalanchego_tag": "v1.15.0",
+    "avalanchego_peeled_commit": "70bd6d063b7343fd2cd8217200aaf77b57f19f68",
+    "required_profile": "v1.15.0+LOCALITY_SECURITY_OVERLAY_001",
+    "rpcchainvm_protocol": 46,
+    "go": "1.25.13",
+    "canonical_host": "ubuntu-24.04-amd64"
+  },
+  "qualification": {
+    "result": "PASS",
+    "observed_at_utc": "2026-09-19T19:39:05Z",
+    "vm_binary_sha256": "d40c7b57142dbad298c83a0ea94001d8bf3d8b0cbfba2e3dae2a5e00b4e71f98",
+    "avalanchego_binary_sha256": "656f0dd190e68f517b6ade9e6f03dc5f44329870d71e3375bbe672115d6bdce8",
+    "three_validator_lifecycle": "PASS",
+    "full_restart_replay": "PASS",
+    "single_validator_rejoin": "PASS",
+    "reachable_vulnerabilities_vm": 0,
+    "reachable_vulnerabilities_avalanchego": 0,
+    "private_material_exported": false
+  },
+  "operations": [
+    "BOUND",
+    "PRESENT_FORM",
+    "GATE_DISPOSITION",
+    "ENTER",
+    "OBSERVE_CROSSING",
+    "MATTER_DISPOSITION",
+    "RECORD_EMERGENCE",
+    "CORRECT",
+    "EXIT",
+    "CLOSE",
+    "INCORPORATE_ADDRESSED_RESIDUE"
+  ],
+  "deployment": {
+    "live_chain": "NONE",
+    "chain_binding": "NONE",
+    "new_chain_formation_required": true,
+    "new_validator_credentials_required": true,
+    "new_locality_authority_required": true,
+    "deployment_descriptor_required": true
+  }
+}

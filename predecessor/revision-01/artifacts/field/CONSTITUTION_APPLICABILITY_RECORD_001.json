@@ -1,0 +1,18 @@
+{
+  "schema": "CONSTITUTION_APPLICABILITY_RECORD_001",
+  "record_id": "KENTRA-CONSTITUTION-APPLICABILITY-001",
+  "recorded_at_utc": "2026-09-20T02:28:08Z",
+  "constitution": {
+    "human_form_path": "artifacts/constitution/original/CONSTITUTION-01.md",
+    "human_form_sha256": "4be24cf15d3653abcfd7ae4191246a52c22e61246b8d4d33f46b329c615596dd",
+    "machine_form_path": "artifacts/constitution/original/CONSTITUTION-01.json",
+    "machine_form_sha256": "f9c98d4d9abd6ce373a4336f0c9cefc6c60ffdee4e414f33eb7247cb0d6e4bab"
+  },
+  "presentation": "PUBLICLY_AVAILABLE",
+  "application_target": "NO_LIVE_LOCALITY_BOUND",
+  "applicability": "NOT_ESTABLISHED",
+  "adoption": "NONE_RECORDED",
+  "effect": "REFERENCE_AND_INSPECTION_ONLY",
+  "reason": "AUTHORSHIP_PUBLICATION_COPYING_PARSING_AND_REFERENCE_CREATE_NO_JURISDICTION_BY_THEMSELVES",
+  "revision_required_for_change": true
+}

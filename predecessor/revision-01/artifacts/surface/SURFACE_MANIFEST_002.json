@@ -1,0 +1,208 @@
+{
+  "schema": "KENTRA_SURFACE_MANIFEST_002",
+  "domain": "kentra.com",
+  "surface_revision": 1,
+  "turn": 1,
+  "generated_at_utc": "2026-09-20T07:41:01Z",
+  "status": "PUBLIC_SOURCE_SURFACE_EXPOSED_FORM_OCCURRENCE_WITNESSED_GATE_CLOSED",
+  "integrity_algorithm": "SHA-256",
+  "predecessor": {
+    "surface_revision": 0,
+    "manifest_path": "artifacts/surface/SURFACE_MANIFEST_001.json",
+    "manifest_sha256": "1a403808b83686d01e28b0517096b0e4ce0d7be6f81d2e80a63058cd4d33c2a2",
+    "supplied_closed_archive_sha256": "3152c055b210bb5d2c28f13970a6fd729defd09e44629fc1598d56f4fb07f04a",
+    "closure_marker_path": "threshold_01[end].txt",
+    "closure_marker_sha256": "79152d4ce9c123c4554523a92cec1752807c16df464da23f24e3f1e5cfc1f373"
+  },
+  "external_source_observation": {
+    "repository": "ia-mm-ai/CONSTITUTION",
+    "source_path": "CONSTITUTION_0()1.md",
+    "source_origin_commit": "835f24d559089b6eb443a3d86398ec2f373c24ee",
+    "source_sha256": "ae9b1da787467cc4df151b84220a58afa8281eb816ce8d2c430f004fa240210c",
+    "witness_path": "surface_of_emergence.txt",
+    "witness_commit": "0c2b6c2b8a112658b38e71f6922b1cf56fc360d0",
+    "witness_sha256": "e77ae2efcfd413331e6576420d45cbe2022c27cf34ba07add3ac42215bb46b75",
+    "external_bytes_included_in_files": false
+  },
+  "deployment_controls": [
+    {
+      "path": "_headers",
+      "sha256": "cb9df81f2ddb08cea9d2306b0d0c1563d33e97f42d6d2b31b55c1bcc7c1c829f",
+      "public_fetch_required": false
+    },
+    {
+      "path": "_redirects",
+      "sha256": "8ec7f5855215aa26063f14d7ab37dcd61930a6e7250965af9f05a5946113589f",
+      "public_fetch_required": false
+    }
+  ],
+  "source_boundary": {
+    "path": "source/",
+    "function": "UNKNOWN",
+    "included": false,
+    "inspected": false,
+    "modified": false
+  },
+  "files": [
+    {
+      "path": "404.html",
+      "sha256": "801ab1a6bfc051706196ce3dbf9791866715e2e9401e131b2c8fb968a8faa3ed"
+    },
+    {
+      "path": "artifacts/constitution/CONSTITUTION_SURFACE_NOTE_001.json",
+      "sha256": "c698e1005080d0e1a211e36e6a5ab33b526de8dcc0ef8ffeb285150a14c03aef"
+    },
+    {
+      "path": "artifacts/constitution/PUBLIC_SOURCE_SURFACE_001.json",
+      "sha256": "68b7d63f5f1f4cb7e4a472666fdaa5dda9c64a21c0a6dc43685fb631e599cb7b"
+    },
+    {
+      "path": "artifacts/constitution/original/CONSTITUTION-01.json",
+      "sha256": "f9c98d4d9abd6ce373a4336f0c9cefc6c60ffdee4e414f33eb7247cb0d6e4bab"
+    },
+    {
+      "path": "artifacts/constitution/original/CONSTITUTION-01.md",
+      "sha256": "4be24cf15d3653abcfd7ae4191246a52c22e61246b8d4d33f46b329c615596dd"
+    },
+    {
+      "path": "artifacts/field/CONSTITUTION_APPLICABILITY_RECORD_001.json",
+      "sha256": "b1c384f744d0ffcf8e3a7887dc34c36484c9ae3a28eca0570d4d3fc86c34b163"
+    },
+    {
+      "path": "artifacts/field/FIELD_DECLARATION_001.md",
+      "sha256": "127c409a8393501287027f6769a5fa4b9a5aff92abfbd2a2dd5d46ab672ef60f"
+    },
+    {
+      "path": "artifacts/field/FIELD_DECLARATION_002.md",
+      "sha256": "0ad6c91ed686349a1edee76e28ceb86a6790fba818d6980762f953a88febe0a4"
+    },
+    {
+      "path": "artifacts/field/FORMATION_RECORD_001.json",
+      "sha256": "cb83de89aa72266972f13fff21de3dfa82e69d1f8d2304b2178851643b8c34d5"
+    },
+    {
+      "path": "artifacts/field/PARTICIPATION_COVENANT_001.md",
+      "sha256": "e26a04af4be24091f0e83211ebaf9d8e4e7cce83621f82df2c9b6bea106fa4c4"
+    },
+    {
+      "path": "artifacts/field/SURFACE_PASSAGE_RECORD_001.json",
+      "sha256": "d3811c9b308ffb72d0f43332cf186cb8b02ea5fbae542fc0cd5c99562b33efcd"
+    },
+    {
+      "path": "artifacts/lineage/LINEAGE_MAP_001.json",
+      "sha256": "84b074da472929d085d18bc37ad3613dacdab7585e44d12040e5085f7b31b645"
+    },
+    {
+      "path": "artifacts/lineage/LINEAGE_MAP_002.json",
+      "sha256": "edb5dd6743cbf3c3fa26a3c7eb4a3e17811b38e32cbde208237e665f0ff75ea0"
+    },
+    {
+      "path": "artifacts/machine/KENTRA_PREDECESSOR.json",
+      "sha256": "2565751c78d42c8d7528b37af7be89edbcb5d10bbff912756bc55a7a54b09749"
+    },
+    {
+      "path": "artifacts/machine/LOCALITY_FORM_001.json",
+      "sha256": "9fbdd054bd947c8f32308871296374009cac8c27633eb47b7c5ff2b10fcff45d"
+    },
+    {
+      "path": "artifacts/machine/LOCALITY_VM_001_MACHINE_PROFILE.json",
+      "sha256": "055d7b1e4e8504e79e91af7b4f1cca4e51f2f22d3fbc61b0a10955699948bdaa"
+    },
+    {
+      "path": "artifacts/machine/LOCALITY_VM_001_RELEASE_MANIFEST.json",
+      "sha256": "8f513c7cdaca91b2d6c0dee017dfa090185095d34232eb66043ab0f5b0094308"
+    },
+    {
+      "path": "artifacts/machine/VM_CONSTITUTION_COVERAGE_001.json",
+      "sha256": "69ae8cccaa451169ee12b11409153d80d3402cda3872cd118835ac41dfc10dd8"
+    },
+    {
+      "path": "artifacts/run/FIRST_LIVE_RUN_001.json",
+      "sha256": "74947eb0f09f6b60381108b84c2a29fca6fc76019eb10e2b30d4969a50c3d0ad"
+    },
+    {
+      "path": "artifacts/surface/REVISION_01_RECORD.json",
+      "sha256": "280d9ed5c68360d70b3857f0239f558f4525368aa0f1c7e082839178c4064f84"
+    },
+    {
+      "path": "artifacts/surface/SURFACE_MANIFEST_001.json",
+      "sha256": "1a403808b83686d01e28b0517096b0e4ce0d7be6f81d2e80a63058cd4d33c2a2"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "sha256": "747638da006377daa39683ead522a909c89bf97a1cbd46055b123b0c0a6517e2"
+    },
+    {
+      "path": "assets/site.css",
+      "sha256": "1f3d97f9590d382c20c4078517be8cda5d34b58e94e035c40ba63c5a2075d171"
+    },
+    {
+      "path": "assets/site.js",
+      "sha256": "c6f2c839c6b89c2aed672d73db0b6d0e1c29a0bb827af1cba47041dd40eb3e40"
+    },
+    {
+      "path": "constitution/index.html",
+      "sha256": "bb16953198fc1456248773e26bc3714d6ac3704a93492919a3dacccea0363a80"
+    },
+    {
+      "path": "data/CURRENT_FIELD_STATE_001.json",
+      "sha256": "97c1e70335fe7b79f5a192b41fb4d6c3074751a175b95e858480a04ff749ec79"
+    },
+    {
+      "path": "data/CURRENT_FIELD_STATE_002.json",
+      "sha256": "a6f6c99d7232638554801941396e2a3cf7e9ea6d3f4c6eca558ac56bbd305752"
+    },
+    {
+      "path": "downloads/KENTRA_001_FORMATION_PREDECESSOR.zip",
+      "sha256": "deaab3d22f10367c0c5e5d333a8c6329c259cfce3c3b0473752a841a88cbb9a1"
+    },
+    {
+      "path": "downloads/LOCALITY_VM_001-v1.0.0-linux-amd64.tar.gz",
+      "sha256": "33c3578a91b3fbc2d8447db0bb0bb3d3355552b900f218b69cacb7e3321ebc2c"
+    },
+    {
+      "path": "downloads/LOCALITY_VM_001-v1.0.0-qualification-evidence.tar.gz",
+      "sha256": "0e3fd8e25e80a123b9c133108499c037d7d79908470dc683275aa9c6fed84a14"
+    },
+    {
+      "path": "downloads/LOCALITY_VM_001_GITHUB_REPOSITORY_PACK.zip",
+      "sha256": "8eb1d542de065bcfe97cc0acb69db201c70c336beb4ebecdee10bd79483b0287"
+    },
+    {
+      "path": "downloads/SHA256SUMS",
+      "sha256": "b1feda16053572decf2e7c4dda22459cd7cce432857773de95095a7c6b937040"
+    },
+    {
+      "path": "index.html",
+      "sha256": "6ed6d86c2619a0f2c97006f28e0d7d5dd991eaa53352d9f62fcea2144aa60ab4"
+    },
+    {
+      "path": "lineage/index.html",
+      "sha256": "a2b3a0fc20ed7dd464ce9f8fd982ae57ee41b7a8d253254766d1ecb46a91690f"
+    },
+    {
+      "path": "machine/index.html",
+      "sha256": "888b48bca2c26853bdebc31e03bbbe9e4f92e083e46d81a4b85d862b1b49c79c"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "b4c851a42868ee1f9a5696c462a0125ea2d41f5f90a6204fa09f11eaafc896cb"
+    },
+    {
+      "path": "site.webmanifest",
+      "sha256": "b7094bb0a9c799382d2c9a8ae43e81fcfb69816e7e7e011f429af986376c7429"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "6a39fa45160f2857ab7ee90b04a05e3708df2d1dd291e0e9e1faaca52789e059"
+    },
+    {
+      "path": "threshold_01[end].txt",
+      "sha256": "79152d4ce9c123c4554523a92cec1752807c16df464da23f24e3f1e5cfc1f373"
+    },
+    {
+      "path": "verify/index.html",
+      "sha256": "2359c0a57af946ae9460a39cf0240f0d32d89000591fec2b86dd9466cb40102b"
+    }
+  ]
+}

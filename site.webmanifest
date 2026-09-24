@@ -1,0 +1,9 @@
+{
+  "name": "KENTRA",
+  "short_name": "KENTRA",
+  "description": "To keep the same governing principles while changing form.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#090a09",
+  "theme_color": "#090a09"
+}

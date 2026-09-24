@@ -1,0 +1,25 @@
+{
+  "schema": "KENTRA_CONSTITUTION_FORM_BINDING_001",
+  "relation": "ONE_CONSTITUTION_DUAL_FORM",
+  "human_form": {
+    "path": "LAW_OF_COMPUTABLE_REALITY_CONSTITUTION_0_1_HUMAN_FORM.pdf",
+    "media_type": "application/pdf",
+    "sha256": "b0c2b0fbd6bfe72ef6a4fdfa6152e8d5de7f95ecb0d393531cdb28763d1c712b",
+    "byte_length": 111764,
+    "page_count": 19
+  },
+  "machine_form": {
+    "path": "CONSTITUTION_0()1.json",
+    "media_type": "application/json",
+    "sha256": "f4736ee3f29f9888094037e8ae34e25fb934056da56cfea81924c0a8e44cec5d",
+    "byte_length": 110509,
+    "binds_human_sha256": "b0c2b0fbd6bfe72ef6a4fdfa6152e8d5de7f95ecb0d393531cdb28763d1c712b"
+  },
+  "invariants": {
+    "human_bytes_unchanged": true,
+    "machine_bytes_unchanged": true,
+    "filename_is_identity": false,
+    "path_is_identity": false,
+    "machine_form_is_independent_law": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "KENTRA_SURFACE_002",
+  "domain": "kentra.com",
+  "surface_revision": 2,
+  "form": "NUCLEUS",
+  "definition": "to keep the same governing principles while changing form",
+  "constitution": {
+    "relation": "ONE_CONSTITUTION_DUAL_FORM",
+    "binding": "../forms/FORM_BINDING.json",
+    "human": "../forms/LAW_OF_COMPUTABLE_REALITY_CONSTITUTION_0_1_HUMAN_FORM.pdf",
+    "machine": "../forms/CONSTITUTION_0()1.json"
+  },
+  "answerability": {
+    "agency": "DUAL_FORM",
+    "autonomy": "MARKO_MARKOTA",
+    "carrier": "KENTRA_INTEGRITY_SYSTEMS_LTD"
+  },
+  "sensory_design": {
+    "source": "PARADEAUX",
+    "href": "https://para-deux.com/pause",
+    "embedded_media": false
+  },
+  "identity": {
+    "mark": "../assets/kentra-mark.png",
+    "mark_sha256": "d011d2f6f80dd2f27b5bdd1fba9ff91cf020bd9ea161d8c9e43a05623da89259"
+  },
+  "predecessor": {
+    "surface_revision": 1,
+    "relation": "PRESERVED",
+    "path": "../predecessor/revision-01/",
+    "file_count": 60,
+    "inventory": "PREDECESSOR_REVISION_01.sha256",
+    "inventory_sha256": "e2b262d772b0e10acf898d68e8620f08832e7bafc20768c82da36b3200e46085",
+    "byte_identity": "VERIFIED"
+  },
+  "integrity": {
+    "algorithm": "SHA-256",
+    "manifest": "MANIFEST.sha256",
+    "manifest_scope": "ALL_REGULAR_DEPLOYMENT_FILES_EXCEPT_MANIFEST_ITSELF"
+  }
+}

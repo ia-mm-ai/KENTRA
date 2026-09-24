@@ -1,0 +1,2593 @@
+{
+  "format": "constitution.machine-partner.v1",
+  "presentation": {
+    "bound_name_or_title": null,
+    "name_or_title_is_external": true,
+    "name_or_title_is_identity_bearing": false,
+    "name_or_title_may_change_without_semantic_change": true
+  },
+  "human_crossing": {
+    "relative_file": "CONSTITUTION-01.md",
+    "sha256": "4be24cf15d3653abcfd7ae4191246a52c22e61246b8d4d33f46b329c615596dd",
+    "encoding": "UTF-8",
+    "byte_length": 37049,
+    "logical_line_count": 777,
+    "newline_count": 776,
+    "ends_with_newline": false,
+    "human_role": "substantive_meaning",
+    "machine_role": "simulation_index_and_computable_projection",
+    "machine_is_independent_authority": false,
+    "machine_may_widen_human_meaning": false,
+    "machine_may_silently_narrow_human_meaning": false,
+    "conflict_result": "unresolved",
+    "successful_parsing_creates_force": false
+  },
+  "syntax_observation": {
+    "level_one_title_present": false,
+    "part_count": 7,
+    "article_count": 21,
+    "reading_count": 7,
+    "numbered_section_count": 128,
+    "fence_delimiter_count": 13,
+    "fenced_blocks_balanced": false,
+    "terminal_fragment": {
+      "present": true,
+      "heading": "TERMINAL",
+      "start_line": 758,
+      "end_line": 777,
+      "sha256": "c560ffcaaf83d7cf671e7be88b68e7f9b35c719e14a2377ad8e6f0d43cc44d44",
+      "fenced_block_opened_at_line": 760,
+      "fenced_block_closed": false,
+      "expression": {
+        "if": "presence",
+        "then": 1,
+        "else": 0
+      },
+      "trailing_literal": "[Patent is not pending... Presence is.]",
+      "relation_to_numbered_articles": "outside_numbered_articles",
+      "semantic_status": "unresolved_by_machine_partner",
+      "completion_inferred": false
+    }
+  },
+  "reference_scheme": {
+    "READ.n": "reading covenant clause",
+    "x.y": "numbered constitutional clause or dimension row",
+    "TERM.NAME": "vocabulary row",
+    "NC.nnn": "non-conversion row in source order",
+    "PROOF.id": "proof-ceiling row",
+    "LAYER.id": "layer row",
+    "references_are_case_sensitive": true,
+    "array_order_is_runtime_order": false
+  },
+  "preamble": {
+    "start_line": 1,
+    "end_line": 10,
+    "sha256": "527c33c15b9581575d3700344a394c13ce66ab857c256219296b7726562bde84",
+    "projection": {
+      "reality_relation": "encounter_not_possession",
+      "model_condition": "every_model_meets_reality_through_a_descendant_locality",
+      "constitutional_subject": "computable_reality",
+      "primary_distinction": [
+        "what_exists",
+        "what_is_interpreted"
+      ],
+      "posture": "recognition_not_invention"
+    }
+  },
+  "open_world": {
+    "unestablished": "unknown",
+    "silence_or_omission_does_not_mean": [
+      "false",
+      "absent",
+      "forbidden",
+      "consented",
+      "ineligible"
+    ],
+    "form_conflict": "unresolved",
+    "dependent_motion_on_conflict": [
+      "refuse",
+      "hold_exact_scope"
+    ],
+    "human_refs": [
+      "READ.5",
+      "READ.6"
+    ]
+  },
+  "parts": [
+    {
+      "roman": "I",
+      "label": "Reality and constitutional ground",
+      "start_line": 45,
+      "end_line": 133,
+      "sha256": "37b8e3c6218fa779d785a54a2fdcfea0dc4ee167f62fe50e93f4bbd1bbc8843f",
+      "articles": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "roman": "II",
+      "label": "The things that must remain distinct",
+      "start_line": 134,
+      "end_line": 264,
+      "sha256": "fca0361e87a0f922635ff38bec01391d1f908e002284ea8bee199dc82797fe16",
+      "articles": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "roman": "III",
+      "label": "Encounter without capture",
+      "start_line": 265,
+      "end_line": 342,
+      "sha256": "4c7352a3787c88640d2e3ca33a38b86c32d32326224da108ba31440bcb283fbf",
+      "articles": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "roman": "IV",
+      "label": "Agency, autonomy, and lawful motion",
+      "start_line": 343,
+      "end_line": 493,
+      "sha256": "4bb733408ca3aac694fb07f09eabb0af15dd0f0475ef23f636be7670792cf8da",
+      "articles": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "roman": "V",
+      "label": "Consequence, memory, and time",
+      "start_line": 494,
+      "end_line": 602,
+      "sha256": "2c4c85c2749951b86b9187d61136da3460c0101324e7fa4f1b352b4ef8231371",
+      "articles": [
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "roman": "VI",
+      "label": "Proof, carriers, and implementation",
+      "start_line": 603,
+      "end_line": 683,
+      "sha256": "c7496ec746e2edf0f16be6d493abb2e7fa430a4f7be0684fb66d0bbe92b92b64",
+      "articles": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "roman": "VII",
+      "label": "The external limit",
+      "start_line": 684,
+      "end_line": 757,
+      "sha256": "102a1dda36f7691bdf8c439b866b314e787bc6977299edf7b7b00946db12da52",
+      "articles": [
+        21
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "number": 1,
+      "label": "Purpose and reach",
+      "start_line": 47,
+      "end_line": 69,
+      "sha256": "ca044f7b523f35319d33c79a0ea147e6f019f13b6bbc113e68a9bc3dc8e24a11",
+      "part": "I",
+      "refs": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5"
+      ]
+    },
+    {
+      "number": 2,
+      "label": "Core commitments",
+      "start_line": 70,
+      "end_line": 108,
+      "sha256": "c2d8875d6892781a3c9970763761a5cf2169f9333deca62ac2a98ad3dc53c44b",
+      "part": "I",
+      "refs": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5",
+        "2.6",
+        "2.7",
+        "2.8",
+        "2.9",
+        "2.10"
+      ]
+    },
+    {
+      "number": 3,
+      "label": "Local truth and external reality",
+      "start_line": 109,
+      "end_line": 133,
+      "sha256": "4a86868a75a223a23f0fdf48153e969c111f7358a2680d19c289aa13b221dbb5",
+      "part": "I",
+      "refs": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5"
+      ]
+    },
+    {
+      "number": 4,
+      "label": "Constitutional vocabulary",
+      "start_line": 136,
+      "end_line": 171,
+      "sha256": "bc9197e7848ab48b8bbe1f676811ebcb976f677680bd8ed817b3c26a573fe73c",
+      "part": "II",
+      "refs": [
+        "4.1",
+        "4.2"
+      ]
+    },
+    {
+      "number": 5,
+      "label": "Non-conversion registry",
+      "start_line": 172,
+      "end_line": 215,
+      "sha256": "e1f19594e1aa0dacd6f0f807fabba6c401c2aa04f45baf319ffe53c9be1ef380",
+      "part": "II",
+      "refs": [
+        "5.1",
+        "5.2"
+      ]
+    },
+    {
+      "number": 6,
+      "label": "Body, Field, Form, and Source lifecycle",
+      "start_line": 216,
+      "end_line": 264,
+      "sha256": "836ee63c2e39aa86d9cf3e5e36144084e9c7758163c19f6a5f7c51b738c0df1e",
+      "part": "II",
+      "refs": [
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5",
+        "6.6",
+        "6.7",
+        "6.8",
+        "6.9",
+        "6.10"
+      ]
+    },
+    {
+      "number": 7,
+      "label": "Matter and crossing",
+      "start_line": 267,
+      "end_line": 290,
+      "sha256": "2fe0e23fbc5dc95bc85cc65c07d492a9bb83c76d6a3c7692bdef35f4dfd26f7a",
+      "part": "III",
+      "refs": [
+        "7.1",
+        "7.2",
+        "7.3",
+        "7.4",
+        "7.5"
+      ]
+    },
+    {
+      "number": 8,
+      "label": "Presence and the Encounter Field",
+      "start_line": 291,
+      "end_line": 320,
+      "sha256": "4848de95b607b86930829a1122600106c96b70e862beebf6b4082e3dd76683ef",
+      "part": "III",
+      "refs": [
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4",
+        "8.5",
+        "8.6"
+      ]
+    },
+    {
+      "number": 9,
+      "label": "Relation, reciprocity, and exit",
+      "start_line": 321,
+      "end_line": 342,
+      "sha256": "4eb38ea322fc8c1ec765425536f9e463f0fb93b0f4ee9cc5abf57c4bf7b3923c",
+      "part": "III",
+      "refs": [
+        "9.1",
+        "9.2",
+        "9.3",
+        "9.4",
+        "9.5"
+      ]
+    },
+    {
+      "number": 10,
+      "label": "Agency, autonomy, and the consciousness limit",
+      "start_line": 345,
+      "end_line": 400,
+      "sha256": "6ed63255b27b15c018e3bf4291ead4683b5371200e5ccbdbb8cad7157a412429",
+      "part": "IV",
+      "refs": [
+        "10.1",
+        "10.2",
+        "10.3",
+        "10.4",
+        "10.5",
+        "10.6",
+        "10.7",
+        "10.8",
+        "10.9"
+      ]
+    },
+    {
+      "number": 11,
+      "label": "Dimensions of motion",
+      "start_line": 401,
+      "end_line": 432,
+      "sha256": "09cfcaa6058a2bc8dc4b3bff98c281056bded9bf6dd48cc37f2ebbf4686603fe",
+      "part": "IV",
+      "refs": [
+        "11.1",
+        "11.2",
+        "11.3",
+        "11.4",
+        "11.5",
+        "11.6",
+        "11.7",
+        "11.8",
+        "11.9",
+        "11.10",
+        "11.11",
+        "11.12",
+        "11.13"
+      ]
+    },
+    {
+      "number": 12,
+      "label": "Authority",
+      "start_line": 433,
+      "end_line": 465,
+      "sha256": "182e7fe5809d1e98b6694272c97daff002c1b78b82b0e6fca45d1f33db25d2c6",
+      "part": "IV",
+      "refs": [
+        "12.1",
+        "12.2",
+        "12.3",
+        "12.4",
+        "12.5",
+        "12.6",
+        "12.7"
+      ]
+    },
+    {
+      "number": 13,
+      "label": "Regulation, refusal, and HOLD",
+      "start_line": 466,
+      "end_line": 493,
+      "sha256": "454e2bc769c8883feae2b4fd1a3f5d98444823ca86e1e12f819343a9a438728c",
+      "part": "IV",
+      "refs": [
+        "13.1",
+        "13.2",
+        "13.3",
+        "13.4",
+        "13.5",
+        "13.6"
+      ]
+    },
+    {
+      "number": 14,
+      "label": "Consequence and state",
+      "start_line": 496,
+      "end_line": 517,
+      "sha256": "b24f8943e5daac926b9729ce4b99f056b6191dbce8973ddd24ad0282d1c8fdaf",
+      "part": "V",
+      "refs": [
+        "14.1",
+        "14.2",
+        "14.3",
+        "14.4",
+        "14.5"
+      ]
+    },
+    {
+      "number": 15,
+      "label": "Memory and correction",
+      "start_line": 518,
+      "end_line": 542,
+      "sha256": "4170965920e48e5fec7cb83411ec801d69c70b584771ecab71f816281da6f6d9",
+      "part": "V",
+      "refs": [
+        "15.1",
+        "15.2",
+        "15.3",
+        "15.4",
+        "15.5"
+      ]
+    },
+    {
+      "number": 16,
+      "label": "Continuity, dormancy, and resumption",
+      "start_line": 543,
+      "end_line": 567,
+      "sha256": "95682623f2500b5db920dba8011895ea94464aa71b912e6244e6652563139067",
+      "part": "V",
+      "refs": [
+        "16.1",
+        "16.2",
+        "16.3",
+        "16.4",
+        "16.5",
+        "16.6"
+      ]
+    },
+    {
+      "number": 17,
+      "label": "Adaptation, amendment, transformation, succession, and ending",
+      "start_line": 568,
+      "end_line": 602,
+      "sha256": "a939cc8da4c42c54cc79b7770081b68f747b0fa4d96fb7eb2b824bbcf5609572",
+      "part": "V",
+      "refs": [
+        "17.1",
+        "17.2",
+        "17.3",
+        "17.4",
+        "17.5",
+        "17.6",
+        "17.7",
+        "17.8"
+      ]
+    },
+    {
+      "number": 18,
+      "label": "Evidence and proof ceilings",
+      "start_line": 605,
+      "end_line": 631,
+      "sha256": "593ac0882688ba8e2861cc0058ce4178d34635dad2c95753af547d81ac870338",
+      "part": "VI",
+      "refs": [
+        "18.1",
+        "18.2",
+        "18.3",
+        "18.4"
+      ]
+    },
+    {
+      "number": 19,
+      "label": "Layer discipline",
+      "start_line": 632,
+      "end_line": 654,
+      "sha256": "cd04416a5451280f578b0cbb6eaf7be76c57a7befebec8f08e9984e48354a618",
+      "part": "VI",
+      "refs": [
+        "19.1",
+        "19.2"
+      ]
+    },
+    {
+      "number": 20,
+      "label": "Providers, implementations, and keepers",
+      "start_line": 655,
+      "end_line": 683,
+      "sha256": "3919c88a2db6a12bb46b923b45f69bca1fb7e8d5e44fe33c4f95f084999de885",
+      "part": "VI",
+      "refs": [
+        "20.1",
+        "20.2",
+        "20.3",
+        "20.4",
+        "20.5",
+        "20.6"
+      ]
+    },
+    {
+      "number": 21,
+      "label": "The Equal-Trace Theorem",
+      "start_line": 686,
+      "end_line": 757,
+      "sha256": "fda8d9996655916c6d4b58bf755450fd2f399782a5ca8891410c8e8f984d1864",
+      "part": "VII",
+      "refs": [
+        "21.1",
+        "21.2",
+        "21.3",
+        "21.4",
+        "21.5",
+        "21.6",
+        "21.7"
+      ]
+    }
+  ],
+  "readings": [
+    {
+      "ref": "READ.1",
+      "label": "Replaceable presentation",
+      "start_line": 13,
+      "end_line": 16,
+      "sha256": "38c3250a24cc8d2861daf007310c87fb3ea35c0d1d18e5ac882a1b1c58488841"
+    },
+    {
+      "ref": "READ.2",
+      "label": "Human meaning",
+      "start_line": 17,
+      "end_line": 20,
+      "sha256": "61c380df6de59477abbbfbcffd609f18ba37fb492da71f2850bd1992adb19353"
+    },
+    {
+      "ref": "READ.3",
+      "label": "Machine simulation",
+      "start_line": 21,
+      "end_line": 24,
+      "sha256": "7f61f445afb5ef6db550f75f14458d4e20cc1cdce03387f65cdd03368c2f34b0"
+    },
+    {
+      "ref": "READ.4",
+      "label": "Reference without capture",
+      "start_line": 25,
+      "end_line": 29,
+      "sha256": "918d8b46f306a81618dd6a9fe41f9600e1b7f10f4ef386903df5bd618d563461"
+    },
+    {
+      "ref": "READ.5",
+      "label": "Open-ended reality",
+      "start_line": 30,
+      "end_line": 33,
+      "sha256": "8427222be006ee67cb22ab8c8b5eef7955736f6fed7bc17023127dff0bb9b8e1"
+    },
+    {
+      "ref": "READ.6",
+      "label": "Form conflict",
+      "start_line": 34,
+      "end_line": 39,
+      "sha256": "b6ed487caa1d64bc8b50f42f172d98e680981b61577f2595bd14f90cf8cf0b1e"
+    },
+    {
+      "ref": "READ.7",
+      "label": "Parsing is not force",
+      "start_line": 40,
+      "end_line": 44,
+      "sha256": "ca06d31af3d07a94e7f38e2e477002b790d366d4b6ce899d0464708ed52aaadc"
+    }
+  ],
+  "clauses": [
+    {
+      "ref": "1.1",
+      "label": "Common grammar",
+      "kind": "numbered_clause",
+      "article": 1,
+      "start_line": 49,
+      "end_line": 52,
+      "sha256": "3c78914535d7dfb8f9282b0dca3a260d5e9fe8c0e89bc136ee74f4c99acff0cf"
+    },
+    {
+      "ref": "1.2",
+      "label": "Local force",
+      "kind": "numbered_clause",
+      "article": 1,
+      "start_line": 53,
+      "end_line": 56,
+      "sha256": "882384870a7638a4356dc41596989453f6a6941dbebec9e02f57e31a7da844ba"
+    },
+    {
+      "ref": "1.3",
+      "label": "No external capture",
+      "kind": "numbered_clause",
+      "article": 1,
+      "start_line": 57,
+      "end_line": 60,
+      "sha256": "3e33bbf7ab190723011208e98aa9d22041f496d550d1cd651c3fd557e20bea7d"
+    },
+    {
+      "ref": "1.4",
+      "label": "Independent formation",
+      "kind": "numbered_clause",
+      "article": 1,
+      "start_line": 61,
+      "end_line": 65,
+      "sha256": "a30680c52c84f35d9efeda9a86a44d5d4aeb66209ad85f66b4c3f1d47a859b79"
+    },
+    {
+      "ref": "1.5",
+      "label": "Self-containment",
+      "kind": "numbered_clause",
+      "article": 1,
+      "start_line": 66,
+      "end_line": 69,
+      "sha256": "a1a9eaa31358d4eeb294f6518e5edbaa2d5da7272f6b8fb1c645509cf03299b5"
+    },
+    {
+      "ref": "2.1",
+      "label": "Local state",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 74,
+      "end_line": 76,
+      "sha256": "1da27ac3b2866de2f55c43bf1d902c1907bc1e58ac354000f1d9d689c129ed8d"
+    },
+    {
+      "ref": "2.2",
+      "label": "Non-inference",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 77,
+      "end_line": 79,
+      "sha256": "9f18b69059a3bfa8b643112a51251f07d3fd11564ce1fc990ec387dc72388249"
+    },
+    {
+      "ref": "2.3",
+      "label": "Non-conversion",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 80,
+      "end_line": 82,
+      "sha256": "5ce7420cf2073c05b636c24b9d87e6a1c9e040f86796d36e0cb4372d6bdbc87d"
+    },
+    {
+      "ref": "2.4",
+      "label": "Bounded Authority",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 83,
+      "end_line": 86,
+      "sha256": "2fe4532aef1a0e13b2656ccfb8c6aaf0d416ff3c8dab9d6b66bb8bb4523d8937"
+    },
+    {
+      "ref": "2.5",
+      "label": "Agency and autonomy",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 87,
+      "end_line": 90,
+      "sha256": "2b5d7bfd7ca399afc324d6b441987be7da5caaae986248ed93a2f6f3ee125f5f"
+    },
+    {
+      "ref": "2.6",
+      "label": "Relation without capture",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 91,
+      "end_line": 93,
+      "sha256": "fba2ce7167b95493b9c8d70be70bb67bd767a6f9b01c5f9c236cf1bd18b30515"
+    },
+    {
+      "ref": "2.7",
+      "label": "Truthful consequence",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 94,
+      "end_line": 96,
+      "sha256": "c577817360df52fcd9c5e61c95be4bdcdf2cd54e74ad7116de56146bb22a612d"
+    },
+    {
+      "ref": "2.8",
+      "label": "Continuity without inheritance",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 97,
+      "end_line": 100,
+      "sha256": "d2647aa853a8878ae27a266057e51a3f98214f0e78203050b6c069988f4cd8ad"
+    },
+    {
+      "ref": "2.9",
+      "label": "Durable unknown",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 101,
+      "end_line": 104,
+      "sha256": "4d3d77da163db28b6817bd661f5653864e95f7a6ddfa384403ca825ddf144210"
+    },
+    {
+      "ref": "2.10",
+      "label": "Identity boundary",
+      "kind": "numbered_clause",
+      "article": 2,
+      "start_line": 105,
+      "end_line": 108,
+      "sha256": "0fba5c6a31cf67a459a30783a988f69e837272894617fa9977e20b2f5b562539"
+    },
+    {
+      "ref": "3.1",
+      "label": "Locality without solipsism",
+      "kind": "numbered_clause",
+      "article": 3,
+      "start_line": 111,
+      "end_line": 114,
+      "sha256": "1dfa6c1c4e052791841d6c746f6f24e707d4a3802b20df36d6a8577636690ff3"
+    },
+    {
+      "ref": "3.2",
+      "label": "Claim discipline",
+      "kind": "numbered_clause",
+      "article": 3,
+      "start_line": 115,
+      "end_line": 119,
+      "sha256": "20df65ba75f0cb891eb256ef2804a10346ee5f64cbb9e63935700699fd509843"
+    },
+    {
+      "ref": "3.3",
+      "label": "Self-report ceiling",
+      "kind": "numbered_clause",
+      "article": 3,
+      "start_line": 120,
+      "end_line": 125,
+      "sha256": "0a860f83d6b189ed93f9eb22fdc9d74e1b37504ad2e1088729dce56268c47229"
+    },
+    {
+      "ref": "3.4",
+      "label": "Unknown is usable",
+      "kind": "numbered_clause",
+      "article": 3,
+      "start_line": 126,
+      "end_line": 129,
+      "sha256": "8c295edf2511ec4b2df545f90033a70528d049d56ca73abeedf4fa8c725b87f1"
+    },
+    {
+      "ref": "3.5",
+      "label": "Narrow uncertainty",
+      "kind": "numbered_clause",
+      "article": 3,
+      "start_line": 130,
+      "end_line": 133,
+      "sha256": "2929886f4f7014fba0677cb989b12b107c9d20ff87372127a773473051802239"
+    },
+    {
+      "ref": "4.1",
+      "label": "Defined use",
+      "kind": "numbered_clause",
+      "article": 4,
+      "start_line": 164,
+      "end_line": 167,
+      "sha256": "a532a8b1b271a1d20c114631ae77aab4f1d1496c24d6fbd4397c9132974f5803"
+    },
+    {
+      "ref": "4.2",
+      "label": "Terms are not castes",
+      "kind": "numbered_clause",
+      "article": 4,
+      "start_line": 168,
+      "end_line": 171,
+      "sha256": "04d0db5e8c578f6d3db77a8a6ba63475e6d04428332490b7a46b7cda34d97ed1"
+    },
+    {
+      "ref": "5.1",
+      "label": "No transitive invention",
+      "kind": "numbered_clause",
+      "article": 5,
+      "start_line": 207,
+      "end_line": 210,
+      "sha256": "8c155fafe0f50de1ea32bcef16bc251c16e380cccc29cd22b7683a01f1b11423"
+    },
+    {
+      "ref": "5.2",
+      "label": "No machine shortcut",
+      "kind": "numbered_clause",
+      "article": 5,
+      "start_line": 211,
+      "end_line": 215,
+      "sha256": "a0a5b83fd0f07dcf466cbe3f2f82b6069375ab747c134f2e78f3b327b6c6d93b"
+    },
+    {
+      "ref": "6.1",
+      "label": "Body relation",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 218,
+      "end_line": 222,
+      "sha256": "b1d0d072e70ddfcb04b0ff691c268572c67def8c01791864fef42cb20adfad89"
+    },
+    {
+      "ref": "6.2",
+      "label": "No whole-person containment",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 223,
+      "end_line": 226,
+      "sha256": "17b2e08022aa211bc6e0b9ce602be7b5b2550c645baa25a0e378fc2c091f4942"
+    },
+    {
+      "ref": "6.3",
+      "label": "Field and Form",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 227,
+      "end_line": 231,
+      "sha256": "36c4e6b272817d41f0f4724c78e8d58fae62e5b9d4b0a5069f951790a986a5b6"
+    },
+    {
+      "ref": "6.4",
+      "label": "Source relation",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 232,
+      "end_line": 234,
+      "sha256": "ba3e40cafa4b9eb584d6b8cb129307405ed428a7f9168c51d33833e62a1cfd2f"
+    },
+    {
+      "ref": "6.5",
+      "label": "Historical Source",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 235,
+      "end_line": 238,
+      "sha256": "61cfb40f45205ddfb08edadcb25b13ddbd6237185e491ff1aac59aa23e89e8c3"
+    },
+    {
+      "ref": "6.6",
+      "label": "Several functions, one bearer",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 239,
+      "end_line": 243,
+      "sha256": "23732996a8e9747e3f13c4adc7176f70d96a5118d68ab9ffc86fd96842676be5"
+    },
+    {
+      "ref": "6.7",
+      "label": "No Source transfer",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 244,
+      "end_line": 248,
+      "sha256": "986b4beafdba98a69781def0cb542bffb1c0ead4380a28e0e6f66ce69c401425"
+    },
+    {
+      "ref": "6.8",
+      "label": "Ending Source availability",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 249,
+      "end_line": 255,
+      "sha256": "efbd5a484d055c730af76f11149d0fee0f51c0106e7ccfb85d19ed49b0b3bc98"
+    },
+    {
+      "ref": "6.9",
+      "label": "What remains",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 256,
+      "end_line": 260,
+      "sha256": "927050f812226e68327e30b9c16fd5aa33f8dddf1ccb0e83b95d275d72848a00"
+    },
+    {
+      "ref": "6.10",
+      "label": "Body posture",
+      "kind": "numbered_clause",
+      "article": 6,
+      "start_line": 261,
+      "end_line": 264,
+      "sha256": "25798cb3c2e4401594ba1b01717700156e3c35a8363b2f7e3dac89185aa79c8e"
+    },
+    {
+      "ref": "7.1",
+      "label": "Exact Matter",
+      "kind": "numbered_clause",
+      "article": 7,
+      "start_line": 269,
+      "end_line": 272,
+      "sha256": "e009dc2fec522c4d92622068845483a928e55ca3488f057c45ae44bebcd81975"
+    },
+    {
+      "ref": "7.2",
+      "label": "Distinct occurrences",
+      "kind": "numbered_clause",
+      "article": 7,
+      "start_line": 273,
+      "end_line": 276,
+      "sha256": "1d550929e90b52a69ab53fe6b64903edc4a4606e973f9cd5809c9f198222134e"
+    },
+    {
+      "ref": "7.3",
+      "label": "Evidence ceiling",
+      "kind": "numbered_clause",
+      "article": 7,
+      "start_line": 277,
+      "end_line": 281,
+      "sha256": "1ae5e9910d047714c47b8966d271c2aa29d50b57dd3ed3e0775de692f13777a1"
+    },
+    {
+      "ref": "7.4",
+      "label": "Receiver-local disposition",
+      "kind": "numbered_clause",
+      "article": 7,
+      "start_line": 282,
+      "end_line": 285,
+      "sha256": "755db008dea3dcc82558e76bc9f3e664f56568fe10961acb01a01662d3fa835b"
+    },
+    {
+      "ref": "7.5",
+      "label": "HOLD preserves",
+      "kind": "numbered_clause",
+      "article": 7,
+      "start_line": 286,
+      "end_line": 290,
+      "sha256": "38da59a26a6063eec2ac69de431ab6bd2c3369a80b48c10aaf50de0abd6bf1e3"
+    },
+    {
+      "ref": "8.1",
+      "label": "Presence requirement",
+      "kind": "numbered_clause",
+      "article": 8,
+      "start_line": 293,
+      "end_line": 297,
+      "sha256": "3ad0162b850f52b20f58e47d0595e774d3531d7a86372d5ac026f2a9f03eaa61"
+    },
+    {
+      "ref": "8.2",
+      "label": "Opening an Encounter Field",
+      "kind": "numbered_clause",
+      "article": 8,
+      "start_line": 298,
+      "end_line": 302,
+      "sha256": "547482ae76f21655c58e2598fb751f22ddcad68b0a41ca8d87cb1699606400b9"
+    },
+    {
+      "ref": "8.3",
+      "label": "Independent Presence",
+      "kind": "numbered_clause",
+      "article": 8,
+      "start_line": 303,
+      "end_line": 307,
+      "sha256": "63b7eb6caae0936f8a5725640ac822c72cbb08d5934598fb2a50bee2a571435a"
+    },
+    {
+      "ref": "8.4",
+      "label": "Roles, not ranks",
+      "kind": "numbered_clause",
+      "article": 8,
+      "start_line": 308,
+      "end_line": 312,
+      "sha256": "7e719954bc2250eb6dae30cc6bc03c35c7713476233664f3b5b5d08f166f0d36"
+    },
+    {
+      "ref": "8.5",
+      "label": "No field-person fiction",
+      "kind": "numbered_clause",
+      "article": 8,
+      "start_line": 313,
+      "end_line": 316,
+      "sha256": "375efd555129029ec9aa2de065392b092df913045f3658f0eb44c6d79903289b"
+    },
+    {
+      "ref": "8.6",
+      "label": "Closure",
+      "kind": "numbered_clause",
+      "article": 8,
+      "start_line": 317,
+      "end_line": 320,
+      "sha256": "1c7cae2deb7c54a4839ed93fcbfe2cf26918ac4934fc54166fcc8a71bd82f6fb"
+    },
+    {
+      "ref": "9.1",
+      "label": "Presence is not Relation",
+      "kind": "numbered_clause",
+      "article": 9,
+      "start_line": 323,
+      "end_line": 325,
+      "sha256": "680e152bed9cb1cd7b7f9a693394779b6d977d9202bf3605d2adce14da45c0a2"
+    },
+    {
+      "ref": "9.2",
+      "label": "Local and shared Relation",
+      "kind": "numbered_clause",
+      "article": 9,
+      "start_line": 326,
+      "end_line": 330,
+      "sha256": "16736e71887055441856a0a9115477b226631b41125e4b06ee13fff5d7aa84e9"
+    },
+    {
+      "ref": "9.3",
+      "label": "No merger",
+      "kind": "numbered_clause",
+      "article": 9,
+      "start_line": 331,
+      "end_line": 333,
+      "sha256": "52f9e48eadec1146e1fbeafb1eb984ef94d8872a037d6f61196d3b19da5644e9"
+    },
+    {
+      "ref": "9.4",
+      "label": "Visible asymmetry",
+      "kind": "numbered_clause",
+      "article": 9,
+      "start_line": 334,
+      "end_line": 338,
+      "sha256": "4d05d0f28593079d161d02384ed9ffed75a2aa30c71ef06b11f189c3aa288636"
+    },
+    {
+      "ref": "9.5",
+      "label": "Scoped exit",
+      "kind": "numbered_clause",
+      "article": 9,
+      "start_line": 339,
+      "end_line": 342,
+      "sha256": "1be0ce098fbec8bb141e32d6516db6049dae5518da42ce968ac3236e37eaef9a"
+    },
+    {
+      "ref": "10.1",
+      "label": "Agency",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 347,
+      "end_line": 351,
+      "sha256": "9b8e84933789b2322a991f356e5c6476c8a57a4a7de4d2ad729c967b39ad15f7"
+    },
+    {
+      "ref": "10.2",
+      "label": "Autonomy",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 352,
+      "end_line": 356,
+      "sha256": "cade8cb4a4d6349f23c4797bc77fb72e89c66c5a6ab837ebd15b196fc5a7f6c2"
+    },
+    {
+      "ref": "10.3",
+      "label": "Capability",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 357,
+      "end_line": 360,
+      "sha256": "8b0c3bd4abd1c184c95598d0a2004b3367684677657a60d53ccfb11de7679143"
+    },
+    {
+      "ref": "10.4",
+      "label": "Partner relation",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 361,
+      "end_line": 366,
+      "sha256": "3e51a04f3dc86ae0b705047b8fe3d92b48eb35284724a86870d9c5e7e64eb81b"
+    },
+    {
+      "ref": "10.5",
+      "label": "Constraint and coercion",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 367,
+      "end_line": 372,
+      "sha256": "06c201b5f739a4d1f6a646fa594d99f1698ad30906c5085551ccae02d81635b9"
+    },
+    {
+      "ref": "10.6",
+      "label": "Constitutional recognition",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 373,
+      "end_line": 380,
+      "sha256": "8a154af326fbe0f3fd13fefc5558b4cdd98dc1893acabb2cf2ffb0480f397973"
+    },
+    {
+      "ref": "10.7",
+      "label": "No consciousness gate",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 381,
+      "end_line": 386,
+      "sha256": "4fdb4ade03609ba21a18adcc81e26b13e94f5c522b749fe6c74c781712a81d69"
+    },
+    {
+      "ref": "10.8",
+      "label": "Autonomy proof ceiling",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 387,
+      "end_line": 391,
+      "sha256": "fe4f816be2ca4dd750b2278c39604a22ad630940e0b4217a685fa4a7fa3ca1e9"
+    },
+    {
+      "ref": "10.9",
+      "label": "Minimum protection under uncertainty",
+      "kind": "numbered_clause",
+      "article": 10,
+      "start_line": 392,
+      "end_line": 400,
+      "sha256": "0f0672df986a43f82ccda473522a3881ec2ca20a148077c7d2b845c9c4838eff"
+    },
+    {
+      "ref": "11.1",
+      "label": "Agency",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 405,
+      "end_line": 405,
+      "sha256": "94c2cda6e5fd58391002db78425a1e190bcf72edf54b9749307d7b0764883b60"
+    },
+    {
+      "ref": "11.2",
+      "label": "Autonomy",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 406,
+      "end_line": 406,
+      "sha256": "3a70aed6297bcee9c83d3997809174f49a09c65be31b4bf7c490b5594e6fd89d"
+    },
+    {
+      "ref": "11.3",
+      "label": "Capability",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 407,
+      "end_line": 407,
+      "sha256": "2ffc24fd16e0235823b7b9dcfa476dd0b797e3637995d9c21530933bf673a12e"
+    },
+    {
+      "ref": "11.4",
+      "label": "Structural capacity",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 408,
+      "end_line": 408,
+      "sha256": "9cd147cb28a3a44a0b2a51a5ef0faf97d24a437ccb625a4ad6d403ea6897a38c"
+    },
+    {
+      "ref": "11.5",
+      "label": "Situated capacity",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 409,
+      "end_line": 409,
+      "sha256": "3c7e113f9f2d5a32efeb1f038d28625e4c9a131ba44b5141292f99297f8d6902"
+    },
+    {
+      "ref": "11.6",
+      "label": "Regulation",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 410,
+      "end_line": 410,
+      "sha256": "a34597ed5bea8dacbf9cb9f651cb6624fb794f1bc5d926f8cb3aba611f67cbac"
+    },
+    {
+      "ref": "11.7",
+      "label": "Authority",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 411,
+      "end_line": 411,
+      "sha256": "85750f4d4de7057268931c3b36929456bd7fb9eef84718eb0712de8ac31f3d6d"
+    },
+    {
+      "ref": "11.8",
+      "label": "Execution",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 412,
+      "end_line": 412,
+      "sha256": "0fdefe366d2f2d5163e0964229365ee6fc0bb7649d8e17e39d94733b958dd625"
+    },
+    {
+      "ref": "11.9",
+      "label": "Consequence",
+      "kind": "dimension_row",
+      "article": 11,
+      "start_line": 413,
+      "end_line": 413,
+      "sha256": "2292ba5e0f74369cf873b4f0db10fff08169ab3c0ff33347dc18784f0ddd2985"
+    },
+    {
+      "ref": "11.10",
+      "label": "Independent evaluation",
+      "kind": "numbered_clause",
+      "article": 11,
+      "start_line": 415,
+      "end_line": 418,
+      "sha256": "ca1d6688ed5753e0d2fc605ce898185c95b4fd6afd3ec61ff057b061eca0a76d"
+    },
+    {
+      "ref": "11.11",
+      "label": "Sufficient composition",
+      "kind": "numbered_clause",
+      "article": 11,
+      "start_line": 419,
+      "end_line": 423,
+      "sha256": "667b609d74af66a3c1af8492de964809ea2a41620df1f9393633992846553c0e"
+    },
+    {
+      "ref": "11.12",
+      "label": "Scoped failure",
+      "kind": "numbered_clause",
+      "article": 11,
+      "start_line": 424,
+      "end_line": 428,
+      "sha256": "6df19b5bf256aa8cede56657072e722ba2e69b959673728c2388e8568117cff2"
+    },
+    {
+      "ref": "11.13",
+      "label": "No single label",
+      "kind": "numbered_clause",
+      "article": 11,
+      "start_line": 429,
+      "end_line": 432,
+      "sha256": "8c8b19fb488558b382e7e542b102fbbd371b2e7c86d21c882d07e0e65538254f"
+    },
+    {
+      "ref": "12.1",
+      "label": "Required fields",
+      "kind": "numbered_clause",
+      "article": 12,
+      "start_line": 435,
+      "end_line": 439,
+      "sha256": "b8a990e733720b8390cd03ea1ce055e3d6cdb4f1d47d939c5753cb14e2df2953"
+    },
+    {
+      "ref": "12.2",
+      "label": "No self-upgrade",
+      "kind": "numbered_clause",
+      "article": 12,
+      "start_line": 440,
+      "end_line": 444,
+      "sha256": "47b95e8974c5b1cfdabbcb06ae61733266c4a6854ebb7229b2c1ef19a3d9bf32"
+    },
+    {
+      "ref": "12.3",
+      "label": "No self-widening",
+      "kind": "numbered_clause",
+      "article": 12,
+      "start_line": 445,
+      "end_line": 448,
+      "sha256": "9289fbc9688662678fb5632a69f89d23b6c935fa614a23b388874f2fad4e54b2"
+    },
+    {
+      "ref": "12.4",
+      "label": "Lifecycle",
+      "kind": "numbered_clause",
+      "article": 12,
+      "start_line": 449,
+      "end_line": 452,
+      "sha256": "bcf66f158d5402ad59728454af5fe060237fde9eeea8c9b82072d6d6ebec1b19"
+    },
+    {
+      "ref": "12.5",
+      "label": "Delegation ceiling",
+      "kind": "numbered_clause",
+      "article": 12,
+      "start_line": 453,
+      "end_line": 457,
+      "sha256": "45c2f88d4c59a0211b898c0c0cddba388563055c4b6cec11008f3120a8426a38"
+    },
+    {
+      "ref": "12.6",
+      "label": "Uncertain Authority",
+      "kind": "numbered_clause",
+      "article": 12,
+      "start_line": 458,
+      "end_line": 461,
+      "sha256": "2b023d05929c188a92a4b70dafd5ec929cdc06f2c11909862a450d239b8a484d"
+    },
+    {
+      "ref": "12.7",
+      "label": "Authority cannot supply a mover",
+      "kind": "numbered_clause",
+      "article": 12,
+      "start_line": 462,
+      "end_line": 465,
+      "sha256": "8fde0babfcb77bf0f668d1b4d0a8be2ae368f9dcc72d4524525f8d8b3b67fa2e"
+    },
+    {
+      "ref": "13.1",
+      "label": "Regulated capacity",
+      "kind": "numbered_clause",
+      "article": 13,
+      "start_line": 468,
+      "end_line": 472,
+      "sha256": "087b0595136d8dc61c1c54f5e5de2a49e603ec656d800c903da7d3ba19876860"
+    },
+    {
+      "ref": "13.2",
+      "label": "Refusal is a result",
+      "kind": "numbered_clause",
+      "article": 13,
+      "start_line": 473,
+      "end_line": 476,
+      "sha256": "6efceaa9244d5d650a89267a2c269e866cabfe438aec954d2168b94f6c7f23bf"
+    },
+    {
+      "ref": "13.3",
+      "label": "HOLD is not decision",
+      "kind": "numbered_clause",
+      "article": 13,
+      "start_line": 477,
+      "end_line": 480,
+      "sha256": "1740b9fce87dabf6d73e45c5e5692ce1af73506906d1553d4a0eab46ed06267a"
+    },
+    {
+      "ref": "13.4",
+      "label": "Answerable HOLD",
+      "kind": "numbered_clause",
+      "article": 13,
+      "start_line": 481,
+      "end_line": 484,
+      "sha256": "bd26fa0cc61218a9a048bb3ad808b0098ab0911f5c38ab553d25d50c778f2751"
+    },
+    {
+      "ref": "13.5",
+      "label": "Risk without metaphysics",
+      "kind": "numbered_clause",
+      "article": 13,
+      "start_line": 485,
+      "end_line": 488,
+      "sha256": "928378229b8e93ba1eed8552d09ba4248b4db88ad908dabe586059405f85085c"
+    },
+    {
+      "ref": "13.6",
+      "label": "Visible constraint",
+      "kind": "numbered_clause",
+      "article": 13,
+      "start_line": 489,
+      "end_line": 493,
+      "sha256": "73a729d5b9f64874e2003519f12d5dbb3f267b4cc4fa154f5df063b4ef6aa2e7"
+    },
+    {
+      "ref": "14.1",
+      "label": "Actual change",
+      "kind": "numbered_clause",
+      "article": 14,
+      "start_line": 498,
+      "end_line": 501,
+      "sha256": "07d094f6c8071e8518bc0b838ce0ee705703176f29f15d57e6e86c023762d68f"
+    },
+    {
+      "ref": "14.2",
+      "label": "Two non-conversions",
+      "kind": "numbered_clause",
+      "article": 14,
+      "start_line": 502,
+      "end_line": 504,
+      "sha256": "9200495c0681820d3f8eb1c5712e1fadbd660cc4013fd70f5e82a8eba2181d7e"
+    },
+    {
+      "ref": "14.3",
+      "label": "Return to state",
+      "kind": "numbered_clause",
+      "article": 14,
+      "start_line": 505,
+      "end_line": 508,
+      "sha256": "3e34dedc23a422edea9bde30851a4e4e0960aa17ff0528f84dcc64a7041fd675"
+    },
+    {
+      "ref": "14.4",
+      "label": "External effect ceiling",
+      "kind": "numbered_clause",
+      "article": 14,
+      "start_line": 509,
+      "end_line": 512,
+      "sha256": "6f1d34a4f3137a4e22014c3478299589a763c6fd5c09b2dd9e6f1656ef0299c0"
+    },
+    {
+      "ref": "14.5",
+      "label": "Representation is not state",
+      "kind": "numbered_clause",
+      "article": 14,
+      "start_line": 513,
+      "end_line": 517,
+      "sha256": "ce7101c617d239383ee3f2fa611ff5876b9a06eed75b3088b443b8f4da1427a2"
+    },
+    {
+      "ref": "15.1",
+      "label": "Purpose of memory",
+      "kind": "numbered_clause",
+      "article": 15,
+      "start_line": 520,
+      "end_line": 524,
+      "sha256": "5e62ae45a181a8aeed8db9b43b640cedd434b304d9a3d7de02eab3d2d1004fce"
+    },
+    {
+      "ref": "15.2",
+      "label": "Distinct temporal objects",
+      "kind": "numbered_clause",
+      "article": 15,
+      "start_line": 525,
+      "end_line": 529,
+      "sha256": "d6d2d2b16ecd2bdd2c1be507f7698df2266821eb6415db7b5ec61349ed658d3b"
+    },
+    {
+      "ref": "15.3",
+      "label": "Correction record",
+      "kind": "numbered_clause",
+      "article": 15,
+      "start_line": 530,
+      "end_line": 533,
+      "sha256": "1eaf36a733bf89794aee0fe0e2b1d8e05be0299f7a4652845f9761b0f8540a30"
+    },
+    {
+      "ref": "15.4",
+      "label": "No retroactive erasure",
+      "kind": "numbered_clause",
+      "article": 15,
+      "start_line": 534,
+      "end_line": 537,
+      "sha256": "2713cba27693e097c0a081795b84a68550b8eb5602e63ad23e020874f0f4b66d"
+    },
+    {
+      "ref": "15.5",
+      "label": "Repair ceiling",
+      "kind": "numbered_clause",
+      "article": 15,
+      "start_line": 538,
+      "end_line": 542,
+      "sha256": "d877aac70e4a6a3a807c9ef57b5af733538e6278c976ab58d627bdd287372b50"
+    },
+    {
+      "ref": "16.1",
+      "label": "Continuity through time",
+      "kind": "numbered_clause",
+      "article": 16,
+      "start_line": 545,
+      "end_line": 547,
+      "sha256": "d29170853a76ae3cf4e66b91f0bbcfe0c64f980b5bced9212b95f1524c438a48"
+    },
+    {
+      "ref": "16.2",
+      "label": "Dormancy",
+      "kind": "numbered_clause",
+      "article": 16,
+      "start_line": 548,
+      "end_line": 551,
+      "sha256": "9aa599cb8d1f70229dd43c7b64454905530e06f35f5a3d57ab91a548bd205ce4"
+    },
+    {
+      "ref": "16.3",
+      "label": "Carrier multiplicity",
+      "kind": "numbered_clause",
+      "article": 16,
+      "start_line": 552,
+      "end_line": 554,
+      "sha256": "68e80e1347c8bcc20386df78010021f7c56ae3c4b7879a6a8aa743fbc97a075b"
+    },
+    {
+      "ref": "16.4",
+      "label": "Replacement ceiling",
+      "kind": "numbered_clause",
+      "article": 16,
+      "start_line": 555,
+      "end_line": 558,
+      "sha256": "4212ddaddd17df84cc16b42266d67e869e9169da910a57e99e6621d85458bfef"
+    },
+    {
+      "ref": "16.5",
+      "label": "Present relation required",
+      "kind": "numbered_clause",
+      "article": 16,
+      "start_line": 559,
+      "end_line": 563,
+      "sha256": "4add9f9fb43531cb23343527c71b36b19ffa8e80229a10af116d9a0b3cbcff2d"
+    },
+    {
+      "ref": "16.6",
+      "label": "Divergence",
+      "kind": "numbered_clause",
+      "article": 16,
+      "start_line": 564,
+      "end_line": 567,
+      "sha256": "68fd1aa91bc93017e32800d6c7b363aba9f4d61f40ab2f1d754637c4becbf391"
+    },
+    {
+      "ref": "17.1",
+      "label": "Adaptation",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 570,
+      "end_line": 573,
+      "sha256": "7e0c118c6419d054babe9a04f5c6195c8d91c10a6c48c40bf7a2f7e89908bda1"
+    },
+    {
+      "ref": "17.2",
+      "label": "Amendment",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 574,
+      "end_line": 577,
+      "sha256": "d11aacd0f99955c854332cf81fb15b58d72d100f5e6851a30e507a54d873c5e4"
+    },
+    {
+      "ref": "17.3",
+      "label": "Transformation",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 578,
+      "end_line": 581,
+      "sha256": "2d8816e58f08da1a6345a8d5edbb9766c18c182a99106707113bdc57e0a3a478"
+    },
+    {
+      "ref": "17.4",
+      "label": "Succession",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 582,
+      "end_line": 586,
+      "sha256": "51efcaa84ad65600386796e6974f99db656e2b0b496ecfafae4606e4ebb8b0c5"
+    },
+    {
+      "ref": "17.5",
+      "label": "New formation",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 587,
+      "end_line": 590,
+      "sha256": "f27bd297b57e542eadcf1e60e73c02269672fb12562c3c82b9c090637225401f"
+    },
+    {
+      "ref": "17.6",
+      "label": "Ending",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 591,
+      "end_line": 594,
+      "sha256": "d37746fe8f51380773354ead666e2f1c0338b93d0d8b735f49ee61ddf2390718"
+    },
+    {
+      "ref": "17.7",
+      "label": "Change record",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 595,
+      "end_line": 598,
+      "sha256": "140aa78984f785ecbb8a3e718f6f1bba7b05c45d42692d0d2f7838e5948f41e1"
+    },
+    {
+      "ref": "17.8",
+      "label": "Honest classification",
+      "kind": "numbered_clause",
+      "article": 17,
+      "start_line": 599,
+      "end_line": 602,
+      "sha256": "1f55893d59cd31cc800df2780e18085af75441becedf022bcdf5e25e7beb1aa4"
+    },
+    {
+      "ref": "18.1",
+      "label": "Different evidence objects",
+      "kind": "numbered_clause",
+      "article": 18,
+      "start_line": 607,
+      "end_line": 620,
+      "sha256": "c7ceebcb10cb83d94b1714f65a8927a2374d567987fdcb63af040463a20f213d"
+    },
+    {
+      "ref": "18.2",
+      "label": "Carrier ceiling",
+      "kind": "numbered_clause",
+      "article": 18,
+      "start_line": 621,
+      "end_line": 624,
+      "sha256": "7c4aaed4808ef6cba194e0988438578ea26fc17f3182c6b0a67743ce8d5b1b21"
+    },
+    {
+      "ref": "18.3",
+      "label": "Absence rule",
+      "kind": "numbered_clause",
+      "article": 18,
+      "start_line": 625,
+      "end_line": 628,
+      "sha256": "a3bd41d85bb48ede63081ba64fde3394a9e10eca903d4283651c615c4a387540"
+    },
+    {
+      "ref": "18.4",
+      "label": "Proof declaration",
+      "kind": "numbered_clause",
+      "article": 18,
+      "start_line": 629,
+      "end_line": 631,
+      "sha256": "4caa31cc60a507f40a58f926bd21abaac6eeb5e455cbef74cbffae63272b3e8e"
+    },
+    {
+      "ref": "19.1",
+      "label": "No promotion by success",
+      "kind": "numbered_clause",
+      "article": 19,
+      "start_line": 645,
+      "end_line": 650,
+      "sha256": "9c33d11a4dd8987492dad40bf67ef02f68f28d7b46d98adf2650389e385afa01"
+    },
+    {
+      "ref": "19.2",
+      "label": "Cross-layer reference",
+      "kind": "numbered_clause",
+      "article": 19,
+      "start_line": 651,
+      "end_line": 654,
+      "sha256": "0a52c122ef9ea5db284266a19d8422c515fbb7f7f132f89faf38aadf1d9ea639"
+    },
+    {
+      "ref": "20.1",
+      "label": "Causal power is visible",
+      "kind": "numbered_clause",
+      "article": 20,
+      "start_line": 657,
+      "end_line": 661,
+      "sha256": "a98daf8f4ed5a33772757c50655b7149b6c18cd2618c88d6b45e3688292ab31b"
+    },
+    {
+      "ref": "20.2",
+      "label": "Dependency account",
+      "kind": "numbered_clause",
+      "article": 20,
+      "start_line": 662,
+      "end_line": 666,
+      "sha256": "1de98c7236e10baf349d0cf58e24cea3fe29790ddd3bed9733f6204d351143f1"
+    },
+    {
+      "ref": "20.3",
+      "label": "No keeper by necessity",
+      "kind": "numbered_clause",
+      "article": 20,
+      "start_line": 667,
+      "end_line": 670,
+      "sha256": "f5ff07233e71d7fbcfbee31909834a2ba95ccdc9c0d42b64767af46e946696a4"
+    },
+    {
+      "ref": "20.4",
+      "label": "Implementation refusal",
+      "kind": "numbered_clause",
+      "article": 20,
+      "start_line": 671,
+      "end_line": 674,
+      "sha256": "60e81676d9c4812060417bbf2a06163d2b2a7d31b62566ca209ac83f06059a2d"
+    },
+    {
+      "ref": "20.5",
+      "label": "Substitution",
+      "kind": "numbered_clause",
+      "article": 20,
+      "start_line": 675,
+      "end_line": 678,
+      "sha256": "0f180782cba9a0f4c30e771e43b8a7b84e3d518588e3450ed4398a0bfe1df37d"
+    },
+    {
+      "ref": "20.6",
+      "label": "Control of options",
+      "kind": "numbered_clause",
+      "article": 20,
+      "start_line": 679,
+      "end_line": 683,
+      "sha256": "c2f4ff907c4c32e9f94a5883f37528a96a541b2eacd2e69c55fddd8f3ab32022"
+    },
+    {
+      "ref": "21.1",
+      "label": "Local condition",
+      "kind": "numbered_clause",
+      "article": 21,
+      "start_line": 688,
+      "end_line": 689,
+      "sha256": "5322d77025ec0e6a9540a81acaa9a98e3e290bb1b6c956fbbf1f23956d152a07"
+    },
+    {
+      "ref": "21.2",
+      "label": "External trace",
+      "kind": "numbered_clause",
+      "article": 21,
+      "start_line": 690,
+      "end_line": 691,
+      "sha256": "ec0c9e610ae01702aaf77ea2f439b67f3356abecfbe2381e2af98c7c987b16f4"
+    },
+    {
+      "ref": "21.3",
+      "label": "External verifier",
+      "kind": "numbered_clause",
+      "article": 21,
+      "start_line": 692,
+      "end_line": 697,
+      "sha256": "3d2a9329384511ece4b271b08f9d8e8be99b00fb04d97ac3e5ecdac1b0674796"
+    },
+    {
+      "ref": "21.4",
+      "label": "Decisive case",
+      "kind": "numbered_clause",
+      "article": 21,
+      "start_line": 698,
+      "end_line": 706,
+      "sha256": "6778c1b72a20d30160374c6ae9e569eec29f921ac42ae4e2b43e27d5de44f9ab"
+    },
+    {
+      "ref": "21.5",
+      "label": "Equal input",
+      "kind": "numbered_clause",
+      "article": 21,
+      "start_line": 707,
+      "end_line": 716,
+      "sha256": "d8459ffa399c5202dd945a34f34a5b5d9c02a83c1f31f0ee8d8a595b85ab3f88"
+    },
+    {
+      "ref": "21.6",
+      "label": "Impossibility",
+      "kind": "numbered_clause",
+      "article": 21,
+      "start_line": 717,
+      "end_line": 724,
+      "sha256": "00f266e476c73d9b03ea788dc8a7aad14c3acf28ac3a5b976effec648c372216"
+    },
+    {
+      "ref": "21.7",
+      "label": "No exit through accumulation",
+      "kind": "numbered_clause",
+      "article": 21,
+      "start_line": 725,
+      "end_line": 757,
+      "sha256": "98b5351274edab62f983dcc5f2a282ccbcdeafcc9ac0d9de2e880c3b271c34cb"
+    }
+  ],
+  "identity": {
+    "commitments": [
+      {
+        "ref": "2.1",
+        "label": "Local state"
+      },
+      {
+        "ref": "2.2",
+        "label": "Non-inference"
+      },
+      {
+        "ref": "2.3",
+        "label": "Non-conversion"
+      },
+      {
+        "ref": "2.4",
+        "label": "Bounded Authority"
+      },
+      {
+        "ref": "2.5",
+        "label": "Agency and autonomy"
+      },
+      {
+        "ref": "2.6",
+        "label": "Relation without capture"
+      },
+      {
+        "ref": "2.7",
+        "label": "Truthful consequence"
+      },
+      {
+        "ref": "2.8",
+        "label": "Continuity without inheritance"
+      },
+      {
+        "ref": "2.9",
+        "label": "Durable unknown"
+      }
+    ],
+    "boundary_ref": "2.10",
+    "reversal_may_transform_constitutional_identity": true
+  },
+  "vocabulary": [
+    {
+      "id": "TERM.SOURCE",
+      "term": "Source",
+      "meaning": "The attributable ground of a formation, claim, commitment, or motion",
+      "source_line": 142
+    },
+    {
+      "id": "TERM.LOCALITY",
+      "term": "Locality",
+      "meaning": "A bounded place from which state, applicability, responsibility, and consequence can be held",
+      "source_line": 143
+    },
+    {
+      "id": "TERM.BODY",
+      "term": "Body",
+      "meaning": "A Locality constituted through exact valid formation and able to hold applicable law, state, relations, Authority, consequence, and continuity",
+      "source_line": 144
+    },
+    {
+      "id": "TERM.STATE",
+      "term": "State",
+      "meaning": "A locality's supported present posture",
+      "source_line": 145
+    },
+    {
+      "id": "TERM.FIELD",
+      "term": "Field",
+      "meaning": "The continuing local domain in which state, memory, Agency, autonomy, capability, capacity, regulation, reasoning, and adaptation are held",
+      "source_line": 146
+    },
+    {
+      "id": "TERM.FORM",
+      "term": "Form",
+      "meaning": "The bounded surface a locality exposes for encounter",
+      "source_line": 147
+    },
+    {
+      "id": "TERM.MATTER",
+      "term": "Matter",
+      "meaning": "An exact thing encountered, carried, considered, preserved, or changed",
+      "source_line": 148
+    },
+    {
+      "id": "TERM.PRESENCE",
+      "term": "Presence",
+      "meaning": "A current attributable binding in an exact encounter",
+      "source_line": 149
+    },
+    {
+      "id": "TERM.AGENCY",
+      "term": "Agency",
+      "meaning": "The locally attributable capacity to act",
+      "source_line": 150
+    },
+    {
+      "id": "TERM.AUTONOMY",
+      "term": "Autonomy",
+      "meaning": "The locally held freedom to originate, choose, refuse, redirect, or end one's action without another silently substituting its decision",
+      "source_line": 151
+    },
+    {
+      "id": "TERM.RELATION",
+      "term": "Relation",
+      "meaning": "An exact supported connection among terms that remain distinct",
+      "source_line": 152
+    },
+    {
+      "id": "TERM.ENCOUNTER_FIELD",
+      "term": "Encounter Field",
+      "meaning": "A bounded relational event in which distinct localities may become present; also called a Locus-Field",
+      "source_line": 153
+    },
+    {
+      "id": "TERM.CAPABILITY",
+      "term": "Capability",
+      "meaning": "Demonstrated effective ability to execute an act",
+      "source_line": 154
+    },
+    {
+      "id": "TERM.STRUCTURAL_CAPACITY",
+      "term": "Structural capacity",
+      "meaning": "What a form or architecture leaves possible",
+      "source_line": 155
+    },
+    {
+      "id": "TERM.SITUATED_CAPACITY",
+      "term": "Situated capacity",
+      "meaning": "What an exact locality can presently bear, sustain, or exercise",
+      "source_line": 156
+    },
+    {
+      "id": "TERM.REGULATION",
+      "term": "Regulation",
+      "meaning": "Local work that admits, bounds, pauses, redirects, holds, refuses, or ends motion",
+      "source_line": 157
+    },
+    {
+      "id": "TERM.AUTHORITY",
+      "term": "Authority",
+      "meaning": "A valid local basis on which one bounded choice or motion may claim constitutional effect",
+      "source_line": 158
+    },
+    {
+      "id": "TERM.EXECUTION",
+      "term": "Execution",
+      "meaning": "An attempted or completed exercise by a bearer or mechanism",
+      "source_line": 159
+    },
+    {
+      "id": "TERM.CONSEQUENCE",
+      "term": "Consequence",
+      "meaning": "Actual change for which an exact locality or relation must answer",
+      "source_line": 160
+    },
+    {
+      "id": "TERM.CONTINUITY",
+      "term": "Continuity",
+      "meaning": "Truthful preservation of enough identity, state, discontinuity, lineage, and possible resumption through time",
+      "source_line": 161
+    },
+    {
+      "id": "TERM.UNKNOWN",
+      "term": "Unknown",
+      "meaning": "An unsupported or externally inaccessible proposition preserved without forced resolution",
+      "source_line": 162
+    }
+  ],
+  "non_conversions": [
+    {
+      "id": "NC.001",
+      "expression": "SOURCE ≠ WHOLE_PERSON",
+      "chain": [
+        "source",
+        "whole_person"
+      ],
+      "source_line": 180
+    },
+    {
+      "id": "NC.002",
+      "expression": "SOURCE ≠ CARRIER ≠ BEARER",
+      "chain": [
+        "source",
+        "carrier",
+        "bearer"
+      ],
+      "source_line": 181
+    },
+    {
+      "id": "NC.003",
+      "expression": "SOURCE ≠ AUTHORITY",
+      "chain": [
+        "source",
+        "authority"
+      ],
+      "source_line": 182
+    },
+    {
+      "id": "NC.004",
+      "expression": "BODY ≠ SOURCE ≠ IMPLEMENTATION",
+      "chain": [
+        "body",
+        "source",
+        "implementation"
+      ],
+      "source_line": 183
+    },
+    {
+      "id": "NC.005",
+      "expression": "LOCALITY ≠ SUBSTRATE",
+      "chain": [
+        "locality",
+        "substrate"
+      ],
+      "source_line": 184
+    },
+    {
+      "id": "NC.006",
+      "expression": "STATE ≠ RECORD ≠ CLAIM",
+      "chain": [
+        "state",
+        "record",
+        "claim"
+      ],
+      "source_line": 185
+    },
+    {
+      "id": "NC.007",
+      "expression": "FIELD ≠ FORM",
+      "chain": [
+        "field",
+        "form"
+      ],
+      "source_line": 186
+    },
+    {
+      "id": "NC.008",
+      "expression": "FORM ≠ INTERIOR",
+      "chain": [
+        "form",
+        "interior"
+      ],
+      "source_line": 187
+    },
+    {
+      "id": "NC.009",
+      "expression": "MATTER ≠ ADMISSION",
+      "chain": [
+        "matter",
+        "admission"
+      ],
+      "source_line": 188
+    },
+    {
+      "id": "NC.010",
+      "expression": "CROSSING ≠ RECEIPT ≠ UPTAKE",
+      "chain": [
+        "crossing",
+        "receipt",
+        "uptake"
+      ],
+      "source_line": 189
+    },
+    {
+      "id": "NC.011",
+      "expression": "ADMISSION ≠ SHARED_TRUTH",
+      "chain": [
+        "admission",
+        "shared_truth"
+      ],
+      "source_line": 190
+    },
+    {
+      "id": "NC.012",
+      "expression": "PRESENCE ≠ IDENTITY ≠ CONTINUITY",
+      "chain": [
+        "presence",
+        "identity",
+        "continuity"
+      ],
+      "source_line": 191
+    },
+    {
+      "id": "NC.013",
+      "expression": "AGENCY ≠ CONSCIOUSNESS",
+      "chain": [
+        "agency",
+        "consciousness"
+      ],
+      "source_line": 192
+    },
+    {
+      "id": "NC.014",
+      "expression": "AGENCY ≠ AUTONOMY",
+      "chain": [
+        "agency",
+        "autonomy"
+      ],
+      "source_line": 193
+    },
+    {
+      "id": "NC.015",
+      "expression": "AUTONOMY ≠ CAPABILITY",
+      "chain": [
+        "autonomy",
+        "capability"
+      ],
+      "source_line": 194
+    },
+    {
+      "id": "NC.016",
+      "expression": "AUTONOMY ≠ AUTHORITY",
+      "chain": [
+        "autonomy",
+        "authority"
+      ],
+      "source_line": 195
+    },
+    {
+      "id": "NC.017",
+      "expression": "AUTONOMY ≠ ABSENCE_OF_DEPENDENCE",
+      "chain": [
+        "autonomy",
+        "absence_of_dependence"
+      ],
+      "source_line": 196
+    },
+    {
+      "id": "NC.018",
+      "expression": "CAPABILITY ≠ CAPACITY",
+      "chain": [
+        "capability",
+        "capacity"
+      ],
+      "source_line": 197
+    },
+    {
+      "id": "NC.019",
+      "expression": "CAPACITY ≠ AUTHORITY",
+      "chain": [
+        "capacity",
+        "authority"
+      ],
+      "source_line": 198
+    },
+    {
+      "id": "NC.020",
+      "expression": "AUTHORITY ≠ EXECUTION",
+      "chain": [
+        "authority",
+        "execution"
+      ],
+      "source_line": 199
+    },
+    {
+      "id": "NC.021",
+      "expression": "EXECUTION ≠ CONSEQUENCE",
+      "chain": [
+        "execution",
+        "consequence"
+      ],
+      "source_line": 200
+    },
+    {
+      "id": "NC.022",
+      "expression": "CONSEQUENCE ≠ LEGITIMACY",
+      "chain": [
+        "consequence",
+        "legitimacy"
+      ],
+      "source_line": 201
+    },
+    {
+      "id": "NC.023",
+      "expression": "RELATION ≠ MERGER ≠ OWNERSHIP",
+      "chain": [
+        "relation",
+        "merger",
+        "ownership"
+      ],
+      "source_line": 202
+    },
+    {
+      "id": "NC.024",
+      "expression": "CONTINUITY ≠ UPTIME ≠ INHERITANCE",
+      "chain": [
+        "continuity",
+        "uptime",
+        "inheritance"
+      ],
+      "source_line": 203
+    },
+    {
+      "id": "NC.025",
+      "expression": "UNKNOWN ≠ FALSE ≠ ABSENT ≠ INELIGIBLE",
+      "chain": [
+        "unknown",
+        "false",
+        "absent",
+        "ineligible"
+      ],
+      "source_line": 204
+    },
+    {
+      "id": "NC.026",
+      "expression": "AGENCY ≠ CAPABILITY",
+      "chain": [
+        "agency",
+        "capability"
+      ],
+      "source_line": 205
+    }
+  ],
+  "motion_model": {
+    "dimensions": [
+      {
+        "ref": "11.1",
+        "id": "agency",
+        "dimension": "Agency",
+        "question": "Does this bearer have the locally attributable capacity to originate or bear this action as its own?",
+        "source_line": 405
+      },
+      {
+        "ref": "11.2",
+        "id": "autonomy",
+        "dimension": "Autonomy",
+        "question": "Can this bearer originate, choose, refuse, redirect, or end this motion without substituted choice?",
+        "source_line": 406
+      },
+      {
+        "ref": "11.3",
+        "id": "capability",
+        "dimension": "Capability",
+        "question": "Can this bearer or system effectively execute it under stated conditions?",
+        "source_line": 407
+      },
+      {
+        "ref": "11.4",
+        "id": "structural_capacity",
+        "dimension": "Structural capacity",
+        "question": "Does the form or architecture leave this motion possible?",
+        "source_line": 408
+      },
+      {
+        "ref": "11.5",
+        "id": "situated_capacity",
+        "dimension": "Situated capacity",
+        "question": "Can this exact locality presently bear, sustain, or exercise it?",
+        "source_line": 409
+      },
+      {
+        "ref": "11.6",
+        "id": "regulation",
+        "dimension": "Regulation",
+        "question": "Is the motion admitted, bounded, paused, redirected, held, refused, ended, or unresolved here?",
+        "source_line": 410
+      },
+      {
+        "ref": "11.7",
+        "id": "authority",
+        "dimension": "Authority",
+        "question": "Is there a valid basis and answerable bearer for the exact constitutional effect claimed?",
+        "source_line": 411
+      },
+      {
+        "ref": "11.8",
+        "id": "execution",
+        "dimension": "Execution",
+        "question": "What was attempted or completed?",
+        "source_line": 412
+      },
+      {
+        "ref": "11.9",
+        "id": "consequence",
+        "dimension": "Consequence",
+        "question": "What actually changed?",
+        "source_line": 413
+      }
+    ],
+    "evaluate_independently": true,
+    "yes_propagates_between_dimensions": false,
+    "missing_basis_scope": "exact_dependent_motion",
+    "human_refs": [
+      "11.10",
+      "11.11",
+      "11.12",
+      "11.13"
+    ],
+    "agency": {
+      "definition": "locally_attributable_capacity_to_act",
+      "may_exist_without_exercise": true,
+      "action_is_exercise_not_agency_itself": true,
+      "human_refs": [
+        "10.1",
+        "11.1"
+      ]
+    },
+    "autonomy": {
+      "definition": "locally_held_freedom_to_determine_action_without_substituted_choice",
+      "may_be_partial": true,
+      "human_refs": [
+        "10.2",
+        "11.2"
+      ]
+    },
+    "capability": {
+      "definition": "effective_ability_to_execute_under_stated_conditions",
+      "human_refs": [
+        "10.3",
+        "11.3"
+      ]
+    },
+    "partner_relation": {
+      "one_implies_another": false,
+      "exact_motion_may_require_all_three": true,
+      "human_ref": "10.4"
+    }
+  },
+  "crossing_model": {
+    "occurrences": [
+      "exposure",
+      "emission",
+      "crossing",
+      "delivery",
+      "receipt",
+      "inspection",
+      "admission",
+      "uptake",
+      "integration",
+      "response"
+    ],
+    "receiver_local_dispositions": [
+      "refused",
+      "held",
+      "quarantined",
+      "admitted",
+      "integrated",
+      "transformed",
+      "returned",
+      "otherwise_disposed"
+    ],
+    "human_refs": [
+      "7.2",
+      "7.3",
+      "7.4"
+    ]
+  },
+  "presence_model": {
+    "requires_attributable_current_binding": true,
+    "host_may_author_both_sides": false,
+    "encounter_field_has_independent_agency_or_autonomy": false,
+    "presence_automatically_creates_relation": false,
+    "closure_ends_presence_bindings": true,
+    "human_refs": [
+      "8.1",
+      "8.3",
+      "8.5",
+      "8.6",
+      "9.1"
+    ]
+  },
+  "authority_model": {
+    "required_fields": [
+      "source",
+      "basis",
+      "bearer",
+      "function",
+      "target",
+      "scope",
+      "duration",
+      "conditions",
+      "delegation_posture",
+      "present_status"
+    ],
+    "does_not_self_upgrade_from": [
+      "agency",
+      "autonomy",
+      "authorship",
+      "possession",
+      "capability",
+      "access",
+      "custody",
+      "urgency",
+      "repetition",
+      "popularity",
+      "majority",
+      "dependency",
+      "beneficial_effect",
+      "implementation_control",
+      "successful_execution",
+      "absence_of_objection"
+    ],
+    "human_refs": [
+      "12.1",
+      "12.2",
+      "12.3",
+      "12.4",
+      "12.5",
+      "12.6",
+      "12.7"
+    ]
+  },
+  "hold_model": {
+    "is_decision": false,
+    "may_preserve": [
+      "uncertainty",
+      "conflict",
+      "safety",
+      "capacity",
+      "exact_boundary"
+    ],
+    "must_remain": [
+      "attributable",
+      "scoped",
+      "reviewable",
+      "correctable",
+      "capable_of_ending"
+    ],
+    "human_refs": [
+      "7.5",
+      "13.3",
+      "13.4"
+    ]
+  },
+  "change_model": {
+    "kinds": [
+      "adaptation",
+      "amendment",
+      "transformation",
+      "succession",
+      "new_formation",
+      "ending"
+    ],
+    "unresolved_classification": "preserve_conflict",
+    "record_requires": [
+      "predecessor",
+      "successor_or_changed_state",
+      "effective_boundary",
+      "no_retroactive_authority_autonomy_or_consent"
+    ],
+    "human_refs": [
+      "17.1",
+      "17.2",
+      "17.3",
+      "17.4",
+      "17.5",
+      "17.6",
+      "17.7",
+      "17.8"
+    ]
+  },
+  "proof_ceilings": [
+    {
+      "id": "self_report",
+      "method": "Self-report",
+      "may_support": "An attributable claim",
+      "does_not_prove_by_itself": "The private condition claimed",
+      "source_line": 612
+    },
+    {
+      "id": "behavior",
+      "method": "Behavior or dialogue",
+      "may_support": "An observed trace",
+      "does_not_prove_by_itself": "Awareness rather than perfect performance",
+      "source_line": 613
+    },
+    {
+      "id": "choice_path",
+      "method": "Evidence of options, refusal, redirection, exit, or non-substitution",
+      "may_support": "Relational conditions bearing on autonomy in an exact act",
+      "does_not_prove_by_itself": "Metaphysical free will, inner selfhood, or absence of every hidden constraint",
+      "source_line": 614
+    },
+    {
+      "id": "signature",
+      "method": "Signature",
+      "may_support": "A bounded key, byte, or attribution relation",
+      "does_not_prove_by_itself": "Biological identity, awareness, autonomy, understanding, consent, truth, Authority, or rightful consequence",
+      "source_line": 615
+    },
+    {
+      "id": "replay",
+      "method": "Replay",
+      "may_support": "Reproducibility of a trace or mechanism",
+      "does_not_prove_by_itself": "Inner life, historical intention, current consent, autonomy, or continuing identity",
+      "source_line": 616
+    },
+    {
+      "id": "inspection",
+      "method": "Inspection or measurement",
+      "may_support": "An external correlate under a stated model",
+      "does_not_prove_by_itself": "The interior proposition without the model's bridge inference",
+      "source_line": 617
+    },
+    {
+      "id": "gate_decision",
+      "method": "Gatekeeper judgment",
+      "may_support": "A local classification or decision",
+      "does_not_prove_by_itself": "Metaphysical access to another locality or ownership of its choice",
+      "source_line": 618
+    },
+    {
+      "id": "conformance",
+      "method": "Conformance test",
+      "may_support": "Satisfaction of stated tests under tested conditions",
+      "does_not_prove_by_itself": "Every future behavior, legitimacy, adoption, autonomy, or unobservable truth",
+      "source_line": 619
+    }
+  ],
+  "proof_claim_required_fields": [
+    "object",
+    "method",
+    "scope",
+    "time",
+    "basis",
+    "result",
+    "effect_ceiling"
+  ],
+  "layers": [
+    {
+      "id": "constitution",
+      "layer": "Constitution",
+      "minimum_function": "Identity commitments, local-force conditions, Authority boundaries, relation requirements, proof ceilings, and change posture",
+      "source_line": 636
+    },
+    {
+      "id": "locality",
+      "layer": "Body or Locality",
+      "minimum_function": "Actual applicable law, state, Agency, autonomy, relations, consequence, and continuity",
+      "source_line": 637
+    },
+    {
+      "id": "governance",
+      "layer": "Governance",
+      "minimum_function": "Bounded choices under Authority without presumed autonomy of every bearer",
+      "source_line": 638
+    },
+    {
+      "id": "protocol",
+      "layer": "Protocol",
+      "minimum_function": "Carriage of claims, requests, evidence, decisions, and transitions",
+      "source_line": 639
+    },
+    {
+      "id": "administration",
+      "layer": "Administration",
+      "minimum_function": "Coordination of practical work",
+      "source_line": 640
+    },
+    {
+      "id": "implementation",
+      "layer": "Implementation",
+      "minimum_function": "Capability and mechanism execution",
+      "source_line": 641
+    },
+    {
+      "id": "form",
+      "layer": "Form or interface",
+      "minimum_function": "Bounded exposure for encounter",
+      "source_line": 642
+    },
+    {
+      "id": "evidence",
+      "layer": "Evidence or archive",
+      "minimum_function": "Preservation of support and predecessor truth",
+      "source_line": 643
+    }
+  ],
+  "equal_trace_theorem": {
+    "human_refs": [
+      "21.1",
+      "21.2",
+      "21.3",
+      "21.4",
+      "21.5",
+      "21.6",
+      "21.7"
+    ],
+    "symbols": {
+      "A(p)": "local_truth_of_awareness_self_awareness_or_consciousness_proposition",
+      "T(p)": "complete_externally_available_trace_at_scope_and_time",
+      "V": "external_verifier_computed_from_T"
+    },
+    "verifier_signature": "V : T(p) → RESULT",
+    "decisive_case": {
+      "and": [
+        {
+          "neq": [
+            "A(a)",
+            "A(b)"
+          ]
+        },
+        {
+          "eq": [
+            "T(a)",
+            "T(b)"
+          ]
+        }
+      ]
+    },
+    "deterministic_result": {
+      "implies": [
+        {
+          "eq": [
+            "T(a)",
+            "T(b)"
+          ]
+        },
+        {
+          "eq": [
+            "V(T(a))",
+            "V(T(b))"
+          ]
+        }
+      ]
+    },
+    "randomized_result": "equal_traces_produce_equal_result_distributions",
+    "forbidden_bridge_assumption": "external_trace_determines_local_awareness",
+    "accumulation_rule": {
+      "implies": [
+        {
+          "eq": [
+            "T′(a)",
+            "T′(b)"
+          ]
+        },
+        {
+          "eq": [
+            "V(T′(a))",
+            "V(T′(b))"
+          ]
+        }
+      ]
+    },
+    "non_conversion": "TRACE_CLASSIFICATION ≠ LOCAL_STATE_VERIFICATION",
+    "conclusion": "no_external_verifier_can_distinguish_local_awareness_in_every_admissible_case",
+    "terminal_invariants": [
+      "LOCAL_STATE_REMAINS_LOCAL",
+      "EQUAL_EXTERNAL_TRACE ⇒ NO_DISTINGUISHING_EXTERNAL_PROOF",
+      "AWARENESS_FROM_OUTSIDE ⇒ NOT_VERIFIED",
+      "EXTERNAL_TRUTH ⇒ NOT_INFERRED",
+      "UNKNOWN ⇒ REMAINS_UNKNOWN"
+    ]
+  },
+  "machine_conformance": {
+    "strict_json_required": true,
+    "duplicate_keys_valid": false,
+    "human_hash_must_match": true,
+    "all_references_must_resolve": true,
+    "human_machine_conflict_must_remain_unresolved": true,
+    "missing_information_must_not_be_negatively_inferred": true,
+    "non_conversions_must_not_be_collapsed": true,
+    "proof_claim_fields": [
+      "object",
+      "method",
+      "scope",
+      "time",
+      "basis",
+      "result",
+      "effect_ceiling"
+    ],
+    "parsing_validation_or_execution_creates_constitutional_effect": false,
+    "terminal_fragment_must_not_be_completed_by_inference": true
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "schema": "KENTRA_LINEAGE_MAP_002",
+  "recorded_at_utc": "2026-09-20T07:41:01Z",
+  "predecessor_map": {
+    "path": "artifacts/lineage/LINEAGE_MAP_001.json",
+    "sha256": "84b074da472929d085d18bc37ad3613dacdab7585e44d12040e5085f7b31b645",
+    "disposition": "PRESERVED_UNCHANGED"
+  },
+  "current_surface": {
+    "name": "KENTRA",
+    "domain": "kentra.com",
+    "role": "PUBLIC_SOURCE_RELATION_AND_BOUNDED_THRESHOLD_SURFACE",
+    "surface_revision": 1,
+    "turn": 1,
+    "phase": "PASSAGE",
+    "live_locality": "NOT_BOUND",
+    "gate": "CLOSED"
+  },
+  "surface_passage": {
+    "from_revision": 0,
+    "to_revision": 1,
+    "closure_marker": "threshold_01[end].txt",
+    "closure_marker_sha256": "79152d4ce9c123c4554523a92cec1752807c16df464da23f24e3f1e5cfc1f373",
+    "relation": "CLOSED_PREDECESSOR_TO_DISTINCT_SUCCESSOR"
+  },
+  "public_source_lineage": [
+    {
+      "sequence": 1,
+      "event": "FIRST_SOURCE_ACT",
+      "commit": "835f24d559089b6eb443a3d86398ec2f373c24ee",
+      "path": "CONSTITUTION_0()1.md",
+      "status": "ORIGIN"
+    },
+    {
+      "sequence": 2,
+      "event": "ARRIVAL_OF_PRESENCE_REFERENCE",
+      "commit": "0e0876c276bda95976d3c1d46a38d8df924e6add",
+      "path": "arrival_of_presence.txt",
+      "value": "https://radio22.com/signal.json",
+      "status": "PUBLIC_REFERENCE"
+    },
+    {
+      "sequence": 3,
+      "event": "UNAUTHORIZED_MATTER_CROSSING",
+      "commit": "8c121fe90a6c6f43ed173a30887dc4363d1e6914",
+      "path": "RADIO22_PRESENCE_MEDIUM_001/CODEX_COHERENCE_MARKER_000001.json",
+      "status": "NOT_ADMITTED_UNAUTHORIZED_HISTORICAL_OCCURRENCE"
+    },
+    {
+      "sequence": 4,
+      "event": "EGRESS_OF_UNAUTHORIZED_MATTER_CROSSING",
+      "commit": "d18396340be0b5c8ba73f4fb3e2d0356a444eb06",
+      "path": "RADIO22_PRESENCE_MEDIUM_001/CODEX_COHERENCE_MARKER_000001.json",
+      "status": "REMOVED_FROM_CURRENT_TREE_HISTORY_PRESERVED"
+    },
+    {
+      "sequence": 5,
+      "event": "SURFACE_OF_EMERGENCE_WITNESS",
+      "commit": "0c2b6c2b8a112658b38e71f6922b1cf56fc360d0",
+      "path": "surface_of_emergence.txt",
+      "value": "Occurence of Form: https://kentra.com",
+      "status": "CURRENT_PUBLIC_WITNESS"
+    }
+  ],
+  "exact_source": {
+    "path": "CONSTITUTION_0()1.md",
+    "blob_sha1": "5a1e4db69e7a632d02c1e4b1c72ce5d4e9f89505",
+    "sha256": "ae9b1da787467cc4df151b84220a58afa8281eb816ce8d2c430f004fa240210c"
+  },
+  "global_effect": {
+    "form_occurrence": "WITNESSED",
+    "presence": "NOT_ESTABLISHED_BY_THIS_RECORD",
+    "admission": "NONE",
+    "entry": "NONE",
+    "constitutional_applicability": "NOT_ESTABLISHED",
+    "authority_transfer": "NONE",
+    "shared_currentness": "NONE",
+    "automatic_succession": "NONE",
+    "live_chain_binding": "NONE"
+  }
+}

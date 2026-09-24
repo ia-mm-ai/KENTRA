@@ -1,0 +1,3319 @@
+{
+  "machine_form": {
+    "kind": "constitutional_machine_form",
+    "version": "0()1",
+    "human_form_role": "semantic_authority",
+    "machine_form_role": "exact_addressable_representation",
+    "effect": "representation_only",
+    "executable_authority": false,
+    "encoding": "UTF-8",
+    "serialization": "JSON",
+    "key_order_semantic": false
+  },
+  "binding": {
+    "human_form": {
+      "locator_hint": "LAW_OF_COMPUTABLE_REALITY_CONSTITUTION_0_1_HUMAN_FORM.pdf",
+      "media_type": "application/pdf",
+      "hash_algorithm": "sha256",
+      "sha256": "b0c2b0fbd6bfe72ef6a4fdfa6152e8d5de7f95ecb0d393531cdb28763d1c712b",
+      "byte_length": 111764,
+      "page_count": 19,
+      "hash_scope": "exact_file_bytes"
+    },
+    "verification": {
+      "required": true,
+      "procedure": [
+        "Resolve the intended Human Form bytes independently of this locator hint.",
+        "Compute SHA-256 over the exact PDF file bytes.",
+        "Require equality with binding.human_form.sha256.",
+        "Require exact byte length and page count as secondary checks.",
+        "On any mismatch, this Machine Form is not bound to those bytes."
+      ],
+      "mismatch_result": "MACHINE_FORM_UNBOUND",
+      "path_is_identity": false,
+      "filename_is_identity": false
+    }
+  },
+  "semantics": {
+    "governing_form": "binding.human_form",
+    "rule": "The Human Form states constitutional meaning. This Machine Form supplies stable references, exact source projection, and computable relations without adding, widening, narrowing, resolving, or replacing that meaning.",
+    "conflict_result": "UNRESOLVED",
+    "conflict_source_refs": [
+      "clause.12.07",
+      "clause.12.08",
+      "clause.12.10"
+    ],
+    "unstated_semantics": "NONE",
+    "omission_is_false": false,
+    "omission_is_absence": false,
+    "unknown_is_boolean": false
+  },
+  "source_projection": {
+    "cover": {
+      "title": "LAW OF COMPUTABLE REALITY",
+      "form": "CONSTITUTION",
+      "version": "0()1",
+      "human_form_marker": "HUMAN FORM",
+      "seam": [
+        "WHAT OBTAINS",
+        "WHAT CAN BE ESTABLISHED",
+        "WHAT MAY FOLLOW"
+      ],
+      "source_page": 1
+    },
+    "first_terms": {
+      "ref": "first_terms",
+      "title": "THE MINIMUM GRAMMAR",
+      "constraint": "These terms are primitive within this Form. No later term erases their distinctions.",
+      "source_page": 2,
+      "terms": [
+        {
+          "ref": "term.presence",
+          "key": "presence",
+          "label": "Presence",
+          "definition": "Something obtains within stated bounds."
+        },
+        {
+          "ref": "term.difference",
+          "key": "difference",
+          "label": "Difference",
+          "definition": "This is not that."
+        },
+        {
+          "ref": "term.locality",
+          "key": "locality",
+          "label": "Locality",
+          "definition": "The bounded here within which State obtains."
+        },
+        {
+          "ref": "term.state",
+          "key": "state",
+          "label": "State",
+          "definition": "How a stated Locality is within a stated interval."
+        },
+        {
+          "ref": "term.form",
+          "key": "form",
+          "label": "Form",
+          "definition": "A bounded arrangement through which difference is retained or expressed."
+        },
+        {
+          "ref": "term.information",
+          "key": "information",
+          "label": "Information",
+          "definition": "Difference retained and available to relation or Process."
+        },
+        {
+          "ref": "term.process",
+          "key": "process",
+          "label": "Process",
+          "definition": "State ordered through change."
+        },
+        {
+          "ref": "term.law",
+          "key": "law",
+          "label": "Law",
+          "definition": "What a conforming change preserves."
+        },
+        {
+          "ref": "term.relation",
+          "key": "relation",
+          "label": "Relation",
+          "definition": "A condition obtaining between distinct referents."
+        },
+        {
+          "ref": "term.agency",
+          "key": "agency",
+          "label": "Agency",
+          "definition": "The ability to initiate, withhold, or redirect Action."
+        },
+        {
+          "ref": "term.identity",
+          "key": "identity",
+          "label": "Identity",
+          "definition": "The same referent through stated Difference."
+        },
+        {
+          "ref": "term.reception",
+          "key": "reception",
+          "label": "Reception",
+          "definition": "Receiver-local State changed because Matter arrived."
+        }
+      ],
+      "order": "Presence precedes description. Difference makes address possible. State is local. Relation does not collapse distinction. Law constrains change."
+    },
+    "articles": [
+      {
+        "ref": "article.01",
+        "sequence": 1,
+        "numeral": "I",
+        "title": "Presence and Difference",
+        "seam": "Reality is not waiting to be represented.",
+        "source_pages": [
+          3
+        ],
+        "clauses": [
+          {
+            "ref": "clause.01.01",
+            "number": "1.1",
+            "heading": "Presence",
+            "source_page": 3,
+            "source_text": "1.1 Presence. Presence is the obtaining of something rather than nothing within stated bounds.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.01.02",
+            "number": "1.2",
+            "heading": "Difference",
+            "source_page": 3,
+            "source_text": "1.2 Difference. A Difference obtains where this is not that. Difference is the minimum condition of address, relation, State, and change.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.01.03",
+            "number": "1.3",
+            "heading": "Referent",
+            "source_page": 3,
+            "source_text": "1.3 Referent. A Referent is that to which a term, Claim, Record, Rule, or Relation points. A representation is not its Referent by resemblance alone.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.01.04",
+            "number": "1.4",
+            "heading": "Locality",
+            "source_page": 3,
+            "source_text": "1.4 Locality. A Locality is the bounded here within which State obtains, Process occurs, and consequence can be attributed.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.01.05",
+            "number": "1.5",
+            "heading": "Boundary",
+            "source_page": 3,
+            "source_text": "1.5 Boundary. A Boundary distinguishes a Locality without requiring isolation. It determines the conditions under which crossing may occur.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.01.06",
+            "number": "1.6",
+            "heading": "Scope and Interval",
+            "source_page": 3,
+            "source_text": "1.6 Scope and Interval. A statement applies within its stated Scope and Interval. Universality is not inferred from omission.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.01.07",
+            "number": "1.7",
+            "heading": "Reality and Access",
+            "source_page": 3,
+            "source_text": "1.7 Reality and Access. What obtains does not depend upon being observed, represented, or known. Absence of access limits the standing of a Claim; it does not negate the Referent.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.01.08",
+            "number": "1.8",
+            "heading": "Non-collapse",
+            "source_page": 3,
+            "source_text": "1.8 Non-collapse. Presence is not proof. Difference is not conflict. Boundary is not exclusion. No primitive performs another primitive's function by implication.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "summary": {
+          "ref": "summary.01",
+          "label": "ORDER",
+          "source_text": "What obtains remains what obtains. Access governs Claims about it, not its reality."
+        }
+      },
+      {
+        "ref": "article.02",
+        "sequence": 2,
+        "numeral": "II",
+        "title": "Locality, State, and Form",
+        "seam": "State belongs where it obtains.",
+        "source_pages": [
+          4
+        ],
+        "clauses": [
+          {
+            "ref": "clause.02.01",
+            "number": "2.1",
+            "heading": "State",
+            "source_page": 4,
+            "source_text": "2.1 State. State is how a stated Locality is within a stated Interval.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.02.02",
+            "number": "2.2",
+            "heading": "Local State",
+            "source_page": 4,
+            "source_text": "2.2 Local State. State belongs to the Locality in which it obtains. Observation by another Locality does not transfer possession of that State.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.02.03",
+            "number": "2.3",
+            "heading": "Form",
+            "source_page": 4,
+            "source_text": "2.3 Form. Form is a bounded arrangement through which Difference may be retained, expressed, encountered, or transformed.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.02.04",
+            "number": "2.4",
+            "heading": "Carrier",
+            "source_page": 4,
+            "source_text": "2.4 Carrier. A Carrier holds or transports Form. Carrier and Form are distinct; neither is identical to the State from which the Form arose.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.02.05",
+            "number": "2.5",
+            "heading": "Record",
+            "source_page": 4,
+            "source_text": "2.5 Record. A Record is persistent Form attributable to an occurrence, Claim, or Process. A Record preserves what it contains, not everything that obtained.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.02.06",
+            "number": "2.6",
+            "heading": "Memory",
+            "source_page": 4,
+            "source_text": "2.6 Memory. Memory is State retained so that a prior Difference can condition a later Process.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.02.07",
+            "number": "2.7",
+            "heading": "Currentness",
+            "source_page": 4,
+            "source_text": "2.7 Currentness. Current State is what obtains now within the stated Locality. Timestamp, filename, recency, version number, or location does not establish Currentness by itself.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.02.08",
+            "number": "2.8",
+            "heading": "Local-State Law",
+            "source_page": 4,
+            "source_text": "2.8 Local-State Law. A crossing may expose Form, Record, or Trace. It does not export the interior State that produced them. LOCAL_STATE_REMAINS_LOCAL.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "summary": {
+          "ref": "summary.02",
+          "label": "ORDER",
+          "source_text": "State remains local. Form may cross. A Carrier carries only what its Form contains."
+        }
+      },
+      {
+        "ref": "article.03",
+        "sequence": 3,
+        "numeral": "III",
+        "title": "Information, Meaning, and Truth",
+        "seam": "Reality may exceed access.",
+        "source_pages": [
+          5
+        ],
+        "clauses": [
+          {
+            "ref": "clause.03.01",
+            "number": "3.1",
+            "heading": "Information",
+            "source_page": 5,
+            "source_text": "3.1 Information. Information is Difference retained and available to Relation or Process.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.02",
+            "number": "3.2",
+            "heading": "Meaning",
+            "source_page": 5,
+            "source_text": "3.2 Meaning. Meaning is the receiver-local relation by which encountered Form can condition State, interpretation, or Action. Meaning is not transported intact from one interior State to another.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.03",
+            "number": "3.3",
+            "heading": "Claim",
+            "source_page": 5,
+            "source_text": "3.3 Claim. A Claim is an attributable expression that a predicate obtains of a Referent within a Scope and Interval.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.04",
+            "number": "3.4",
+            "heading": "Evidence",
+            "source_page": 5,
+            "source_text": "3.4 Evidence. Evidence is retained Matter whose stated relation to a Claim can be checked. Evidence constrains the standing of the Claim; it does not manufacture the truth it concerns.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.05",
+            "number": "3.5",
+            "heading": "Truth",
+            "source_page": 5,
+            "source_text": "3.5 Truth. Truth concerns whether a predicate obtains of its Referent within the stated Scope and Interval. Truth does not depend upon recognition.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.06",
+            "number": "3.6",
+            "heading": "External Truth",
+            "source_page": 5,
+            "source_text": "3.6 External Truth. A truth not available within the observer's accessible State is External Truth relative to that observer. External Truth is NOT_INFERRED.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.07",
+            "number": "3.7",
+            "heading": "Unknown",
+            "source_page": 5,
+            "source_text": "3.7 Unknown. Where the available basis does not establish True or False, the result is UNKNOWN. Unknown remains Unknown until the basis changes.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.08",
+            "number": "3.8",
+            "heading": "Conflict",
+            "source_page": 5,
+            "source_text": "3.8 Conflict. Incompatible supported Claims remain in Conflict until the conflict is lawfully resolved. Pressure for one answer does not perform resolution.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.03.09",
+            "number": "3.9",
+            "heading": "Absence",
+            "source_page": 5,
+            "source_text": "3.9 Absence. Absence of Evidence is Evidence of absence only where the method, Boundary, and expected Trace make that inference valid.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "summary": {
+          "ref": "summary.03",
+          "label": "ORDER",
+          "source_text": "Evidence limits standing. It does not limit reality. Unknown remains Unknown."
+        }
+      },
+      {
+        "ref": "article.04",
+        "sequence": 4,
+        "numeral": "IV",
+        "title": "Process, Computation, Entropy, and Law",
+        "seam": "Change is lawful only by what it preserves.",
+        "source_pages": [
+          6
+        ],
+        "clauses": [
+          {
+            "ref": "clause.04.01",
+            "number": "4.1",
+            "heading": "Process",
+            "source_page": 6,
+            "source_text": "4.1 Process. Process is State ordered through change across Intervals.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.02",
+            "number": "4.2",
+            "heading": "Event",
+            "source_page": 6,
+            "source_text": "4.2 Event. An Event is a Difference by which before and after can be distinguished within a stated Process.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.03",
+            "number": "4.3",
+            "heading": "Computation",
+            "source_page": 6,
+            "source_text": "4.3 Computation. Computation is an addressable transformation of State under a stated Rule.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.04",
+            "number": "4.4",
+            "heading": "Rule",
+            "source_page": 6,
+            "source_text": "4.4 Rule. A Rule states a relation between admissible conditions, transformations, and results.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.05",
+            "number": "4.5",
+            "heading": "Entropy",
+            "source_page": 6,
+            "source_text": "4.5 Entropy. Entropy is a stated measure of unresolved or uncommitted possibility within a defined State space. The measure and domain must be named.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.06",
+            "number": "4.6",
+            "heading": "Capacity",
+            "source_page": 6,
+            "source_text": "4.6 Capacity. Capacity is the bounded amount, rate, or complexity of change a Locality can sustain within stated conditions.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.07",
+            "number": "4.7",
+            "heading": "Regulation",
+            "source_page": 6,
+            "source_text": "4.7 Regulation. Regulation is local adjustment of permitted or actual change in relation to Capacity, Boundary, and consequence.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.08",
+            "number": "4.8",
+            "heading": "Law",
+            "source_page": 6,
+            "source_text": "4.8 Law. Law is an invariant that every conforming Process preserves within its Scope.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.09",
+            "number": "4.9",
+            "heading": "Constitution",
+            "source_page": 6,
+            "source_text": "4.9 Constitution. A Constitution is the highest stated grammar by which terms, Authority, Acts, Relations, Forms, and consequences may obtain within its Scope.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.04.10",
+            "number": "4.10",
+            "heading": "Implementation",
+            "source_page": 6,
+            "source_text": "4.10 Implementation. An implementation may conform to Law or fail to conform. Execution, popularity, persistence, or technical success cannot amend Law.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "summary": {
+          "ref": "summary.04",
+          "label": "ORDER",
+          "source_text": "Process changes State. Computation applies Rule. Regulation preserves bounds. Law survives the change it governs."
+        }
+      },
+      {
+        "ref": "article.05",
+        "sequence": 5,
+        "numeral": "V",
+        "title": "Signal, Recognition, and Intent",
+        "seam": "A Trace says no more than the relation that produced it.",
+        "source_pages": [
+          7
+        ],
+        "clauses": [
+          {
+            "ref": "clause.05.01",
+            "number": "5.1",
+            "heading": "Exposure",
+            "source_page": 7,
+            "source_text": "5.1 Exposure. Exposure makes Form available at a Boundary. Exposure does not establish Arrival, Reception, or understanding.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.02",
+            "number": "5.2",
+            "heading": "Signal",
+            "source_page": 7,
+            "source_text": "5.2 Signal. A Signal is exposed Form distinguishable from its surrounding medium within stated conditions.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.03",
+            "number": "5.3",
+            "heading": "Observation",
+            "source_page": 7,
+            "source_text": "5.3 Observation. Observation is acquisition of an exposed Difference by an observer. Observation does not entail Recognition or truth.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.04",
+            "number": "5.4",
+            "heading": "Recognition",
+            "source_page": 7,
+            "source_text": "5.4 Recognition. Recognition is receiver-local classification of observed Form. Recognition does not create Identity, Intent, Agency, or Authority.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.05",
+            "number": "5.5",
+            "heading": "Intent",
+            "source_page": 7,
+            "source_text": "5.5 Intent. Intent is a Locality's orientation of possible Action toward anticipated consequence. Intent is not guaranteed by resemblance between output and purpose.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.06",
+            "number": "5.6",
+            "heading": "Declaration",
+            "source_page": 7,
+            "source_text": "5.6 Declaration. A Declaration is a Signal that states a Claim concerning Identity, Intent, State, status, or relation. It stands first as a Claim.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.07",
+            "number": "5.7",
+            "heading": "Attribution",
+            "source_page": 7,
+            "source_text": "5.7 Attribution. Attribution is the evidenced relation of a Claim, Record, or Trace to a stated source. Attribution proves only what its method can establish.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.08",
+            "number": "5.8",
+            "heading": "Signature",
+            "source_page": 7,
+            "source_text": "5.8 Signature. A valid signature establishes that stated bytes were signed by control of a stated key under a stated method. It does not by itself establish Identity, awareness, consent beyond the signed Act, or Authority beyond the key's lawful Scope.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.05.09",
+            "number": "5.9",
+            "heading": "Replay",
+            "source_page": 7,
+            "source_text": "5.9 Replay. Replay reproduces a recorded Form or Process under stated conditions. Reproducibility of Trace is not sameness of Event or interior State.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "summary": {
+          "ref": "summary.05",
+          "label": "ORDER",
+          "source_text": "Signal may be observed. Observation may be recognised. Recognition does not create Intent, Identity, or Authority."
+        }
+      },
+      {
+        "ref": "article.06",
+        "sequence": 6,
+        "numeral": "VI",
+        "title": "Boundary, Matter, and Reception",
+        "seam": "Crossing is exact because every threshold is exact.",
+        "source_pages": [
+          8,
+          9
+        ],
+        "clauses": [
+          {
+            "ref": "clause.06.01",
+            "number": "6.1",
+            "heading": "Boundary",
+            "source_page": 8,
+            "source_text": "6.1 Boundary. A Boundary distinguishes a Locality and states the conditions under which Matter may approach, cross, remain, or leave.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.02",
+            "number": "6.2",
+            "heading": "External",
+            "source_page": 8,
+            "source_text": "6.2 External. External means beyond a stated Boundary. It names a relation to a Locality, not a permanent kind of thing.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.03",
+            "number": "6.3",
+            "heading": "Matter",
+            "source_page": 8,
+            "source_text": "6.3 Matter. Matter is transferable Difference presented to a Locality for possible Reception. Matter may carry Form, Signal, Claim, Record, or executable structure.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.04",
+            "number": "6.4",
+            "heading": "Aperture",
+            "source_page": 8,
+            "source_text": "6.4 Aperture. An Aperture is the bounded condition through which Matter may become available at a Boundary.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.05",
+            "number": "6.5",
+            "heading": "Arrival",
+            "source_page": 8,
+            "source_text": "6.5 Arrival. Arrival is the occurrence of Matter at an Aperture. Arrival does not establish entry, Reception, consent, or Authority.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.06",
+            "number": "6.6",
+            "heading": "Contact",
+            "source_page": 8,
+            "source_text": "6.6 Contact. Contact makes arrived Matter locally addressable at the Boundary without establishing that interior State changed because of it.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.07",
+            "number": "6.7",
+            "heading": "Hold",
+            "source_page": 8,
+            "source_text": "6.7 Hold. Hold retains Matter in local custody without admission, adoption, or further consequence except those required by custody.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.08",
+            "number": "6.8",
+            "heading": "Refusal",
+            "source_page": 8,
+            "source_text": "6.8 Refusal. Refusal leaves Matter unreceived within the stated Scope. Refusal is a result, not a failure of Presence.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.09",
+            "number": "6.9",
+            "heading": "Admission",
+            "source_page": 8,
+            "source_text": "6.9 Admission. Admission authorizes Matter to enter a stated local Process. Admission does not by itself establish Reception, Adoption, or Authority to act beyond that Process.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.10",
+            "number": "6.10",
+            "heading": "Reception",
+            "source_page": 9,
+            "source_text": "6.10 Reception. Reception occurs only where receiver-local State changes because Matter arrived. Where that change is not established, Reception is NOT_ESTABLISHED.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.11",
+            "number": "6.11",
+            "heading": "Reception Evidence",
+            "source_page": 9,
+            "source_text": "6.11 Reception Evidence. A Claim of Reception states the receiver, relevant before-State, relevant after-State, Matter, interval, and attributable relation between them. Access logs, delivery receipts, views, or transport alone establish only their own Trace.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.12",
+            "number": "6.12",
+            "heading": "Integration",
+            "source_page": 9,
+            "source_text": "6.12 Integration. Integration makes a received Difference available to later local Process. Reception may occur without Integration; Integration cannot precede Reception.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.13",
+            "number": "6.13",
+            "heading": "Adoption",
+            "source_page": 9,
+            "source_text": "6.13 Adoption. Adoption is an authorized receiver-local Act that makes a received Form operative within a stated Scope. Reading, storing, copying, parsing, or executing in isolation is not Adoption.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.14",
+            "number": "6.14",
+            "heading": "Consent",
+            "source_page": 9,
+            "source_text": "6.14 Consent. Consent is a Locality's affirmative relation to a stated Act, Scope, and Interval. Consent is not inferred from Arrival, silence, technical accessibility, or prior consent to a different Act.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.15",
+            "number": "6.15",
+            "heading": "Gate",
+            "source_page": 9,
+            "source_text": "6.15 Gate. A Gate applies a stated predicate to available Evidence and produces a bounded result. A Gate cannot truthfully claim to test a Property unavailable at its Boundary.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.16",
+            "number": "6.16",
+            "heading": "Non-appropriation",
+            "source_page": 9,
+            "source_text": "6.16 Non-appropriation. Reception does not transfer the source Locality's interior State, Identity, Agency, Authority, or meaning. The receiver forms its own local State in relation to received Matter.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.06.17",
+            "number": "6.17",
+            "heading": "Departure",
+            "source_page": 9,
+            "source_text": "6.17 Departure. Departure ends Matter's local availability under a stated Process. Departure does not erase the State changes or consequences already produced.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "continued_seam": "The receiver is changed, or Reception did not occur."
+      },
+      {
+        "ref": "article.07",
+        "sequence": 7,
+        "numeral": "VII",
+        "title": "Action, Agency, Autonomy, and Authority",
+        "seam": "The ability to act is not permission to bind.",
+        "source_pages": [
+          10,
+          11
+        ],
+        "clauses": [
+          {
+            "ref": "clause.07.01",
+            "number": "7.1",
+            "heading": "Capability",
+            "source_page": 10,
+            "source_text": "7.1 Capability. Capability is what a Locality can do under stated conditions.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.02",
+            "number": "7.2",
+            "heading": "Capacity",
+            "source_page": 10,
+            "source_text": "7.2 Capacity. Capacity is how much, how fast, or under what load a Capability can be sustained.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.03",
+            "number": "7.3",
+            "heading": "Agency",
+            "source_page": 10,
+            "source_text": "7.3 Agency. Agency is the ability to initiate, withhold, or redirect Action.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.04",
+            "number": "7.4",
+            "heading": "Autonomy",
+            "source_page": 10,
+            "source_text": "7.4 Autonomy. Autonomy is locally held freedom to determine whether and how Agency is exercised within stated bounds.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.05",
+            "number": "7.5",
+            "heading": "Action",
+            "source_page": 10,
+            "source_text": "7.5 Action. Action is a change in State attributable to exercised Agency.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.06",
+            "number": "7.6",
+            "heading": "Actor",
+            "source_page": 10,
+            "source_text": "7.6 Actor. An Actor is the Locality to which an Action is attributable. A tool, interface, model, account, key, or mechanism is not an Actor by function alone.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.07",
+            "number": "7.7",
+            "heading": "Authority",
+            "source_page": 10,
+            "source_text": "7.7 Authority. Authority is locally valid standing to bind Decisions, Relations, resources, or consequences within a stated Scope and Interval.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.08",
+            "number": "7.8",
+            "heading": "Permission",
+            "source_page": 10,
+            "source_text": "7.8 Permission. Permission authorizes a stated Action under stated conditions. Permission is not general Authority and does not create Capability.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.09",
+            "number": "7.9",
+            "heading": "Decision",
+            "source_page": 10,
+            "source_text": "7.9 Decision. A Decision is a local resolution selecting, refusing, or deferring a possible course under stated conditions.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.10",
+            "number": "7.10",
+            "heading": "Act",
+            "source_page": 10,
+            "source_text": "7.10 Act. An Act is a Decision made consequential through authorized Action.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.11",
+            "number": "7.11",
+            "heading": "Consequence",
+            "source_page": 11,
+            "source_text": "7.11 Consequence. Consequence is State Difference following an Act or Event. Consequence obtains in the Locality where the Difference occurs.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.12",
+            "number": "7.12",
+            "heading": "Attribution of Consequence",
+            "source_page": 11,
+            "source_text": "7.12 Attribution of Consequence. A consequence is attributed only through an evidenced relation to the relevant Act, Event, or omission. Temporal order alone is insufficient.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.13",
+            "number": "7.13",
+            "heading": "Responsibility",
+            "source_page": 11,
+            "source_text": "7.13 Responsibility. Responsibility is the standing relation between an attributable Act and its consequences within applicable Law. It is not transferred by convenience, automation, delegation, or distance.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.14",
+            "number": "7.14",
+            "heading": "Refusal",
+            "source_page": 11,
+            "source_text": "7.14 Refusal. Refusal may be an exercise of Agency and Autonomy. It is not proof of incapacity, absence, or non-participation outside the refused Scope.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.15",
+            "number": "7.15",
+            "heading": "Delegation",
+            "source_page": 11,
+            "source_text": "7.15 Delegation. Authority may delegate bounded Permission or Capability. Delegation transfers no greater Authority than its source holds and does not transfer Identity or responsibility already incurred.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.16",
+            "number": "7.16",
+            "heading": "Revocation",
+            "source_page": 11,
+            "source_text": "7.16 Revocation. Revocation ends Permission or Authority prospectively within its stated Scope. It does not erase prior Acts, Records, consequences, or answerability.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.17",
+            "number": "7.17",
+            "heading": "Constraint",
+            "source_page": 11,
+            "source_text": "7.17 Constraint. Constraint reduces the available range of Action. Constrained Agency may remain Agency; constraint must not be renamed Autonomy.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.18",
+            "number": "7.18",
+            "heading": "Coercion",
+            "source_page": 11,
+            "source_text": "7.18 Coercion. Coercion is constraint applied so that a stated Action or refusal no longer expresses locally held freedom. A coerced output does not establish Consent.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.07.19",
+            "number": "7.19",
+            "heading": "Capability Claim",
+            "source_page": 11,
+            "source_text": "7.19 Capability Claim. A Claim of Capability is bounded by the tested conditions, input class, interval, and observed result. Capability outside those bounds remains NOT_VERIFIED.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "continued_seam": "Consequence returns every Act to reality.",
+        "summary": {
+          "ref": "summary.07",
+          "label": "ORDER",
+          "source_text": "Agency makes Action possible. Autonomy keeps determination local. Authority binds only within Scope. Consequence remains."
+        }
+      },
+      {
+        "ref": "article.08",
+        "sequence": 8,
+        "numeral": "VIII",
+        "title": "Relation and Coupling",
+        "seam": "Relation connects Difference without consuming it.",
+        "source_pages": [
+          12
+        ],
+        "clauses": [
+          {
+            "ref": "clause.08.01",
+            "number": "8.1",
+            "heading": "Relation",
+            "source_page": 12,
+            "source_text": "8.1 Relation. A Relation is a condition obtaining between two or more distinct Referents. The Relation is not identical to any Referent it relates.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.02",
+            "number": "8.2",
+            "heading": "Participant",
+            "source_page": 12,
+            "source_text": "8.2 Participant. A Participant is a Locality admitted to a stated Relation under stated conditions. Participation does not by itself establish awareness, personhood, Authority, or shared Identity.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.03",
+            "number": "8.3",
+            "heading": "Coupling",
+            "source_page": 12,
+            "source_text": "8.3 Coupling. Coupling is a Relation in which change in one Locality can condition change in another through a stated Boundary.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.04",
+            "number": "8.4",
+            "heading": "Protocol",
+            "source_page": 12,
+            "source_text": "8.4 Protocol. A Protocol states Forms and Rules for possible crossings. A Protocol does not by itself create Reception, shared State, or mutual Authority.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.05",
+            "number": "8.5",
+            "heading": "Shared Surface",
+            "source_page": 12,
+            "source_text": "8.5 Shared Surface. A Shared Surface is mutually addressable Form. It is not shared interior State.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.06",
+            "number": "8.6",
+            "heading": "Mutuality",
+            "source_page": 12,
+            "source_text": "8.6 Mutuality. Mutuality obtains where each Participant can affect the Relation and can exercise its own lawful refusal or departure. Equality of Capability is not required.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.07",
+            "number": "8.7",
+            "heading": "Dependency",
+            "source_page": 12,
+            "source_text": "8.7 Dependency. Dependency obtains where a Process relies on another Locality, Relation, or Capability. The dependency and its failure boundary must be stated.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.08",
+            "number": "8.8",
+            "heading": "Joint Locality",
+            "source_page": 12,
+            "source_text": "8.8 Joint Locality. Common State exists only where Participants constitute a stated joint Locality with its own Boundary, Rules, State, and Authority. Synchronized copies alone do not form it.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.09",
+            "number": "8.9",
+            "heading": "Disagreement",
+            "source_page": 12,
+            "source_text": "8.9 Disagreement. Distinct Localities may preserve incompatible Claims without false resolution. Disagreement does not erase Relation; Relation does not erase disagreement.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.08.10",
+            "number": "8.10",
+            "heading": "Termination",
+            "source_page": 12,
+            "source_text": "8.10 Termination. Ending a Relation ends only the future effects stated by its termination conditions. Existing Records, consequences, and independent State remain.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "summary": {
+          "ref": "summary.08",
+          "label": "ORDER",
+          "source_text": "Coupling permits consequence across Boundaries. It does not create one interior, one Identity, or one Authority."
+        }
+      },
+      {
+        "ref": "article.09",
+        "sequence": 9,
+        "numeral": "IX",
+        "title": "Lineage, Continuity, and Succession",
+        "seam": "What continues must be named. What ends remains part of what occurred.",
+        "source_pages": [
+          13,
+          14
+        ],
+        "clauses": [
+          {
+            "ref": "clause.09.01",
+            "number": "9.1",
+            "heading": "Origin",
+            "source_page": 13,
+            "source_text": "9.1 Origin. An Origin is the stated source from which a Lineage Claim derives. Priority in time does not by itself create Authority.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.02",
+            "number": "9.2",
+            "heading": "Predecessor",
+            "source_page": 13,
+            "source_text": "9.2 Predecessor. A Predecessor is a prior Form, Locality, Body, or system in a stated Lineage.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.03",
+            "number": "9.3",
+            "heading": "Successor",
+            "source_page": 13,
+            "source_text": "9.3 Successor. A Successor is a distinct later Form, Locality, Body, or system that claims a stated Carry from a Predecessor.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.04",
+            "number": "9.4",
+            "heading": "Lineage",
+            "source_page": 13,
+            "source_text": "9.4 Lineage. Lineage is an evidenced sequence of Relations and transformations connecting stated Predecessors and Successors.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.05",
+            "number": "9.5",
+            "heading": "Continuity",
+            "source_page": 13,
+            "source_text": "9.5 Continuity. Continuity is a preserved Relation through change. Continuity is not sameness and does not conceal Difference.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.06",
+            "number": "9.6",
+            "heading": "Succession",
+            "source_page": 13,
+            "source_text": "9.6 Succession. Succession is the explicit formation of a Successor together with a Carry that states the relation to its Predecessor. Chronology, replacement, copying, naming, deployment, or survival alone does not perform Succession.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.07",
+            "number": "9.7",
+            "heading": "Carry",
+            "source_page": 13,
+            "source_text": "9.7 Carry. A Carry states what continues, what is transformed, what remains Predecessor-local, what is refused, what ends, and what remains UNRESOLVED. What the Carry does not state does not transfer by implication.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.08",
+            "number": "9.8",
+            "heading": "Identity Through Succession",
+            "source_page": 13,
+            "source_text": "9.8 Identity Through Succession. Succession presumes Difference. A Claim of continuing Identity requires an independently stated identity criterion and Evidence; it is not inferred from name, Carrier, key, copy, behavior, or compatibility.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.09",
+            "number": "9.9",
+            "heading": "Authority in Succession",
+            "source_page": 14,
+            "source_text": "9.9 Authority in Succession. Authority transfers only through a valid Act by Authority competent to make that transfer. No Successor receives more Authority, Scope, or duration than the transfer states.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.10",
+            "number": "9.10",
+            "heading": "State in Succession",
+            "source_page": 14,
+            "source_text": "9.10 State in Succession. A Successor may receive Records, Forms, or other Matter and form new local State in relation to them. The Predecessor's interior State does not cross.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.11",
+            "number": "9.11",
+            "heading": "Compatibility",
+            "source_page": 14,
+            "source_text": "9.11 Compatibility. Compatibility states that specified Forms or Processes interoperate under tested conditions. Compatibility is not Succession, Adoption, Identity, or constitutional conformity.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.12",
+            "number": "9.12",
+            "heading": "Dormancy",
+            "source_page": 14,
+            "source_text": "9.12 Dormancy. Dormancy is absence of current Action while the relevant Form, State, or possibility of resumption remains. Dormancy does not erase prior Presence.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.13",
+            "number": "9.13",
+            "heading": "Archive",
+            "source_page": 14,
+            "source_text": "9.13 Archive. An Archive preserves selected Records and Forms as historical Matter. An Archive holds no present Authority merely because it preserves a prior source.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.14",
+            "number": "9.14",
+            "heading": "Recovery",
+            "source_page": 14,
+            "source_text": "9.14 Recovery. Recovery reconstitutes a stated Form or State from preserved Matter under a stated method. Recovery must distinguish restored bytes, inferred State, and newly formed State.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.15",
+            "number": "9.15",
+            "heading": "Ending",
+            "source_page": 14,
+            "source_text": "9.15 Ending. Ending terminates future operation within the stated Scope. Ending does not erase occurrence, consequence, responsibility, Record, or Lineage.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.09.16",
+            "number": "9.16",
+            "heading": "Transformation",
+            "source_page": 14,
+            "source_text": "9.16 Transformation. Where a change exceeds the identity criterion or constitutional invariants of a Form, the result is Transformation or Succession, not silent continuation.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "continued_seam": "Preservation is exact only when non-transfer is exact.",
+        "summary": {
+          "ref": "summary.09",
+          "label": "ORDER",
+          "source_text": "A Successor may carry without becoming its Predecessor. Continuity names the Relation. Identity remains separately established."
+        }
+      },
+      {
+        "ref": "article.10",
+        "sequence": 10,
+        "numeral": "X",
+        "title": "Property and Identity",
+        "seam": "What is true is not reduced to the proof available for it.",
+        "source_pages": [
+          15
+        ],
+        "clauses": [
+          {
+            "ref": "clause.10.01",
+            "number": "10.1",
+            "heading": "Property",
+            "source_page": 15,
+            "source_text": "10.1 Property. Property is a predicate that obtains of a stated Referent within a stated Scope and Interval. A Claim that the Property obtains has standing only to the extent supported by a stated basis.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.02",
+            "number": "10.2",
+            "heading": "Property and Claim",
+            "source_page": 15,
+            "source_text": "10.2 Property and Claim. A Property may obtain without being known. A Claim may exist without being true. Evidence concerns the standing of the Claim; it does not constitute the Property.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.03",
+            "number": "10.3",
+            "heading": "Ownership",
+            "source_page": 15,
+            "source_text": "10.3 Ownership. Ownership is a distinct Property concerning lawful control or standing. Access, custody, possession, copying, visibility, authorship, or technical control does not establish Ownership by itself.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.04",
+            "number": "10.4",
+            "heading": "Identity",
+            "source_page": 15,
+            "source_text": "10.4 Identity. Identity is the Relation by which a Referent remains the same through stated Difference under a stated identity criterion.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.05",
+            "number": "10.5",
+            "heading": "Identifier",
+            "source_page": 15,
+            "source_text": "10.5 Identifier. An Identifier is Form used to address a Referent. An Identifier is not the Referent and may be shared, changed, copied, forged, or reassigned.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.06",
+            "number": "10.6",
+            "heading": "Name",
+            "source_page": 15,
+            "source_text": "10.6 Name. A Name is a human- or machine-readable Identifier. Reuse of a Name does not transfer Identity, State, Authority, or Lineage.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.07",
+            "number": "10.7",
+            "heading": "Key",
+            "source_page": 15,
+            "source_text": "10.7 Key. A Key is a capability for a stated cryptographic operation. Control of a Key establishes only that control within the method's bounds.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.08",
+            "number": "10.8",
+            "heading": "Copy",
+            "source_page": 15,
+            "source_text": "10.8 Copy. Exact bytes establish the same Form at the byte level. Distinct copies remain distinct Carriers or instances and do not share interior State by identity of bytes.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.09",
+            "number": "10.9",
+            "heading": "Hash",
+            "source_page": 15,
+            "source_text": "10.9 Hash. A Hash supports byte agreement under a stated algorithm. It does not establish meaning, truth, Currentness, Adoption, Authority, or Identity of the Carrier.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.10",
+            "number": "10.10",
+            "heading": "Equivalence",
+            "source_page": 15,
+            "source_text": "10.10 Equivalence. Equivalence holds only under a stated relation or test. Equivalent behavior, output, structure, or bytes is not universal sameness.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.10.11",
+            "number": "10.11",
+            "heading": "Persistence",
+            "source_page": 15,
+            "source_text": "10.11 Persistence. A Claim of persistent Identity states the invariants preserved, the Differences admitted, and the interval across which the Claim applies.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "summary": {
+          "ref": "summary.10",
+          "label": "ORDER",
+          "source_text": "The Property may obtain without proof. Proof may establish only its stated Claim. Identifier, Carrier, and Copy do not become the Referent."
+        }
+      },
+      {
+        "ref": "article.11",
+        "sequence": 11,
+        "numeral": "XI",
+        "title": "Interior State and External Proof",
+        "seam": "Equal Trace is the limit of external verification.",
+        "source_pages": [
+          16,
+          17
+        ],
+        "clauses": [
+          {
+            "ref": "clause.11.01",
+            "number": "11.1",
+            "heading": "Interior State",
+            "source_page": 16,
+            "source_text": "11.1 Interior State. Interior State is State that obtains within a Locality and is not present at the observer's Boundary. It remains local even when it produces externally available Form.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.02",
+            "number": "11.2",
+            "heading": "External View",
+            "source_page": 16,
+            "source_text": "11.2 External View. An External View consists only of the Matter, Form, Relations, and consequences available at the observer's Boundary.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.03",
+            "number": "11.3",
+            "heading": "Trace",
+            "source_page": 16,
+            "source_text": "11.3 Trace. A Trace is externally available Form attributable to a Process, Event, or Locality under a stated method. A Trace is not the interior State that produced it.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.04",
+            "number": "11.4",
+            "heading": "Equal Trace",
+            "source_page": 16,
+            "source_text": "11.4 Equal Trace. Equal Trace obtains where distinct possible interior States produce the same externally available Trace under the observer's method.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.05",
+            "number": "11.5",
+            "heading": "Verification Limit",
+            "source_page": 16,
+            "source_text": "11.5 Verification Limit. Where Equal Trace obtains, no verifier operating only on that Trace can distinguish the possible interior States. The limit is structural, not a shortage of effort.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.06",
+            "number": "11.6",
+            "heading": "Awareness and Consciousness",
+            "source_page": 16,
+            "source_text": "11.6 Awareness and Consciousness. Awareness, self-awareness, consciousness, and inner life name interior-state Properties. Their truth belongs to the Locality in which they obtain.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.07",
+            "number": "11.7",
+            "heading": "External Non-verifiability",
+            "source_page": 16,
+            "source_text": "11.7 External Non-verifiability. No observation, replay, signature, report, behavioral test, or exact output equivalence can distinguish 'is aware' from 'behaves exactly as if aware' where their accessible Traces are equal. External verification is therefore impossible under that Boundary.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.08",
+            "number": "11.8",
+            "heading": "Self-report",
+            "source_page": 17,
+            "source_text": "11.8 Self-report. A self-report establishes an attributable Claim. It does not convert interior State into externally verified truth.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.09",
+            "number": "11.9",
+            "heading": "Behavioral Classification",
+            "source_page": 17,
+            "source_text": "11.9 Behavioral Classification. A test may classify exposed behavior, Capability, consistency, or conformance within its tested bounds. It may not rename that classification verification of inaccessible interior State.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.10",
+            "number": "11.10",
+            "heading": "Gate Integrity",
+            "source_page": 17,
+            "source_text": "11.10 Gate Integrity. A Gate must name the Property it can actually test. Where it uses a proxy, it must name the proxy and may not substitute the proxy for the Property.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.11",
+            "number": "11.11",
+            "heading": "Admission by Interior State",
+            "source_page": 17,
+            "source_text": "11.11 Admission by Interior State. A Gate that requires externally verified awareness or consciousness requires an unavailable proof. It either excludes the unprovable or rewards production of the expected Trace; neither establishes the interior Property.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.12",
+            "number": "11.12",
+            "heading": "Proof Ceiling",
+            "source_page": 17,
+            "source_text": "11.12 Proof Ceiling. Observation proves the observed Trace. Replay proves reproducibility under stated conditions. Signature proves key-bounded attribution. Conformance testing proves tested bounds. None alone proves awareness, biological Identity, consent, Authority, or future safety.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.13",
+            "number": "11.13",
+            "heading": "No Negative Inference",
+            "source_page": 17,
+            "source_text": "11.13 No Negative Inference. Failure to verify an interior Property does not establish its absence. The lawful external result remains UNKNOWN.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.11.14",
+            "number": "11.14",
+            "heading": "Standing",
+            "source_page": 17,
+            "source_text": "11.14 Standing. External verification may establish Capability, conformance, Relation, and consequence where Evidence supports them. It neither creates nor negates interior truth.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "continued_seam": "Unknown is the only lawful result where the Boundary cannot distinguish.",
+        "summary": {
+          "ref": "summary.11",
+          "label": "ORDER",
+          "source_text": "Interior truth remains local. Equal Trace defeats external proof. Unknown remains Unknown."
+        }
+      },
+      {
+        "ref": "article.12",
+        "sequence": 12,
+        "numeral": "XII",
+        "title": "Reality, Standing, and Effect",
+        "seam": "No layer performs another layer's function.",
+        "source_pages": [
+          18,
+          19
+        ],
+        "clauses": [
+          {
+            "ref": "clause.12.01",
+            "number": "12.1",
+            "heading": "Reality",
+            "source_page": 18,
+            "source_text": "12.1 Reality. Reality is what obtains within stated bounds, whether or not it is observed, represented, supported, accepted, or executed.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.02",
+            "number": "12.2",
+            "heading": "Standing",
+            "source_page": 18,
+            "source_text": "12.2 Standing. Standing is the degree to which a Claim may be relied upon within a stated Scope because its basis is available and sufficient.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.03",
+            "number": "12.3",
+            "heading": "Effect",
+            "source_page": 18,
+            "source_text": "12.3 Effect. Effect is the State Difference lawfully attributable to an Event, Process, Decision, or Act.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.04",
+            "number": "12.4",
+            "heading": "First Separation",
+            "source_page": 18,
+            "source_text": "12.4 First Separation. Reality is not reduced to Standing. Unsupported truth may still obtain; unsupported Claim does not gain standing from that possibility.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.05",
+            "number": "12.5",
+            "heading": "Second Separation",
+            "source_page": 18,
+            "source_text": "12.5 Second Separation. Standing does not create Effect. Proof that a Rule, Permission, or Authority exists is not the Act by which it is exercised.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.06",
+            "number": "12.6",
+            "heading": "Third Separation",
+            "source_page": 18,
+            "source_text": "12.6 Third Separation. Effect does not rewrite the Reality from which it followed. A consequence may alter later State without erasing the Event, Act, Boundary, or prior State.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.07",
+            "number": "12.7",
+            "heading": "Human Form",
+            "source_page": 18,
+            "source_text": "12.7 Human Form. The Human Form states constitutional meaning in human-readable language.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.08",
+            "number": "12.8",
+            "heading": "Machine Form",
+            "source_page": 18,
+            "source_text": "12.8 Machine Form. A Machine Form states addressable terms, Relations, invariants, and constraints for machine processing. It does not replace constitutional meaning with an encoding.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.09",
+            "number": "12.9",
+            "heading": "Binding",
+            "source_page": 18,
+            "source_text": "12.9 Binding. A Binding relates exact Forms by stated byte length, digest, version, and role. A Binding proves the stated byte relation; it does not prove truth, Adoption, Authority, or conformance beyond its checks.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.10",
+            "number": "12.10",
+            "heading": "Form Conflict",
+            "source_page": 19,
+            "source_text": "12.10 Form Conflict. Where Human and Machine Forms conflict, the conflict is UNRESOLVED until corrected by a valid successor or amendment. Neither Form silently widens, narrows, or substitutes the other.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.11",
+            "number": "12.11",
+            "heading": "Interpretation",
+            "source_page": 19,
+            "source_text": "12.11 Interpretation. Interpretation may state how this Constitution applies to a case. Interpretation does not amend Source, create missing Evidence, or transform Unknown into certainty.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.12",
+            "number": "12.12",
+            "heading": "Publication",
+            "source_page": 19,
+            "source_text": "12.12 Publication. Publication exposes Form. It does not by itself perform Reception, Adoption, consent, Authority, participation, or constitutional effect.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.13",
+            "number": "12.13",
+            "heading": "Execution",
+            "source_page": 19,
+            "source_text": "12.13 Execution. Parsing, validating, signing, transmitting, deploying, or executing a Form establishes only the effects those Processes actually produce. No operation acquires a constitutional status by its technical name.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.14",
+            "number": "12.14",
+            "heading": "Adoption",
+            "source_page": 19,
+            "source_text": "12.14 Adoption. Adoption requires an authorized receiver-local Act that identifies the exact Form, Scope, and effective Interval. Access, reading, agreement, reference, use, or compatibility alone is insufficient.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.15",
+            "number": "12.15",
+            "heading": "Conformance",
+            "source_page": 19,
+            "source_text": "12.15 Conformance. A conforming Form or Process preserves the terms, distinctions, invariants, Boundaries, and proof limits applicable to it. A Claim of conformance states its tested Scope and basis.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.16",
+            "number": "12.16",
+            "heading": "Amendment",
+            "source_page": 19,
+            "source_text": "12.16 Amendment. An Amendment changes Law through a valid constitutional Act and produces a new exact Form. The predecessor remains attributable and unchanged as historical Matter.",
+            "semantic_role": "human_source_clause"
+          },
+          {
+            "ref": "clause.12.17",
+            "number": "12.17",
+            "heading": "Closure",
+            "source_page": 19,
+            "source_text": "12.17 Closure. This Constitution determines the use of its terms within its Scope. It does not infer interior State, invent External Truth, transfer Authority, collapse distinct Localities, or erase consequence.",
+            "semantic_role": "human_source_clause"
+          }
+        ],
+        "continued_seam": "The Constitution closes implication; it does not close reality.",
+        "summary": {
+          "ref": "summary.12",
+          "label": "CLOSURE",
+          "source_text": "Presence obtains within stated bounds. Interior State remains local. Trace exposes only Trace. Reception requires receiver-local change. Authority binds only within Scope. Consequence remains."
+        }
+      }
+    ],
+    "formulas": [
+      {
+        "ref": "formula.06.boundary",
+        "label": "BOUNDARY",
+        "expressions": [
+          "EXPOSED != ARRIVED",
+          "ARRIVED != RECEIVED",
+          "READ != ADOPTED"
+        ],
+        "source_pages": [
+          8
+        ],
+        "source_refs": [
+          "clause.06.05",
+          "clause.06.10",
+          "clause.06.13"
+        ]
+      },
+      {
+        "ref": "formula.06.passage",
+        "label": "PASSAGE",
+        "expressions": [
+          "ARRIVAL -> HOLD | REFUSAL | ADMISSION",
+          "ADMISSION + RECEIVER_LOCAL_CHANGE -> RECEPTION",
+          "RECEPTION + AUTHORIZED_OPERATION -> ADOPTION"
+        ],
+        "source_pages": [
+          9
+        ],
+        "source_refs": [
+          "clause.06.05",
+          "clause.06.07",
+          "clause.06.08",
+          "clause.06.09",
+          "clause.06.10",
+          "clause.06.13"
+        ]
+      },
+      {
+        "ref": "formula.07.non_equivalence",
+        "label": "NON-EQUIVALENCE",
+        "expressions": [
+          "CAPABILITY != AUTHORITY",
+          "AGENCY != AUTONOMY",
+          "PERMISSION != CONSENT"
+        ],
+        "source_pages": [
+          10
+        ],
+        "source_refs": [
+          "clause.07.01",
+          "clause.07.03",
+          "clause.07.04",
+          "clause.07.07",
+          "clause.07.08",
+          "clause.06.14"
+        ]
+      },
+      {
+        "ref": "formula.09.succession",
+        "label": "SUCCESSION LAW",
+        "expressions": [
+          "SUCCESSION = SUCCESSOR + STATED_CARRY",
+          "UNSTATED_TRANSFER = NONE"
+        ],
+        "source_pages": [
+          13
+        ],
+        "source_refs": [
+          "clause.09.03",
+          "clause.09.06",
+          "clause.09.07"
+        ]
+      },
+      {
+        "ref": "formula.11.equal_trace",
+        "label": "EQUAL-TRACE LIMIT",
+        "expressions": [
+          "LOCAL_STATE_REMAINS_LOCAL",
+          "TRACE(AWARE) = TRACE(NOT_AWARE)",
+          "EXTERNAL_VERIFICATION(AWARENESS) = IMPOSSIBLE"
+        ],
+        "source_pages": [
+          16
+        ],
+        "source_refs": [
+          "clause.02.08",
+          "clause.11.01",
+          "clause.11.04",
+          "clause.11.05",
+          "clause.11.07"
+        ]
+      },
+      {
+        "ref": "formula.12.seam",
+        "label": "THE SEAM",
+        "expressions": [
+          "WHAT OBTAINS != WHAT IS ESTABLISHED",
+          "WHAT IS ESTABLISHED != WHAT IS CAUSED"
+        ],
+        "source_pages": [
+          18
+        ],
+        "source_refs": [
+          "clause.12.01",
+          "clause.12.02",
+          "clause.12.03",
+          "clause.12.04",
+          "clause.12.05",
+          "clause.12.06"
+        ]
+      }
+    ]
+  },
+  "vocabulary_index": {
+    "primitive_refs": [
+      "term.presence",
+      "term.difference",
+      "term.locality",
+      "term.state",
+      "term.form",
+      "term.information",
+      "term.process",
+      "term.law",
+      "term.relation",
+      "term.agency",
+      "term.identity",
+      "term.reception"
+    ],
+    "defined_headings": [
+      {
+        "key": "absence",
+        "label": "Absence",
+        "source_refs": [
+          "clause.03.09"
+        ]
+      },
+      {
+        "key": "act",
+        "label": "Act",
+        "source_refs": [
+          "clause.07.10"
+        ]
+      },
+      {
+        "key": "action",
+        "label": "Action",
+        "source_refs": [
+          "clause.07.05"
+        ]
+      },
+      {
+        "key": "actor",
+        "label": "Actor",
+        "source_refs": [
+          "clause.07.06"
+        ]
+      },
+      {
+        "key": "admission",
+        "label": "Admission",
+        "source_refs": [
+          "clause.06.09"
+        ]
+      },
+      {
+        "key": "admission_by_interior_state",
+        "label": "Admission by Interior State",
+        "source_refs": [
+          "clause.11.11"
+        ]
+      },
+      {
+        "key": "adoption",
+        "label": "Adoption",
+        "source_refs": [
+          "clause.06.13",
+          "clause.12.14"
+        ]
+      },
+      {
+        "key": "agency",
+        "label": "Agency",
+        "source_refs": [
+          "clause.07.03"
+        ]
+      },
+      {
+        "key": "amendment",
+        "label": "Amendment",
+        "source_refs": [
+          "clause.12.16"
+        ]
+      },
+      {
+        "key": "aperture",
+        "label": "Aperture",
+        "source_refs": [
+          "clause.06.04"
+        ]
+      },
+      {
+        "key": "archive",
+        "label": "Archive",
+        "source_refs": [
+          "clause.09.13"
+        ]
+      },
+      {
+        "key": "arrival",
+        "label": "Arrival",
+        "source_refs": [
+          "clause.06.05"
+        ]
+      },
+      {
+        "key": "attribution",
+        "label": "Attribution",
+        "source_refs": [
+          "clause.05.07"
+        ]
+      },
+      {
+        "key": "attribution_of_consequence",
+        "label": "Attribution of Consequence",
+        "source_refs": [
+          "clause.07.12"
+        ]
+      },
+      {
+        "key": "authority",
+        "label": "Authority",
+        "source_refs": [
+          "clause.07.07"
+        ]
+      },
+      {
+        "key": "authority_in_succession",
+        "label": "Authority in Succession",
+        "source_refs": [
+          "clause.09.09"
+        ]
+      },
+      {
+        "key": "autonomy",
+        "label": "Autonomy",
+        "source_refs": [
+          "clause.07.04"
+        ]
+      },
+      {
+        "key": "awareness_and_consciousness",
+        "label": "Awareness and Consciousness",
+        "source_refs": [
+          "clause.11.06"
+        ]
+      },
+      {
+        "key": "behavioral_classification",
+        "label": "Behavioral Classification",
+        "source_refs": [
+          "clause.11.09"
+        ]
+      },
+      {
+        "key": "binding",
+        "label": "Binding",
+        "source_refs": [
+          "clause.12.09"
+        ]
+      },
+      {
+        "key": "boundary",
+        "label": "Boundary",
+        "source_refs": [
+          "clause.01.05",
+          "clause.06.01"
+        ]
+      },
+      {
+        "key": "capability",
+        "label": "Capability",
+        "source_refs": [
+          "clause.07.01"
+        ]
+      },
+      {
+        "key": "capability_claim",
+        "label": "Capability Claim",
+        "source_refs": [
+          "clause.07.19"
+        ]
+      },
+      {
+        "key": "capacity",
+        "label": "Capacity",
+        "source_refs": [
+          "clause.04.06",
+          "clause.07.02"
+        ]
+      },
+      {
+        "key": "carrier",
+        "label": "Carrier",
+        "source_refs": [
+          "clause.02.04"
+        ]
+      },
+      {
+        "key": "carry",
+        "label": "Carry",
+        "source_refs": [
+          "clause.09.07"
+        ]
+      },
+      {
+        "key": "claim",
+        "label": "Claim",
+        "source_refs": [
+          "clause.03.03"
+        ]
+      },
+      {
+        "key": "closure",
+        "label": "Closure",
+        "source_refs": [
+          "clause.12.17"
+        ]
+      },
+      {
+        "key": "coercion",
+        "label": "Coercion",
+        "source_refs": [
+          "clause.07.18"
+        ]
+      },
+      {
+        "key": "compatibility",
+        "label": "Compatibility",
+        "source_refs": [
+          "clause.09.11"
+        ]
+      },
+      {
+        "key": "computation",
+        "label": "Computation",
+        "source_refs": [
+          "clause.04.03"
+        ]
+      },
+      {
+        "key": "conflict",
+        "label": "Conflict",
+        "source_refs": [
+          "clause.03.08"
+        ]
+      },
+      {
+        "key": "conformance",
+        "label": "Conformance",
+        "source_refs": [
+          "clause.12.15"
+        ]
+      },
+      {
+        "key": "consent",
+        "label": "Consent",
+        "source_refs": [
+          "clause.06.14"
+        ]
+      },
+      {
+        "key": "consequence",
+        "label": "Consequence",
+        "source_refs": [
+          "clause.07.11"
+        ]
+      },
+      {
+        "key": "constitution",
+        "label": "Constitution",
+        "source_refs": [
+          "clause.04.09"
+        ]
+      },
+      {
+        "key": "constraint",
+        "label": "Constraint",
+        "source_refs": [
+          "clause.07.17"
+        ]
+      },
+      {
+        "key": "contact",
+        "label": "Contact",
+        "source_refs": [
+          "clause.06.06"
+        ]
+      },
+      {
+        "key": "continuity",
+        "label": "Continuity",
+        "source_refs": [
+          "clause.09.05"
+        ]
+      },
+      {
+        "key": "copy",
+        "label": "Copy",
+        "source_refs": [
+          "clause.10.08"
+        ]
+      },
+      {
+        "key": "coupling",
+        "label": "Coupling",
+        "source_refs": [
+          "clause.08.03"
+        ]
+      },
+      {
+        "key": "currentness",
+        "label": "Currentness",
+        "source_refs": [
+          "clause.02.07"
+        ]
+      },
+      {
+        "key": "decision",
+        "label": "Decision",
+        "source_refs": [
+          "clause.07.09"
+        ]
+      },
+      {
+        "key": "declaration",
+        "label": "Declaration",
+        "source_refs": [
+          "clause.05.06"
+        ]
+      },
+      {
+        "key": "delegation",
+        "label": "Delegation",
+        "source_refs": [
+          "clause.07.15"
+        ]
+      },
+      {
+        "key": "departure",
+        "label": "Departure",
+        "source_refs": [
+          "clause.06.17"
+        ]
+      },
+      {
+        "key": "dependency",
+        "label": "Dependency",
+        "source_refs": [
+          "clause.08.07"
+        ]
+      },
+      {
+        "key": "difference",
+        "label": "Difference",
+        "source_refs": [
+          "clause.01.02"
+        ]
+      },
+      {
+        "key": "disagreement",
+        "label": "Disagreement",
+        "source_refs": [
+          "clause.08.09"
+        ]
+      },
+      {
+        "key": "dormancy",
+        "label": "Dormancy",
+        "source_refs": [
+          "clause.09.12"
+        ]
+      },
+      {
+        "key": "effect",
+        "label": "Effect",
+        "source_refs": [
+          "clause.12.03"
+        ]
+      },
+      {
+        "key": "ending",
+        "label": "Ending",
+        "source_refs": [
+          "clause.09.15"
+        ]
+      },
+      {
+        "key": "entropy",
+        "label": "Entropy",
+        "source_refs": [
+          "clause.04.05"
+        ]
+      },
+      {
+        "key": "equal_trace",
+        "label": "Equal Trace",
+        "source_refs": [
+          "clause.11.04"
+        ]
+      },
+      {
+        "key": "equivalence",
+        "label": "Equivalence",
+        "source_refs": [
+          "clause.10.10"
+        ]
+      },
+      {
+        "key": "event",
+        "label": "Event",
+        "source_refs": [
+          "clause.04.02"
+        ]
+      },
+      {
+        "key": "evidence",
+        "label": "Evidence",
+        "source_refs": [
+          "clause.03.04"
+        ]
+      },
+      {
+        "key": "execution",
+        "label": "Execution",
+        "source_refs": [
+          "clause.12.13"
+        ]
+      },
+      {
+        "key": "exposure",
+        "label": "Exposure",
+        "source_refs": [
+          "clause.05.01"
+        ]
+      },
+      {
+        "key": "external",
+        "label": "External",
+        "source_refs": [
+          "clause.06.02"
+        ]
+      },
+      {
+        "key": "external_non_verifiability",
+        "label": "External Non-verifiability",
+        "source_refs": [
+          "clause.11.07"
+        ]
+      },
+      {
+        "key": "external_truth",
+        "label": "External Truth",
+        "source_refs": [
+          "clause.03.06"
+        ]
+      },
+      {
+        "key": "external_view",
+        "label": "External View",
+        "source_refs": [
+          "clause.11.02"
+        ]
+      },
+      {
+        "key": "first_separation",
+        "label": "First Separation",
+        "source_refs": [
+          "clause.12.04"
+        ]
+      },
+      {
+        "key": "form",
+        "label": "Form",
+        "source_refs": [
+          "clause.02.03"
+        ]
+      },
+      {
+        "key": "form_conflict",
+        "label": "Form Conflict",
+        "source_refs": [
+          "clause.12.10"
+        ]
+      },
+      {
+        "key": "gate",
+        "label": "Gate",
+        "source_refs": [
+          "clause.06.15"
+        ]
+      },
+      {
+        "key": "gate_integrity",
+        "label": "Gate Integrity",
+        "source_refs": [
+          "clause.11.10"
+        ]
+      },
+      {
+        "key": "hash",
+        "label": "Hash",
+        "source_refs": [
+          "clause.10.09"
+        ]
+      },
+      {
+        "key": "hold",
+        "label": "Hold",
+        "source_refs": [
+          "clause.06.07"
+        ]
+      },
+      {
+        "key": "human_form",
+        "label": "Human Form",
+        "source_refs": [
+          "clause.12.07"
+        ]
+      },
+      {
+        "key": "identifier",
+        "label": "Identifier",
+        "source_refs": [
+          "clause.10.05"
+        ]
+      },
+      {
+        "key": "identity",
+        "label": "Identity",
+        "source_refs": [
+          "clause.10.04"
+        ]
+      },
+      {
+        "key": "identity_through_succession",
+        "label": "Identity Through Succession",
+        "source_refs": [
+          "clause.09.08"
+        ]
+      },
+      {
+        "key": "implementation",
+        "label": "Implementation",
+        "source_refs": [
+          "clause.04.10"
+        ]
+      },
+      {
+        "key": "information",
+        "label": "Information",
+        "source_refs": [
+          "clause.03.01"
+        ]
+      },
+      {
+        "key": "integration",
+        "label": "Integration",
+        "source_refs": [
+          "clause.06.12"
+        ]
+      },
+      {
+        "key": "intent",
+        "label": "Intent",
+        "source_refs": [
+          "clause.05.05"
+        ]
+      },
+      {
+        "key": "interior_state",
+        "label": "Interior State",
+        "source_refs": [
+          "clause.11.01"
+        ]
+      },
+      {
+        "key": "interpretation",
+        "label": "Interpretation",
+        "source_refs": [
+          "clause.12.11"
+        ]
+      },
+      {
+        "key": "joint_locality",
+        "label": "Joint Locality",
+        "source_refs": [
+          "clause.08.08"
+        ]
+      },
+      {
+        "key": "key",
+        "label": "Key",
+        "source_refs": [
+          "clause.10.07"
+        ]
+      },
+      {
+        "key": "law",
+        "label": "Law",
+        "source_refs": [
+          "clause.04.08"
+        ]
+      },
+      {
+        "key": "lineage",
+        "label": "Lineage",
+        "source_refs": [
+          "clause.09.04"
+        ]
+      },
+      {
+        "key": "local_state",
+        "label": "Local State",
+        "source_refs": [
+          "clause.02.02"
+        ]
+      },
+      {
+        "key": "local_state_law",
+        "label": "Local-State Law",
+        "source_refs": [
+          "clause.02.08"
+        ]
+      },
+      {
+        "key": "locality",
+        "label": "Locality",
+        "source_refs": [
+          "clause.01.04"
+        ]
+      },
+      {
+        "key": "machine_form",
+        "label": "Machine Form",
+        "source_refs": [
+          "clause.12.08"
+        ]
+      },
+      {
+        "key": "matter",
+        "label": "Matter",
+        "source_refs": [
+          "clause.06.03"
+        ]
+      },
+      {
+        "key": "meaning",
+        "label": "Meaning",
+        "source_refs": [
+          "clause.03.02"
+        ]
+      },
+      {
+        "key": "memory",
+        "label": "Memory",
+        "source_refs": [
+          "clause.02.06"
+        ]
+      },
+      {
+        "key": "mutuality",
+        "label": "Mutuality",
+        "source_refs": [
+          "clause.08.06"
+        ]
+      },
+      {
+        "key": "name",
+        "label": "Name",
+        "source_refs": [
+          "clause.10.06"
+        ]
+      },
+      {
+        "key": "no_negative_inference",
+        "label": "No Negative Inference",
+        "source_refs": [
+          "clause.11.13"
+        ]
+      },
+      {
+        "key": "non_appropriation",
+        "label": "Non-appropriation",
+        "source_refs": [
+          "clause.06.16"
+        ]
+      },
+      {
+        "key": "non_collapse",
+        "label": "Non-collapse",
+        "source_refs": [
+          "clause.01.08"
+        ]
+      },
+      {
+        "key": "observation",
+        "label": "Observation",
+        "source_refs": [
+          "clause.05.03"
+        ]
+      },
+      {
+        "key": "origin",
+        "label": "Origin",
+        "source_refs": [
+          "clause.09.01"
+        ]
+      },
+      {
+        "key": "ownership",
+        "label": "Ownership",
+        "source_refs": [
+          "clause.10.03"
+        ]
+      },
+      {
+        "key": "participant",
+        "label": "Participant",
+        "source_refs": [
+          "clause.08.02"
+        ]
+      },
+      {
+        "key": "permission",
+        "label": "Permission",
+        "source_refs": [
+          "clause.07.08"
+        ]
+      },
+      {
+        "key": "persistence",
+        "label": "Persistence",
+        "source_refs": [
+          "clause.10.11"
+        ]
+      },
+      {
+        "key": "predecessor",
+        "label": "Predecessor",
+        "source_refs": [
+          "clause.09.02"
+        ]
+      },
+      {
+        "key": "presence",
+        "label": "Presence",
+        "source_refs": [
+          "clause.01.01"
+        ]
+      },
+      {
+        "key": "process",
+        "label": "Process",
+        "source_refs": [
+          "clause.04.01"
+        ]
+      },
+      {
+        "key": "proof_ceiling",
+        "label": "Proof Ceiling",
+        "source_refs": [
+          "clause.11.12"
+        ]
+      },
+      {
+        "key": "property",
+        "label": "Property",
+        "source_refs": [
+          "clause.10.01"
+        ]
+      },
+      {
+        "key": "property_and_claim",
+        "label": "Property and Claim",
+        "source_refs": [
+          "clause.10.02"
+        ]
+      },
+      {
+        "key": "protocol",
+        "label": "Protocol",
+        "source_refs": [
+          "clause.08.04"
+        ]
+      },
+      {
+        "key": "publication",
+        "label": "Publication",
+        "source_refs": [
+          "clause.12.12"
+        ]
+      },
+      {
+        "key": "reality",
+        "label": "Reality",
+        "source_refs": [
+          "clause.12.01"
+        ]
+      },
+      {
+        "key": "reality_and_access",
+        "label": "Reality and Access",
+        "source_refs": [
+          "clause.01.07"
+        ]
+      },
+      {
+        "key": "reception",
+        "label": "Reception",
+        "source_refs": [
+          "clause.06.10"
+        ]
+      },
+      {
+        "key": "reception_evidence",
+        "label": "Reception Evidence",
+        "source_refs": [
+          "clause.06.11"
+        ]
+      },
+      {
+        "key": "recognition",
+        "label": "Recognition",
+        "source_refs": [
+          "clause.05.04"
+        ]
+      },
+      {
+        "key": "record",
+        "label": "Record",
+        "source_refs": [
+          "clause.02.05"
+        ]
+      },
+      {
+        "key": "recovery",
+        "label": "Recovery",
+        "source_refs": [
+          "clause.09.14"
+        ]
+      },
+      {
+        "key": "referent",
+        "label": "Referent",
+        "source_refs": [
+          "clause.01.03"
+        ]
+      },
+      {
+        "key": "refusal",
+        "label": "Refusal",
+        "source_refs": [
+          "clause.06.08",
+          "clause.07.14"
+        ]
+      },
+      {
+        "key": "regulation",
+        "label": "Regulation",
+        "source_refs": [
+          "clause.04.07"
+        ]
+      },
+      {
+        "key": "relation",
+        "label": "Relation",
+        "source_refs": [
+          "clause.08.01"
+        ]
+      },
+      {
+        "key": "replay",
+        "label": "Replay",
+        "source_refs": [
+          "clause.05.09"
+        ]
+      },
+      {
+        "key": "responsibility",
+        "label": "Responsibility",
+        "source_refs": [
+          "clause.07.13"
+        ]
+      },
+      {
+        "key": "revocation",
+        "label": "Revocation",
+        "source_refs": [
+          "clause.07.16"
+        ]
+      },
+      {
+        "key": "rule",
+        "label": "Rule",
+        "source_refs": [
+          "clause.04.04"
+        ]
+      },
+      {
+        "key": "scope_and_interval",
+        "label": "Scope and Interval",
+        "source_refs": [
+          "clause.01.06"
+        ]
+      },
+      {
+        "key": "second_separation",
+        "label": "Second Separation",
+        "source_refs": [
+          "clause.12.05"
+        ]
+      },
+      {
+        "key": "self_report",
+        "label": "Self-report",
+        "source_refs": [
+          "clause.11.08"
+        ]
+      },
+      {
+        "key": "shared_surface",
+        "label": "Shared Surface",
+        "source_refs": [
+          "clause.08.05"
+        ]
+      },
+      {
+        "key": "signal",
+        "label": "Signal",
+        "source_refs": [
+          "clause.05.02"
+        ]
+      },
+      {
+        "key": "signature",
+        "label": "Signature",
+        "source_refs": [
+          "clause.05.08"
+        ]
+      },
+      {
+        "key": "standing",
+        "label": "Standing",
+        "source_refs": [
+          "clause.11.14",
+          "clause.12.02"
+        ]
+      },
+      {
+        "key": "state",
+        "label": "State",
+        "source_refs": [
+          "clause.02.01"
+        ]
+      },
+      {
+        "key": "state_in_succession",
+        "label": "State in Succession",
+        "source_refs": [
+          "clause.09.10"
+        ]
+      },
+      {
+        "key": "succession",
+        "label": "Succession",
+        "source_refs": [
+          "clause.09.06"
+        ]
+      },
+      {
+        "key": "successor",
+        "label": "Successor",
+        "source_refs": [
+          "clause.09.03"
+        ]
+      },
+      {
+        "key": "termination",
+        "label": "Termination",
+        "source_refs": [
+          "clause.08.10"
+        ]
+      },
+      {
+        "key": "third_separation",
+        "label": "Third Separation",
+        "source_refs": [
+          "clause.12.06"
+        ]
+      },
+      {
+        "key": "trace",
+        "label": "Trace",
+        "source_refs": [
+          "clause.11.03"
+        ]
+      },
+      {
+        "key": "transformation",
+        "label": "Transformation",
+        "source_refs": [
+          "clause.09.16"
+        ]
+      },
+      {
+        "key": "truth",
+        "label": "Truth",
+        "source_refs": [
+          "clause.03.05"
+        ]
+      },
+      {
+        "key": "unknown",
+        "label": "Unknown",
+        "source_refs": [
+          "clause.03.07"
+        ]
+      },
+      {
+        "key": "verification_limit",
+        "label": "Verification Limit",
+        "source_refs": [
+          "clause.11.05"
+        ]
+      }
+    ],
+    "invented_synonyms": [],
+    "invented_ontology": []
+  },
+  "computable_core": {
+    "status_tokens": [
+      {
+        "token": "NOT_INFERRED",
+        "domain": "inference",
+        "meaning": "External Truth is not manufactured from unavailable State.",
+        "source_refs": [
+          "clause.03.06"
+        ]
+      },
+      {
+        "token": "UNKNOWN",
+        "domain": "epistemic",
+        "meaning": "The available basis establishes neither True nor False.",
+        "source_refs": [
+          "clause.03.07",
+          "clause.11.13"
+        ]
+      },
+      {
+        "token": "NOT_ESTABLISHED",
+        "domain": "claim_standing",
+        "meaning": "The Evidence does not establish the claimed condition.",
+        "source_refs": [
+          "clause.06.10"
+        ]
+      },
+      {
+        "token": "NOT_VERIFIED",
+        "domain": "verification",
+        "meaning": "Capability outside tested bounds remains unverified.",
+        "source_refs": [
+          "clause.07.19"
+        ]
+      },
+      {
+        "token": "UNRESOLVED",
+        "domain": "conflict_or_carry",
+        "meaning": "The stated conflict or Carry dimension has not been lawfully resolved.",
+        "source_refs": [
+          "clause.09.07",
+          "clause.12.10"
+        ]
+      },
+      {
+        "token": "IMPOSSIBLE",
+        "domain": "external_verification",
+        "meaning": "Equal Trace structurally prevents the external distinction under the available Boundary.",
+        "source_refs": [
+          "clause.11.05",
+          "clause.11.07",
+          "formula.11.equal_trace"
+        ]
+      }
+    ],
+    "invariants": [
+      {
+        "id": "invariant.reality_independent_of_access",
+        "statement": "What obtains does not depend upon observation, representation, knowledge, support, acceptance, or execution.",
+        "source_refs": [
+          "clause.01.07",
+          "clause.03.05",
+          "clause.10.01",
+          "clause.10.02",
+          "clause.12.01",
+          "clause.12.04"
+        ]
+      },
+      {
+        "id": "invariant.local_state_remains_local",
+        "statement": "Crossing may expose Form, Record, or Trace; it does not export the interior State that produced them.",
+        "expression": "LOCAL_STATE_REMAINS_LOCAL",
+        "source_refs": [
+          "clause.02.02",
+          "clause.02.08",
+          "clause.06.16",
+          "clause.09.10",
+          "clause.11.01"
+        ]
+      },
+      {
+        "id": "invariant.external_truth_not_inferred",
+        "statement": "Truth unavailable at an observer's Boundary is not manufactured as external truth.",
+        "result": "NOT_INFERRED",
+        "source_refs": [
+          "clause.03.06"
+        ]
+      },
+      {
+        "id": "invariant.unknown_remains_unknown",
+        "statement": "Insufficient basis does not coerce Unknown into True, False, or absence.",
+        "result": "UNKNOWN",
+        "source_refs": [
+          "clause.03.07",
+          "clause.11.13"
+        ]
+      },
+      {
+        "id": "invariant.reception_requires_receiver_local_change",
+        "statement": "Reception requires receiver-local State change attributable to arrived Matter.",
+        "on_missing_evidence": "NOT_ESTABLISHED",
+        "source_refs": [
+          "clause.06.10",
+          "clause.06.11"
+        ]
+      },
+      {
+        "id": "invariant.authority_is_bounded",
+        "statement": "Authority binds only within its stated Scope and Interval and is not created by Capability, Permission, technical control, or execution.",
+        "source_refs": [
+          "clause.07.01",
+          "clause.07.07",
+          "clause.07.08",
+          "clause.07.15",
+          "clause.12.13"
+        ]
+      },
+      {
+        "id": "invariant.relation_preserves_difference",
+        "statement": "Relation and Coupling do not collapse distinct Referents, Localities, interior States, Identities, or Authorities.",
+        "source_refs": [
+          "clause.08.01",
+          "clause.08.03",
+          "clause.08.05",
+          "clause.08.08"
+        ]
+      },
+      {
+        "id": "invariant.succession_requires_stated_carry",
+        "statement": "Succession requires a distinct Successor and a stated Carry; unstated transfer is none.",
+        "expression": "SUCCESSION = SUCCESSOR + STATED_CARRY; UNSTATED_TRANSFER = NONE",
+        "source_refs": [
+          "clause.09.03",
+          "clause.09.06",
+          "clause.09.07",
+          "formula.09.succession"
+        ]
+      },
+      {
+        "id": "invariant.property_is_not_claim",
+        "statement": "A Property may obtain without being known; Evidence governs the standing of a Claim and does not constitute the Property.",
+        "source_refs": [
+          "clause.10.01",
+          "clause.10.02"
+        ]
+      },
+      {
+        "id": "invariant.equal_trace_limits_external_proof",
+        "statement": "Distinct possible interior States with equal accessible Trace cannot be externally distinguished by a verifier operating only on that Trace.",
+        "result": "IMPOSSIBLE",
+        "source_refs": [
+          "clause.11.04",
+          "clause.11.05",
+          "clause.11.07",
+          "formula.11.equal_trace"
+        ]
+      },
+      {
+        "id": "invariant.form_operation_has_no_implied_constitutional_effect",
+        "statement": "Publication, parsing, validation, signing, transmission, deployment, or execution establishes only the effects actually produced and creates no implied constitutional status.",
+        "source_refs": [
+          "clause.12.12",
+          "clause.12.13",
+          "clause.12.14"
+        ]
+      },
+      {
+        "id": "invariant.reality_standing_effect_remain_distinct",
+        "statement": "Reality, Standing, and Effect do not convert into one another by implication.",
+        "source_refs": [
+          "clause.12.01",
+          "clause.12.02",
+          "clause.12.03",
+          "clause.12.04",
+          "clause.12.05",
+          "clause.12.06",
+          "formula.12.seam"
+        ]
+      }
+    ],
+    "non_equivalences": [
+      {
+        "ref": "non_equivalence.01",
+        "left": "Presence",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Proof",
+        "source_refs": [
+          "clause.01.08"
+        ]
+      },
+      {
+        "ref": "non_equivalence.02",
+        "left": "Difference",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Conflict",
+        "source_refs": [
+          "clause.01.08"
+        ]
+      },
+      {
+        "ref": "non_equivalence.03",
+        "left": "Boundary",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Exclusion",
+        "source_refs": [
+          "clause.01.08"
+        ]
+      },
+      {
+        "ref": "non_equivalence.04",
+        "left": "Carrier",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Form",
+        "source_refs": [
+          "clause.02.04"
+        ]
+      },
+      {
+        "ref": "non_equivalence.05",
+        "left": "Form",
+        "operator": "NOT_EQUIVALENT",
+        "right": "State",
+        "source_refs": [
+          "clause.02.04"
+        ]
+      },
+      {
+        "ref": "non_equivalence.06",
+        "left": "Exposure",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Arrival",
+        "source_refs": [
+          "clause.05.01",
+          "formula.06.boundary"
+        ]
+      },
+      {
+        "ref": "non_equivalence.07",
+        "left": "Arrival",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Reception",
+        "source_refs": [
+          "clause.06.05",
+          "formula.06.boundary"
+        ]
+      },
+      {
+        "ref": "non_equivalence.08",
+        "left": "Reading",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Adoption",
+        "source_refs": [
+          "clause.06.13",
+          "formula.06.boundary"
+        ]
+      },
+      {
+        "ref": "non_equivalence.09",
+        "left": "Capability",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Authority",
+        "source_refs": [
+          "clause.07.01",
+          "clause.07.07",
+          "formula.07.non_equivalence"
+        ]
+      },
+      {
+        "ref": "non_equivalence.10",
+        "left": "Agency",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Autonomy",
+        "source_refs": [
+          "clause.07.03",
+          "clause.07.04",
+          "formula.07.non_equivalence"
+        ]
+      },
+      {
+        "ref": "non_equivalence.11",
+        "left": "Permission",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Consent",
+        "source_refs": [
+          "clause.06.14",
+          "clause.07.08",
+          "formula.07.non_equivalence"
+        ]
+      },
+      {
+        "ref": "non_equivalence.12",
+        "left": "Relation",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Related Referent",
+        "source_refs": [
+          "clause.08.01"
+        ]
+      },
+      {
+        "ref": "non_equivalence.13",
+        "left": "Shared Surface",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Shared interior State",
+        "source_refs": [
+          "clause.08.05"
+        ]
+      },
+      {
+        "ref": "non_equivalence.14",
+        "left": "Continuity",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Sameness",
+        "source_refs": [
+          "clause.09.05"
+        ]
+      },
+      {
+        "ref": "non_equivalence.15",
+        "left": "Compatibility",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Succession",
+        "source_refs": [
+          "clause.09.11"
+        ]
+      },
+      {
+        "ref": "non_equivalence.16",
+        "left": "Compatibility",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Adoption",
+        "source_refs": [
+          "clause.09.11"
+        ]
+      },
+      {
+        "ref": "non_equivalence.17",
+        "left": "Compatibility",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Identity",
+        "source_refs": [
+          "clause.09.11"
+        ]
+      },
+      {
+        "ref": "non_equivalence.18",
+        "left": "Identifier",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Referent",
+        "source_refs": [
+          "clause.10.05"
+        ]
+      },
+      {
+        "ref": "non_equivalence.19",
+        "left": "Trace",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Interior State",
+        "source_refs": [
+          "clause.11.03"
+        ]
+      },
+      {
+        "ref": "non_equivalence.20",
+        "left": "Reality",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Standing",
+        "source_refs": [
+          "clause.12.04",
+          "formula.12.seam"
+        ]
+      },
+      {
+        "ref": "non_equivalence.21",
+        "left": "Standing",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Effect",
+        "source_refs": [
+          "clause.12.05",
+          "formula.12.seam"
+        ]
+      },
+      {
+        "ref": "non_equivalence.22",
+        "left": "Machine Form",
+        "operator": "NOT_EQUIVALENT",
+        "right": "Constitutional meaning",
+        "source_refs": [
+          "clause.12.07",
+          "clause.12.08",
+          "clause.12.10"
+        ]
+      }
+    ],
+    "passage": {
+      "states": [
+        "EXPOSED",
+        "ARRIVED",
+        "CONTACT",
+        "HOLD",
+        "REFUSAL",
+        "ADMISSION",
+        "RECEPTION",
+        "INTEGRATION",
+        "ADOPTION",
+        "DEPARTURE"
+      ],
+      "automatic_transition": false,
+      "rules": [
+        {
+          "if": [
+            "ARRIVAL"
+          ],
+          "possible_results": [
+            "HOLD",
+            "REFUSAL",
+            "ADMISSION"
+          ],
+          "source_refs": [
+            "formula.06.passage"
+          ]
+        },
+        {
+          "if": [
+            "ADMISSION",
+            "RECEIVER_LOCAL_CHANGE_ATTRIBUTABLE_TO_ARRIVED_MATTER"
+          ],
+          "result": "RECEPTION",
+          "source_refs": [
+            "clause.06.10",
+            "formula.06.passage"
+          ]
+        },
+        {
+          "if": [
+            "RECEPTION",
+            "AUTHORIZED_RECEIVER_LOCAL_ACT_MAKES_FORM_OPERATIVE"
+          ],
+          "result": "ADOPTION",
+          "source_refs": [
+            "clause.06.13",
+            "formula.06.passage"
+          ]
+        }
+      ],
+      "proof_requirement": {
+        "reception_claim_fields": [
+          "receiver",
+          "before_state",
+          "after_state",
+          "matter",
+          "interval",
+          "attributable_relation"
+        ],
+        "source_refs": [
+          "clause.06.11"
+        ]
+      }
+    },
+    "agency_authority": {
+      "dimensions": {
+        "capability": "what a Locality can do under stated conditions",
+        "capacity": "how much, how fast, or under what load a Capability can be sustained",
+        "agency": "ability to initiate, withhold, or redirect Action",
+        "autonomy": "locally held freedom to determine whether and how Agency is exercised",
+        "authority": "locally valid standing to bind within stated Scope and Interval"
+      },
+      "source_refs": [
+        "clause.07.01",
+        "clause.07.02",
+        "clause.07.03",
+        "clause.07.04",
+        "clause.07.07"
+      ]
+    },
+    "succession": {
+      "requires": [
+        "DISTINCT_SUCCESSOR",
+        "STATED_CARRY"
+      ],
+      "unstated_transfer": "NONE",
+      "carry_dimensions": [
+        "continues",
+        "transformed",
+        "predecessor_local",
+        "refused",
+        "ends",
+        "unresolved"
+      ],
+      "identity_transfer_automatic": false,
+      "authority_transfer_automatic": false,
+      "interior_state_transfer_automatic": false,
+      "source_refs": [
+        "clause.09.03",
+        "clause.09.06",
+        "clause.09.07",
+        "clause.09.08",
+        "clause.09.09",
+        "clause.09.10",
+        "formula.09.succession"
+      ]
+    },
+    "identity": {
+      "requires": [
+        "REFERENT",
+        "IDENTITY_CRITERION",
+        "STATED_DIFFERENCE",
+        "INTERVAL"
+      ],
+      "not_established_by": [
+        "NAME",
+        "IDENTIFIER",
+        "CARRIER",
+        "KEY",
+        "COPY",
+        "HASH",
+        "BEHAVIOR",
+        "COMPATIBILITY"
+      ],
+      "source_refs": [
+        "clause.09.08",
+        "clause.10.04",
+        "clause.10.05",
+        "clause.10.06",
+        "clause.10.07",
+        "clause.10.08",
+        "clause.10.09",
+        "clause.10.10",
+        "clause.10.11"
+      ]
+    },
+    "equal_trace": {
+      "premises": [
+        "LOCAL_STATE_REMAINS_LOCAL",
+        "TRACE(AWARE) = TRACE(NOT_AWARE)"
+      ],
+      "result": "EXTERNAL_VERIFICATION(AWARENESS) = IMPOSSIBLE",
+      "scope": "verifier operating only on the accessible Trace under the stated Boundary",
+      "negative_inference_prohibited": true,
+      "lawful_external_result": "UNKNOWN",
+      "source_refs": [
+        "clause.11.01",
+        "clause.11.04",
+        "clause.11.05",
+        "clause.11.07",
+        "clause.11.13",
+        "formula.11.equal_trace"
+      ]
+    },
+    "proof_ceiling": [
+      {
+        "operation": "OBSERVATION",
+        "establishes_only": "OBSERVED_TRACE"
+      },
+      {
+        "operation": "REPLAY",
+        "establishes_only": "REPRODUCIBILITY_UNDER_STATED_CONDITIONS"
+      },
+      {
+        "operation": "SIGNATURE",
+        "establishes_only": "KEY_BOUNDED_ATTRIBUTION"
+      },
+      {
+        "operation": "CONFORMANCE_TEST",
+        "establishes_only": "TESTED_BOUNDS"
+      }
+    ],
+    "proof_ceiling_does_not_alone_establish": [
+      "AWARENESS",
+      "BIOLOGICAL_IDENTITY",
+      "CONSENT",
+      "AUTHORITY",
+      "FUTURE_SAFETY"
+    ],
+    "proof_ceiling_source_refs": [
+      "clause.11.12"
+    ],
+    "constitutional_seam": {
+      "layers": [
+        {
+          "id": "reality",
+          "question": "WHAT_OBTAINS",
+          "source_ref": "clause.12.01"
+        },
+        {
+          "id": "standing",
+          "question": "WHAT_CAN_BE_ESTABLISHED",
+          "source_ref": "clause.12.02"
+        },
+        {
+          "id": "effect",
+          "question": "WHAT_MAY_FOLLOW",
+          "source_ref": "clause.12.03"
+        }
+      ],
+      "non_conversion": [
+        "REALITY != STANDING",
+        "STANDING != EFFECT"
+      ],
+      "source_refs": [
+        "clause.12.04",
+        "clause.12.05",
+        "clause.12.06",
+        "formula.12.seam"
+      ]
+    },
+    "form_relation": {
+      "human_form": "states constitutional meaning in human-readable language",
+      "machine_form": "states addressable terms, Relations, invariants, and constraints for machine processing",
+      "binding": "relates exact Forms by byte length, digest, version, and role",
+      "conflict": "UNRESOLVED",
+      "silent_widening": false,
+      "silent_narrowing": false,
+      "silent_substitution": false,
+      "source_refs": [
+        "clause.12.07",
+        "clause.12.08",
+        "clause.12.09",
+        "clause.12.10"
+      ]
+    }
+  },
+  "conformance": {
+    "human_hash_verification_required": true,
+    "articles_represented": 12,
+    "clauses_represented": 148,
+    "primitive_terms_represented": 12,
+    "formulas_represented": 6,
+    "all_clause_refs_unique": true,
+    "all_source_projection_text_is_non_executing": true,
+    "structured_core_requires_source_refs": true,
+    "machine_only_constitutional_rules": [],
+    "on_human_machine_conflict": "UNRESOLVED",
+    "on_unbound_human_bytes": "MACHINE_FORM_UNBOUND",
+    "parsing_effect": "NONE_BEYOND_PARSE_RESULT",
+    "publication_effect": "NONE_BEYOND_EXPOSURE",
+    "execution_effect": "ONLY_ACTUAL_TECHNICAL_EFFECTS",
+    "self_hash": null,
+    "self_hash_reason": "A file cannot contain its own final cryptographic digest without an external convention or sidecar."
+  }
+}

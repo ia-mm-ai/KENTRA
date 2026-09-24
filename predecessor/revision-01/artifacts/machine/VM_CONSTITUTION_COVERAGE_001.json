@@ -1,0 +1,54 @@
+{
+  "schema": "VM_CONSTITUTION_COVERAGE_001",
+  "vm_protocol": "LOCALITY_VM_001",
+  "constitution_human_sha256": "4be24cf15d3653abcfd7ae4191246a52c22e61246b8d4d33f46b329c615596dd",
+  "assessment": "BOUNDED_IMPLEMENTATION_MAPPING_NOT_CONSTITUTIONAL_CONFORMANCE",
+  "coverage": [
+    {
+      "constitution_scope": "READING_7_AND_CLAUSE_1_2",
+      "implementation": "DEPLOYMENT_AND_EXECUTION_CREATE_ONLY_THEIR_BOUNDED_TECHNICAL_RESULTS",
+      "strength": "SUPPORTING"
+    },
+    {
+      "constitution_scope": "CLAUSES_2_1_TO_2_9",
+      "implementation": "LOCAL_STATE_EXACT_ATTRIBUTION_NON_CONVERSION_CORRECTION_AND_DURABLE_BOUNDS",
+      "strength": "PARTIAL"
+    },
+    {
+      "constitution_scope": "ARTICLE_5_NON_CONVERSION_REGISTRY",
+      "implementation": "PRESENTATION_ADMISSION_ENTRY_MATTER_DISPOSITION_EMERGENCE_CLOSURE_AND_INCORPORATION_ARE_SEPARATE_OPERATIONS",
+      "strength": "DIRECT_FOR_IMPLEMENTED_RELATIONS"
+    },
+    {
+      "constitution_scope": "ARTICLES_7_TO_9",
+      "implementation": "CROSSING_PRESENCE_RELATION_EXIT_AND_CLOSURE_HAVE_EXPLICIT_PRECONDITIONS_AND_NON_EFFECTS",
+      "strength": "DIRECT_FOR_RUNTIME_SCOPE"
+    },
+    {
+      "constitution_scope": "ARTICLE_13",
+      "implementation": "GATE_DISPOSITION_SUPPORTS_ADMIT_REFUSE_WITHHOLD_AND_HOLD",
+      "strength": "DIRECT_FOR_GATE_SCOPE"
+    },
+    {
+      "constitution_scope": "ARTICLES_14_TO_17",
+      "implementation": "ATOMIC_STATE_COMMITMENTS_APPEND_ONLY_CORRECTION_EXIT_CLOSURE_AND_RESIDUE",
+      "strength": "PARTIAL"
+    },
+    {
+      "constitution_scope": "ARTICLES_18_TO_20",
+      "implementation": "CANONICAL_ENCODING_SIGNATURES_NONCES_PROOF_CEILINGS_AND_DEPLOYMENT_BOUNDARIES",
+      "strength": "PARTIAL"
+    }
+  ],
+  "explicitly_not_proved": [
+    "CONSTITUTIONAL_ADOPTION",
+    "CONSTITUTIONAL_APPLICABILITY",
+    "VALID_BODY_FORMATION",
+    "HUMAN_IDENTITY",
+    "CONSCIOUSNESS",
+    "SOURCE_CONTINUITY",
+    "EXTERNAL_TRUTH",
+    "LEGAL_OR_SOCIAL_LEGITIMACY",
+    "PRODUCTION_DEPLOYMENT_SAFETY_BY_SOFTWARE_TEST_ALONE"
+  ]
+}

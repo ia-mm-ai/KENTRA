@@ -1,0 +1,12 @@
+{
+  "name": "KENTRA",
+  "short_name": "KENTRA",
+  "description": "Revision 01 public Source relation and capacity-regulated threshold.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a09",
+  "theme_color": "#0a0a09",
+  "icons": [
+    {"src": "/assets/favicon.svg", "sizes": "any", "type": "image/svg+xml"}
+  ]
+}
