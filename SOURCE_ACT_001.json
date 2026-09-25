@@ -1,0 +1,45 @@
+{
+  "onset": "KENTRA_SOURCE_ACT",
+  "body": {
+    "record_type": "KENTRA_SOURCE_ACT",
+    "record_version": "1.0",
+    "act_reference": "kentra-source-act:000001",
+    "sequence": 1,
+    "source": "Marko Markota",
+    "act_kind": "FORMATION_SPECIFIC_SOURCE_COMMITMENT",
+    "undertaking": "KENTRA constitutional reference undertaking: the formation, issue, explanation, preservation and correction of CONSTITUTION_01.",
+    "issuance_record": {
+      "path": "ISSUANCE_RECORD_01.json"
+    },
+    "predecessor": {
+      "path": "⊙",
+      "sha256": "⊙",
+      "relation": "⊙"
+    },
+    "issuing_basis": "PRESENT_BOUNDED_SOURCE_COMMITMENT",
+    "commitments": [
+      "INTEGRITY of KENTRA"
+    ],
+    "continuing_responsibilities": [
+      "REFERENCE_STEWARDSHIP",
+      "ANSWERABILITY_COMMITMENTS_MADE"
+    ],
+    "delegation": "Technical execution may be delegated within an exact scope; delegation does not transfer authorship or a general power to change the constitutional identity.",
+    "exhaustion": "The formation-specific capacity of this act exhausts when its defined effect occurs. Failure or delay in recording cannot extend it.",
+    "non_effects": [
+      "NO_LOCAL_APPLICABILITY_ON_OTHER_SOURCES",
+      "NO_AMENDMENT_OF_BODY",
+      "NO_FIELD_OPENED",
+      "NO_REVIVED_HISTORICAL_CONSTITUENT_CAPACITY",
+      "NO_AUTHORITY_FROM_KEY_ARCHIVE_COMPANY_OR_DOMAIN"
+    ],
+    "nonclaims": [
+      "LIVE_ANSWERABILITY_INTERFACE",
+      "SIGNED_OPERATIONAL_ASSURANCE",
+      "GLOBAL_ADOPTION_REFERENCE",
+      "PHYSICAL_OR_BIOLOGICAL_PRESENCE",
+      "IDENTITY_BEYOND_ORIGIN"
+    ]
+  },
+  "outset": "crossing_of_KENTRA_SOURCE_ACT"
+}
